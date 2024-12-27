@@ -1,0 +1,315 @@
+.ul-top3C {
+    background: #202121ba;
+    border: 1px solid rgba(255, 0, 0, 0.112);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 361px;
+    border-radius: 42px 7px 0px 21px;  
+    z-index: 5;
+}
+@keyframes ul-top3C {
+    0%{
+        transform: scale(0);
+        transform-origin: 100% 100%;
+    }
+    68%{
+        transform: scale(1.02);
+        transform-origin: 100% 100%;
+    }
+    100%{
+        transform: scale(1);
+        transform-origin: 100% 100%;
+    }
+}
+@keyframes ul-top3CR {
+    0%{
+        transform: scale(1);
+        transform-origin: 100% 100%;
+    }
+    20%{
+        transform: scale(1.02);
+        transform-origin: 100% 100%;
+    }
+    100%{
+        transform: scale(0);
+        transform-origin: 100% 100%;
+    }
+}
+
+.scroll-body {
+    height: 400px;
+    overflow-y: auto;
+}
+
+
+.ul-bottom {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 2;
+}
+.ul-bottom:hover {
+    animation: ULBOTTKEY 0.32s ease forwards;
+}
+  
+.user-typing {
+    height: 45px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    background: transparent;
+    border-radius: 0px 0px 0px 21px;
+}
+.user-typing .input-data input:focus {
+    border-color: #b5170600;
+}
+.user-typing .input-data button {
+    position: absolute;
+    right: -46px;
+    top: 50%;
+    height: 35px;
+    width: 108px;
+    color: black;
+    background: #FFC312e5;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    pointer-events: none;
+    outline: none;
+    opacity: 0;
+    border-radius: 100px;
+    border: 0px;
+    transform: translate(45.6%, -38%);
+    transition: all 0.12s ease-out;
+}
+.user-typing .input-data button:hover {
+    background: #F79F1F;
+    transition: all 0.24s ease;
+}
+.user-typing .input-data button:active {
+    background: #EE5A24;
+    transition: all 0.02s ease;
+}
+.user-typing .input-data input:valid ~ button {
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0.36s ease-in;
+}
+  
+  
+.input-data {
+    height: 40px;
+    width: 70%;
+    position: relative;
+}
+.input-data input {
+    height: 80%;
+    width: 90%;
+    transform: translate(6.9%, 19%);
+    outline: none;
+    border: 1px solid transparent;
+    padding: 0 80px 0 15px;
+    border: 1.5px solid rgba(0, 0, 0, 0.256);
+    border-radius: 3px;
+    font-size: 15px;
+    background: #d0d5dae5;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+.input-data input::placeholder {
+    color: #1b1b1b;
+    transition: all 0.36s ease;
+}
+.input-data input:focus::placeholder {
+    color: #f94f3c;
+}
+  
+  
+  
+  
+  
+.user-inbox {
+    max-width: fit-content;
+    color: rgb(197, 57, 57);
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 0px 0px 0px auto;
+    justify-content: flex-end;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+.user-online {
+    border-radius: 100px;
+    background: #27ff1b;
+    animation: user-online-A 3.8s infinite
+  }
+@keyframes user-online-A {
+    0%{
+      margin: 0px 0px 20px 0px;
+      height: 14px;
+      width: 14px;
+    }
+    32%{
+      margin: 0px 0px 60px 0px;
+      height: 15px;
+      width: 14px;
+    }
+    64%{
+      margin: 0px 0px 20px 0px;
+      height: 8px;
+      width: 8px;
+    }
+    82%{
+      margin: 0px 0px 40px 0px;
+      height: 14px;
+      width: 14px;
+    }
+    100%{
+      margin: 0px 0px 20px 0px;
+      height: 12px;
+      width: 14px;
+    }
+}
+.user-table {
+    height: 80px;
+    width: 18px;
+    border-radius: 100px;
+}
+.user-icon {
+    width: 56px;
+    aspect-ratio: 1 / 1;
+    border-radius: 10em;
+    position: relative;
+    transform: translateY(-2px);
+    overflow: hidden;
+}
+.user-iconX {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.22s ease-out;
+}
+.user-iconX:hover {
+    transform: scale(120%);
+}
+.user-msg {
+    margin: 0px -20px 0px 0px;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: infinite;
+    word-wrap: break-word;
+    color: #333;
+    background: #f94f3c;
+    border-radius: 32px 0px 42px 32px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    z-index: 1;
+    animation: user-msg-A 1.4s ease forwards
+  }
+@keyframes user-msg-A {
+    0%{
+      margin: 0px 30px 0px 0px;
+    }
+}
+  
+  
+  
+  
+  
+  
+.bot-inbox {
+    max-width: fit-content;
+    color: #333;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 0px 10px 5px 0px;
+    justify-content: flex-end;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+.bot-online {
+    margin: 0px 0px 92px 0px;
+    height: 14px;
+    width: 14px;
+    border-radius: 100px;
+    background: #27ff1b;
+    animation: bot-online-A 4.2s infinite
+}
+@keyframes bot-online-A {
+    0%{
+      margin: 0px 0px 45px 0px;
+      height: 14px;
+      width: 14px;
+    }
+    32%{
+      margin: 0px 0px 90px 0px;
+      height: 15px;
+      width: 14px;
+    }
+    64%{
+      margin: 0px 0px 45px 0px;
+      height: 8px;
+      width: 8px;
+    }
+    82%{
+      margin: 0px 0px 60px 0px;
+      height: 14px;
+      width: 14px;
+    }
+    100%{
+      margin: 0px 0px 45px 0px;
+      height: 12px;
+      width: 14px;
+    }
+}
+.bot-table {
+    height: 150px;
+    width: 18px;
+    border-radius: 100px;
+}
+.bot-icon {
+    height: 14px;
+    width: 14px;
+    border-radius: 100px;
+    transition: 0.64s ease-out;
+}
+.bot-icon:hover {
+    transform: translateX(28px) scale(1.06);
+}
+.bot-msg {
+    margin-left: 14px;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: infinite;
+    word-wrap: break-word;
+    color: #333;
+    background: #2ad1e7;
+    border-radius: 0px 32px 32px 42px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    animation: bot-msg-A 1.4s ease forwards
+}
+.botawal{
+    font-size: 16px;
+    font-weight: 600;
+}
+  @keyframes bot-msg-A {
+    0%{
+      margin: 0px 0px 0px 50px;
+    }
+}

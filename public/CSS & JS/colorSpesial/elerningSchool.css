@@ -1,0 +1,199 @@
+/* Navbar */
+
+:root {
+    --padding1: 6px 13.71px 6px 16.2px;
+    --padding086: calc(6px * 0.86) calc(13.71px * 0.86) calc(6px * 0.86) calc(16.2px * 0.86);
+    --padding08: calc(6px * 0.8) calc(13.71px * 0.8) calc(6px * 0.8) calc(16.2px * 0.8);
+    --padding074: calc(6px * 0.74) calc(13.71px * 0.74) calc(6px * 0.74) calc(16.2px * 0.74);  
+}
+
+#Nav, #NavLite, #NavX, #NavNon {
+    background: linear-gradient(to right, #dc00ff, #b900de);
+}
+#NavCenter, #NavCenterDes, #NavCenterMob {
+    color: 	white;
+}
+#NavCenter2 {
+    color: 	white;
+}
+#NavCenter2X {
+    color: 	white;
+}
+
+@media only screen and (min-width: 780px) {
+    .Pencarian[type=text] {
+        border: 3.4px solid white;
+        color: 	white;
+    }
+    .Pencarian::placeholder {
+        color: #f5f5f5;
+    }
+    .Pencarian:focus::placeholder {
+        color: 	white;
+    }
+
+    .PencarianLens {
+        color: 	white;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 779.5px) {
+    .Pencarian[type=text] {
+        border: 3.4px solid white;
+        color: 	white;
+    }
+    .Pencarian::placeholder {
+        color: 	#d4eae8;
+    }
+    .Pencarian:focus::placeholder {
+        color: 	white;
+    }
+
+    .PencarianLens, .teksP, .teksPLite {
+        color: 	white;
+    }
+}
+
+.icon18, .icon20, .icon22, .teks, .teksLite {
+    color: 	white;
+}
+.iconM {
+    color: 	white;
+}
+
+/* Navbar */
+
+
+
+
+/* Home */
+
+#background {
+    background: white;
+}
+.grid-item {
+    border-bottom: 4px solid #ffff00;
+}
+#judulHuruf, .name-NameChat {
+    color: black;
+}
+#isiHuruf, #isiTanggal, .email-NameChat {
+    color: rgb(16, 16, 16);
+}
+
+#pictureText, #pictureEdit, #pictureDelete, .user-msg, .you-isi, .you-bot-isi {
+    background: #cc32cc;
+}
+#ToolsNews, #EditText, #DeleteText, #pictureTextD, #Kategori, .user-msg, .you-isi, .you-bot-isi {
+    color: white;
+}
+
+.you-isi::before, .you-bot-isi::before {
+    background: linear-gradient(135deg, #cc32cc 0%, #cc32cc 50%, transparent 50%, transparent);
+}
+
+/* Home */
+
+
+
+
+/* Detail */
+
+.user-typingKomentar {
+    background: linear-gradient(to right, #c900eb, #c000e2);
+}
+#divP {
+    color: black;
+}
+.scroll-bodyKomentarX, .scroll-body-PribadiX {
+    background: rgba(200, 200, 200, 0.42);
+    color: black;
+}
+.scroll-bodyKomentarLite {
+    background: rgb(244, 244, 244);
+    color: black;
+}
+.komentar-kolom, .chat-all {
+    border-top: 1.4px solid rgba(76, 190, 198, 0.56);
+}
+
+/* Detail */
+
+
+
+
+/* Fitur */
+
+.WadahCreateNav, .WadahDeleteNav, .WadahRegisterNav {
+    background: #cc32cc;
+}
+.colorNavCreateED {
+    color: white;
+}
+
+/* Fitur */
+
+
+
+
+/* Page */
+
+.page-item, .page-item2 {
+    background: #ff7d00;
+}
+.page-item:hover, .page-item2:hover {
+    background: #ff6200;
+}
+.buttonPage {
+    color: white;
+}
+
+/* Page */
+
+
+
+
+/* Footer */
+
+#footer {
+    border-top: 1.2px solid #ffff00;
+}
+#aFooter {
+    color: black;
+}
+#aFooter:hover {
+    color: red;
+}
+
+/* Footer */
+
+
+
+
+/* Webkit */
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10em; 
+}
+::-webkit-scrollbar-thumb {
+    background: #167ce2;
+    border-radius: 10em;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+/* Webkit */
+
+.adapNight {
+    color: black;
+}
+
+.tugasDiv {
+    background: rgb(236, 236, 236);
+}
+.buttonTugas > input {
+    background: #dcddde64;
+}

@@ -1,0 +1,205 @@
+/* Navbar */
+
+:root {
+    --padding1: 6px 13.71px 6px 16.2px;
+    --padding086: calc(6px * 0.86) calc(13.71px * 0.86) calc(6px * 0.86) calc(16.2px * 0.86);
+    --padding08: calc(6px * 0.8) calc(13.71px * 0.8) calc(6px * 0.8) calc(16.2px * 0.8);
+    --padding074: calc(6px * 0.74) calc(13.71px * 0.74) calc(6px * 0.74) calc(16.2px * 0.74);  
+}
+
+#Nav, #NavLite, #NavX, #NavNon {
+    background: linear-gradient(to right, #166af2, #57f4ff);
+}
+#NavCenter, #NavCenterDes, #NavCenterMob {
+    color: 	#e8fffd;
+}
+#NavCenter2 {
+    color: 	#e8fffd;
+}
+#NavCenter2X {
+    color: 	#e8fffd;
+}
+
+@media only screen and (min-width: 780px) {
+    .Pencarian[type=text] {
+        border: 3.4px solid #e8fffd;
+        color: 	#e8fffd;
+    }
+    .Pencarian::placeholder {
+        color: #d4eae8;
+    }
+    .Pencarian:focus::placeholder {
+        color: 	#e8fffd;
+    }
+
+    .PencarianLens {
+        color: 	#e8fffd;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 779.5px) {
+    .Pencarian[type=text] {
+        border: 3.4px solid white;
+        color: 	white;
+    }
+    .Pencarian::placeholder {
+        color: 	#d4eae8;
+    }
+    .Pencarian:focus::placeholder {
+        color: 	white;
+    }
+
+    .PencarianLens, .teksP, .teksPLite {
+        color: 	white;
+    }
+}
+
+.icon18, .icon20, .icon22, .teks, .teksLite {
+    color: 	#e8fffd;
+}
+.iconM {
+    color: 	#e8fffd;
+}
+
+/* Navbar */
+
+
+
+
+/* Home */
+
+#background {
+    background: rgb(26, 26, 26);
+}
+.grid-item {
+    border-bottom: 4px solid #30e3f0;
+}
+#judulHuruf, .name-NameChat {
+    color: white;
+}
+#isiHuruf, #isiTanggal, .email-NameChat {
+    color: rgb(239, 239, 239);
+}
+
+#pictureText, #pictureEdit, #pictureDelete, .user-msg, .you-isi, .you-bot-isi {
+    background: #1e90ff;
+}
+#ToolsNews, #EditText, #DeleteText, #pictureTextD, #Kategori, .user-msg, .you-isi, .you-bot-isi {
+    color: white;
+}
+
+.you-isi::before, .you-bot-isi::before {
+    background: linear-gradient(135deg, #1e90ff 0%, #1e90ff 50%, transparent 50%, transparent);
+}
+
+/* Home */
+
+
+
+
+/* Detail */
+
+.user-typingKomentar {
+    background: linear-gradient(to right, #32a2f8, #3eb3fb);
+}
+#divP {
+    color: white;
+}
+.scroll-bodyKomentarX, .scroll-body-PribadiX {
+    background: rgba(44, 44, 44, 0.42);
+    color: white;
+}
+.scroll-bodyKomentarLite {
+    background: rgb(36, 36, 36);
+    color: white;
+}
+.komentar-kolom, .chat-all {
+    border-top: 1.4px solid rgba(76, 190, 198, 0.56);
+}
+
+/* Detail */
+
+
+
+
+/* Fitur */
+
+.WadahCreateNav, .WadahDeleteNav, .WadahRegisterNav {
+    background: #1e90ff;
+}
+.colorNavCreateED {
+    color: white;
+}
+
+/* Fitur */
+
+
+
+
+/* Page */
+
+.page-item, .page-item2 {
+    background: #43b7ff;
+}
+.page-item:hover, .page-item2:hover {
+    background: #1e90ff;
+}
+.buttonPage {
+    color: #e8fffd;
+}
+
+/* Page */
+
+
+
+
+/* Footer */
+
+#footer {
+    border-top: 1.2px solid #30e3f0;
+}
+#aFooter {
+    color: white;
+}
+#aFooter:hover {
+    color: red;
+}
+
+/* Footer */
+
+
+
+
+/* Webkit */
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10em; 
+}
+::-webkit-scrollbar-thumb {
+    background: #167ce2;
+    border-radius: 10em;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+/* Webkit */
+
+.adapNight {
+    color: white;
+}
+.adapTebal {
+    background: #1e90ff;
+    color: white;
+    padding: 0 6px;
+    border-radius: 0.16em;
+}
+
+.tugasDiv {
+    background: rgb(52, 52, 52);
+}
+.buttonTugas > input {
+    background: #dcddde;
+}

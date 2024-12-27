@@ -1,0 +1,75 @@
+@media only screen and (min-width: 700px) {
+    #WadahKaki {
+        display: flex;
+        text-align: left;
+    }
+    #WadahKakiText1, #WadahKakiText2 {
+        width: 156px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 699.5px) {
+    #WadahKakiText1 {
+        padding-top: 36px;
+        padding-bottom: 12px;
+    }
+    #WadahKakiText2 {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    #WadahKakiPicture {
+        padding-top: 24px;
+        padding-bottom: 48px;
+    }
+}
+
+#footer {
+    width: 90%;
+    height: 300px;
+    z-index: 6;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.2em;
+}
+
+#WadahKaki {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: space-around;
+}
+#WadahKakiText1, #WadahKakiText2 {
+    position: relative;
+    top: 0px;
+    height: 100%;
+    vertical-align: top;
+}
+#WadahKakiPicture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pictureKaki {
+    width: 180px;
+    transition: 0.18s ease-out;
+}
+.pictureKaki:hover {
+    width: 200px;
+}
+
+#DIVaFooter {
+    padding: 5px;
+}
+
+#aFooter {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.16s ease-out;
+}
+#aFooter:hover {
+    padding-left: 3px;
+}

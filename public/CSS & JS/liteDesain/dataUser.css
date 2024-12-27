@@ -1,0 +1,87 @@
+.ul-top3DU {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#container-DataUser {
+    width: 100%;
+    overflow-y: auto;
+}
+#container-DataUser {
+    display: grid;
+    background: rgba(64, 64, 64, 0.64);
+    border-radius: 0.8em;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px 12px;
+}
+
+.du-slide {
+    background: #202121f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1.2em;
+    width: calc(100%-12px);
+    aspect-ratio: 3 / 1;
+    padding: 6px;
+}
+#centerDU {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    width: calc(100% - 10%);
+}
+#centerDUX {
+    width: 100%;
+}
+
+#du-slidePicture {
+    position: relative;
+    z-index: 2;
+    object-fit:cover;
+    width:100%;
+    height:100%;
+    background: transparent;
+    border: 0;
+    transition: 0.16s ease-out;
+}
+#du-slidePicture:hover {
+    transform: scale(120%);
+}
+
+#du-slidePictureTextNone {
+    position: relative;
+    transform: translateY(-110%);
+    z-index: 2;
+}
+
+#du-slidePictureText {
+    position: relative;
+    transform: translateY(-110%);
+    z-index: 2;
+    transition: all 0.22s ease-out;
+}
+#du-slidePictureText:hover {
+    transform: translateY(-209%);
+}
+
+#duX-slidePictureText {
+    position: relative;
+    transform: translateY(-100%);
+    z-index: 2;
+    transition: all 0.22s ease-out;
+}
+#pictureDeleteX {
+    border-radius: 0.1em 0.8em 0 0;
+    background: red;
+    transition:  all 0.2s ease-out
+}
+#pictureDeleteX:hover {
+    width: 132%;
+}

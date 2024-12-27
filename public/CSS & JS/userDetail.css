@@ -1,0 +1,1014 @@
+@media only screen and (min-width: 1800px) {
+  #divUtama {
+    width: calc(77.7% * 0.8);
+  }
+  #divP,
+  #divPR {
+    width: calc(73.5% * 0.8);
+  }
+
+  #layer1 {
+    padding-top: 42px;
+    width: 74%;
+  }
+  .bodyKomentar {
+    width: 26%;
+  }
+}
+@media only screen and (min-width: 1700px) and (max-width: 1799.5px) {
+  #divUtama {
+    width: calc(77.7% * 0.84);
+  }
+  #divP,
+  #divPR {
+    width: calc(73.5% * 0.84);
+  }
+
+  #layer1 {
+    padding-top: 42px;
+    width: 72%;
+  }
+  .bodyKomentar {
+    width: 28%;
+  }
+}
+@media only screen and (min-width: 1450px) and (max-width: 1699.5px) {
+  #divUtama {
+    width: calc(77.7% * 0.92);
+  }
+  #divP,
+  #divPR {
+    width: calc(73.5% * 0.92);
+  }
+
+  #layer1 {
+    padding-top: 42px;
+    width: 70%;
+  }
+  .bodyKomentar {
+    width: 30%;
+  }
+}
+@media only screen and (min-width: 1150px) and (max-width: 1449.5px) {
+  #divUtama {
+    width: calc(77.7% * 0.98);
+  }
+  #divP,
+  #divPR {
+    width: calc(73.5% * 0.98);
+  }
+
+  #layer1 {
+    padding-top: 42px;
+    width: 68%;
+  }
+  .bodyKomentar {
+    width: 32%;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  .bodyKomentarLite {
+    display: none;
+  }
+  .input-dataKomentar {
+    width: 84%;
+  }
+  #divP,
+  #divPR {
+    margin-top: 40px;
+  }
+
+  #komentar-profil {
+    width: 16%;
+  }
+  #komentar-name {
+    width: 84%;
+  }
+
+  #Judul {
+    letter-spacing: 0.4px;
+    font-size: 18px;
+  }
+  #P {
+    letter-spacing: 0.4px;
+    font-size: 18px;
+  }
+  #PX,
+  #PX2 {
+    font-size: 18px;
+  }
+
+  #layer1 {
+    height: calc(100vh - 74px - 42px);
+  }
+  .user-typingKomentar {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1149.5px) {
+  .bodyKomentarLite {
+    display: none;
+  }
+  .input-dataKomentar {
+    width: 84%;
+  }
+  #divUtama {
+    width: 78.736%;
+  }
+  #divP,
+  #divPR {
+    width: 74.48%;
+    margin-top: 40px;
+  }
+
+  #komentar-profil {
+    width: 18%;
+  }
+  #komentar-name {
+    width: 82%;
+  }
+
+  #Judul {
+    letter-spacing: 0.4px;
+    font-size: 18px;
+  }
+  #P {
+    letter-spacing: 0.4px;
+    font-size: 18px;
+  }
+  #PX,
+  #PX2 {
+    font-size: 18px;
+  }
+
+  #layer1 {
+    padding-top: 46px;
+    width: 68%;
+  }
+  #layer1 {
+    height: calc(100vh - 74px - 46px);
+  }
+  .bodyKomentar {
+    width: 32%;
+  }
+  .user-typingKomentar {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1099.5px) {
+  .bodyKomentarLite {
+    display: none;
+  }
+  .input-dataKomentar {
+    width: 84%;
+  }
+  #divUtama {
+    width: 79.92%;
+  }
+  #divP,
+  #divPR {
+    width: 75.6%;
+    margin-top: 40px;
+  }
+
+  #komentar-profil {
+    width: 20%;
+  }
+  #komentar-name {
+    width: 80%;
+  }
+
+  #Judul {
+    letter-spacing: 0.4px;
+    font-size: calc(18px / 1.01);
+  }
+  #P {
+    letter-spacing: 0.4px;
+    font-size: calc(18px / 1.01);
+  }
+  #PX,
+  #PX2 {
+    font-size: calc(18px / 1.01);
+  }
+
+  #layer1 {
+    padding-top: 46px;
+    width: 68%;
+  }
+  #layer1 {
+    height: calc(100vh - 74px - 46px);
+  }
+  .bodyKomentar {
+    width: 32%;
+  }
+  .user-typingKomentar {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 940px) and (max-width: 999.5px) {
+  .bodyKomentarLite {
+    display: none;
+  }
+  .input-dataKomentar {
+    width: 84%;
+  }
+  #divUtama {
+    width: 81.4%;
+  }
+  #divP,
+  #divPR {
+    width: 77%;
+    margin-top: 40px;
+  }
+
+  #komentar-profil {
+    width: 22%;
+  }
+  #komentar-name {
+    width: 78%;
+  }
+
+  #Judul {
+    letter-spacing: 0.4px;
+    font-size: calc(18px / 1.02);
+  }
+  #P {
+    letter-spacing: 0.4px;
+    font-size: calc(18px / 1.02);
+  }
+  #PX,
+  #PX2 {
+    font-size: calc(18px / 1.02);
+  }
+
+  #layer1 {
+    padding-top: 46px;
+    width: 68%;
+  }
+  #layer1 {
+    height: calc(100vh - 74px - 46px);
+  }
+  .bodyKomentar {
+    width: 32%;
+  }
+  .user-typingKomentar {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 939.5px) {
+  .bodyKomentar {
+    display: none;
+  }
+  #divPRUnder {
+    display: none;
+  }
+  .user-typingKomentarLite {
+    position: relative;
+    transform: translateY(156%);
+  }
+  #divUtama {
+    width: 69.56%;
+  }
+  #divP,
+  #divPR {
+    width: 65.8%;
+    margin-top: 40px;
+  }
+
+  #komentar-profil {
+    width: 9%;
+  }
+  #komentar-name {
+    width: 91%;
+  }
+
+  #Judul {
+    letter-spacing: 0.4px;
+    font-size: calc(18px / 1.03);
+  }
+  #P {
+    letter-spacing: 0.4px;
+    font-size: calc(18px / 1.03);
+  }
+  #PX,
+  #PX2 {
+    font-size: calc(18px / 1.03);
+  }
+
+  #layer1 {
+    padding-top: 54px;
+    width: 100%;
+  }
+  #layer1 {
+    height: calc(100vh - 74px - 54px);
+  }
+  .scroll-bodyKomentarLite {
+    padding-left: 24%;
+    padding-right: 24%;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 849.5px) {
+  .bodyKomentar {
+    display: none;
+  }
+  #divPRUnder {
+    display: none;
+  }
+  .user-typingKomentarLite {
+    position: relative;
+    transform: translateY(156%);
+  }
+  .input-dataKomentar {
+    width: 100vh;
+  }
+
+  #divUtama {
+    width: 74%;
+  }
+  #divP,
+  #divPR {
+    width: 70%;
+    margin-top: calc(1600px / 46);
+  }
+
+  #komentar-profil {
+    width: 10%;
+  }
+  #komentar-name {
+    width: 90%;
+  }
+
+  #Judul {
+    letter-spacing: 0.4px;
+    font-size: calc(18px / 1.06);
+  }
+  #P {
+    letter-spacing: 0.4px;
+    font-size: calc(18px / 1.06);
+  }
+  #PX,
+  #PX2 {
+    font-size: calc(18px / 1.06);
+  }
+
+  #layer1 {
+    padding-top: 48px;
+    width: 100%;
+  }
+  #layer1 {
+    height: calc(100vh - 74px - 48px);
+  }
+  .scroll-bodyKomentarLite {
+    padding-left: 21%;
+    padding-right: 21%;
+  }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 799.5px) {
+  .bodyKomentar {
+    display: none;
+  }
+  #divPRUnder {
+    display: none;
+  }
+  .user-typingKomentarLite {
+    position: relative;
+    transform: translateY(156%);
+  }
+  #divUtama {
+    width: calc(74% * 1.01);
+  }
+  #divP,
+  #divPR {
+    width: calc(70% * 1.01);
+    margin-top: calc(1440px / 46);
+  }
+
+  #komentar-profil {
+    width: 10%;
+  }
+  #komentar-name {
+    width: 90%;
+  }
+
+  #Judul {
+    letter-spacing: 0.4px;
+    font-size: calc(18px / 1.09);
+  }
+  #P {
+    letter-spacing: 0.4px;
+    font-size: calc(18px / 1.09);
+  }
+  #PX,
+  #PX2 {
+    font-size: calc(18px / 1.09);
+  }
+
+  #layer1 {
+    padding-top: 48px;
+    width: 100%;
+  }
+  #layer1 {
+    height: calc(100vh - 74px - 48px);
+  }
+  .scroll-bodyKomentarLite {
+    padding-left: 18%;
+    padding-right: 18%;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 779.5px) {
+  .bodyKomentar {
+    display: none;
+  }
+  #divPRUnder {
+    display: none;
+  }
+  .user-typingKomentarLite {
+    position: relative;
+    transform: translateY(156%);
+  }
+  #divUtama {
+    width: calc(74% * 1.036);
+  }
+  #divP,
+  #divPR {
+    width: calc(70% * 1.036);
+    margin-top: 40px;
+  }
+
+  #komentar-profil {
+    width: 10%;
+  }
+  #komentar-name {
+    width: 90%;
+  }
+
+  #Judul {
+    letter-spacing: 0.4px;
+    font-size: calc(18px / 1.06);
+  }
+  #P {
+    letter-spacing: 0.4px;
+    font-size: calc(18px / 1.06);
+  }
+  #PX,
+  #PX2 {
+    font-size: calc(18px / 1.06);
+  }
+
+  #layer1 {
+    padding-top: 45px;
+    width: 100%;
+  }
+  #layer1 {
+    height: calc(100vh - 74px - 45px);
+  }
+  .scroll-bodyKomentarLite {
+    padding-left: 18%;
+    padding-right: 18%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 699.5px) {
+  .bodyKomentar {
+    display: none;
+  }
+  #divPRUnder {
+    display: none;
+  }
+  .user-typingKomentarLite {
+    position: relative;
+    transform: translateY(156%);
+  }
+  #divUtama {
+    width: 89.73536%;
+  }
+  #divP,
+  #divPR {
+    width: 84.8848%;
+    margin-top: calc(1560px / 46);
+  }
+
+  #komentar-profil {
+    width: 10%;
+  }
+  #komentar-name {
+    width: 90%;
+  }
+
+  #Judul {
+    letter-spacing: 0.4px;
+    font-size: calc(18px / 1.08);
+  }
+  #P {
+    letter-spacing: 0.4px;
+    font-size: calc(18px / 1.08);
+  }
+  #PX,
+  #PX2 {
+    font-size: calc(18px / 1.08);
+  }
+
+  #layer1 {
+    padding-top: 39px;
+    width: 100%;
+  }
+  #layer1 {
+    height: calc(100vh - 76px - 39px);
+  }
+  .scroll-bodyKomentarLite {
+    padding-left: 16%;
+    padding-right: 16%;
+  }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 599.5px) {
+  .bodyKomentar {
+    display: none;
+  }
+  #divPRUnder {
+    display: none;
+  }
+  .user-typingKomentarLite {
+    position: relative;
+    transform: translateY(156%);
+  }
+  #divUtama {
+    width: 90.6327136%;
+  }
+  #divP,
+  #divPR {
+    width: 85.733648%;
+    margin-top: calc(1280px / 46);
+  }
+
+  #komentar-profil {
+    width: 12%;
+  }
+  #komentar-name {
+    width: 88%;
+  }
+
+  #Judul {
+    letter-spacing: 0.4px;
+    font-size: calc(18px / 1.1);
+  }
+  #P {
+    letter-spacing: 0.4px;
+    font-size: calc(18px / 1.1);
+  }
+  #PX,
+  #PX2 {
+    font-size: calc(18px / 1.1);
+  }
+
+  #layer1 {
+    padding-top: 28px;
+    width: 100%;
+  }
+  #layer1 {
+    height: calc(100vh - 76px - 28px);
+  }
+  .scroll-bodyKomentarLite {
+    padding-left: 14%;
+    padding-right: 14%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 539.5px) {
+  .bodyKomentar {
+    display: none;
+  }
+  #divPRUnder {
+    display: none;
+  }
+  .user-typingKomentarLite {
+    position: relative;
+    transform: translateY(156%);
+  }
+  #divUtama {
+    width: 90.6327136%;
+  }
+  #divP,
+  #divPR {
+    width: 90.6327136%;
+    margin-top: calc(960px / 46);
+  }
+
+  #komentar-profil {
+    width: 14%;
+  }
+  #komentar-name {
+    width: 86%;
+  }
+
+  #Judul {
+    letter-spacing: 0.4px;
+    font-size: calc(18px / 1.12);
+  }
+  #P {
+    letter-spacing: 0.4px;
+    font-size: calc(18px / 1.12);
+  }
+  #PX,
+  #PX2 {
+    font-size: calc(18px / 1.12);
+  }
+
+  #layer1 {
+    padding-top: 24px;
+    width: 100%;
+  }
+  #layer1 {
+    height: calc(100vh - 76px - 24px);
+  }
+  .scroll-bodyKomentarLite {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+}
+
+#divPUnder {
+  height: 26px;
+}
+
+#layerUtama {
+  display: flex;
+}
+#layer1 {
+  overflow: auto;
+}
+
+#divUtama {
+  position: relative;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  z-index: 3;
+  border-radius: 0.24em;
+  transition: 0.22s ease-out;
+}
+
+#divGambar {
+  position: relative;
+  z-index: 2;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+#P,
+#PX {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  padding-bottom: 24px;
+}
+#PX2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  padding-bottom: 9px;
+}
+
+#Picture {
+  object-fit: cover;
+  transition: all 0.3s ease-out;
+  width: 100%;
+  height: 100%;
+}
+
+
+#P {
+  /* text-indent: 9%; */
+  text-align: left;
+  object-fit: cover;
+  text-justify: center;
+  text-align: justify;
+  text-justify: inter-word;
+}
+#PX,
+#PX2 {
+  text-align: justify;
+  text-justify: inter-word;
+  object-fit: cover;
+}
+
+#P-Pic {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 92%;
+  height: min-content;
+  margin-bottom: 5%;
+  border-radius: 0.24em;
+  margin-bottom: 24px;
+}
+#P-PicX {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all 0.209s ease-in-out;
+}
+
+.bodyKomentar {
+  height: 100vh;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  right: 0px;
+}
+
+.scroll-bodyKomentar,
+.scroll-bodyKomentarX {
+  width: 100%;
+  height: calc(100vh - 76px);
+  overflow-x: none;
+  overflow-y: auto;
+}
+.scroll-bodyKomentarT {
+  width: 100%;
+  height: 100%;
+  overflow-x: none;
+  overflow-y: auto;
+}
+.scroll-bodyKomentarLite {
+  overflow-x: none;
+  overflow-y: auto;
+  min-height: 80vh;
+  border-top: 1px solid #dcdde1;
+}
+
+#komentar-kolom {
+  margin-top: 8px;
+  border-radius: 1.2em;
+}
+#komentar-profil {
+  vertical-align: top;
+}
+.komentar-profil {
+  position: relative;
+  overflow: hidden;
+  width: 80%;
+  margin: 10%;
+  aspect-ratio: 1 / 1;
+  border-radius: 10em;
+  background-size: cover;
+  background-position: center;
+}
+.komentar-profil-Picture {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: 0.22s ease-out;
+}
+
+#komentar-name {
+  font-weight: 600;
+  vertical-align: bottom;
+}
+.komentar-name {
+  position: relative;
+  padding-left: 4px;
+  padding-right: 2px;
+  padding-top: 12px;
+}
+
+#komentar-isi {
+  height: infinite;
+  width: 100%;
+  padding: 6px 12px 9px 0;
+  word-break: break-word;
+  overflow: hidden;
+}
+.komentar-isi {
+  margin-left: 4px;
+}
+.komentar-isiX {
+  margin-left: 4px;
+  margin-bottom: 9px;
+}
+.komentar-picture {
+  width: 100%;
+  margin-left: 2px;
+  border-radius: 0.16em;
+}
+.komentar-pictureX {
+  width: 100%;
+  margin-left: 2px;
+  margin-top: 5px;
+  border-radius: 0.16em;
+}
+
+.multi-PictureForeach {
+  width: 100%;
+  max-height: 38vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#divForeach {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 3;
+  border-radius: 0.64em;
+}
+.komentar-pictureForeach {
+  width: calc(100% - (2px + 10px));
+  height: 100%;
+  object-fit: cover;
+  margin-left: 2px;
+  margin-right: 10px;
+  margin-top: 5px;
+  border-radius: 0.16em 0.16em 0 0;
+}
+#divJudulForeach {
+  position: relative;
+  background: rgba(242, 242, 242, 0.32);
+  border-radius: 0 0 0.16em 0.16em;
+  width: calc(100% - 2 * 3.8% - (2px + 10px));
+  z-index: 2;
+  word-break: break-all;
+  overflow: hidden;
+  padding: 2.1% 3.8%;
+  margin-left: 2px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+.bungkusDivGambarForeach {
+  background: rgba(242, 242, 242, 0.82);
+  padding: 6px 12px;
+  border-radius: 0.16em;
+}
+#JudulForeach {
+  color: black;
+  text-align: left;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+/* .wadahTextOutput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+.wadahTextArea {
+  height: calc(360px + 32px);
+  margin-bottom: 12px;
+}
+.headerTextArea {
+  width: calc(100% - 1 * 12px);
+  height: 32px;
+  background: #464646;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  padding: 0 0 0 12px;
+}
+.headerTextArea > p {
+  color: white;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.headerTextArea > div {
+  width: min-content;
+  display: flex;
+}
+.buttonRunCopy {
+  background: transparent;
+  width: max-content;
+  height: 32px;
+  color: white;
+  font-size: 11px;
+  padding: 0 12px;
+  letter-spacing: 1px;
+  border: 0;
+}
+.buttonRunCopy:hover {
+    background: rgb(65, 65, 65);
+}
+.clipboard-RunCode {
+  width: 0;
+}
+
+.textAreaDesain {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: rgb(18, 18, 18);
+  color: white;
+  width: calc(100% - 2 * 5px);
+  height: calc(100% - 32px);
+  padding: 5px;
+  border: 0;
+  resize: none;
+}
+.textAreaDesain:focus {
+  outline: none;
+}
+.outputTextArea {
+  background: gainsboro;
+  margin-top: 12px;
+  height: calc(360px + 10px);
+  text-align: left;
+  color: black;
+  overflow: hidden;
+  overflow-y: scroll;
+} */
+
+
+.wadahTextOutput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+.wadahTextArea {
+  margin-bottom: 12px;
+}
+.headerTextArea {
+  width: calc(100%);
+  height: 32px;
+  background: #464646;
+  border-radius: 0.1em 0.1em 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+.headerTextArea > div {
+  width: min-content;
+  display: flex;
+}
+.buttonRunCopy {
+  background: transparent;
+  width: max-content;
+  height: 32px;
+  color: white;
+  font-size: 11px;
+  padding: 0 12px;
+  letter-spacing: 1px;
+  border: 0;
+  transition: all 240ms ease-in-out;
+}
+.buttonRunCopy:hover {
+  background: rgb(65, 65, 65);
+}
+.pInfoCoding {
+  margin: 0 12px;
+  color: white;
+  font-size: 10px;
+  letter-spacing: 1px;
+  width: max-content;
+}
+.clipboard-RunCode {
+  height: 9px;
+  transform: scale(150%);
+  margin-right: 5px;
+}
+
+.textAreaDesain {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: rgb(17, 19, 21);
+  color: white;
+  width: calc(100% - 2 * 5px);
+  height: calc(380px);
+  padding: 5px;
+  border-radius: 0 0 0.1em 0.1em;
+  border: 0;
+  resize: none;
+}
+.textAreaDesain:focus {
+  outline: none;
+}
+.CodeMirror {
+  width: 100%;
+  min-height: 380px;
+  text-align: left;
+  border-radius: 0 0 0.1em 0.1em;
+}
+
+.wadahHTMLCSSJS {
+  width: 100%;
+  height: 380px;
+  overflow: hidden;
+}
+
+.outputTextArea {
+  background: gainsboro;
+  border-radius: 0.1em;
+  margin-top: 12px;
+  height: calc(380px + 32px);
+  text-align: left;
+  color: black;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-bottom: 16px;
+}

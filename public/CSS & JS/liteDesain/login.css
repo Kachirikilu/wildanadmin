@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+        /* background-image: url(/FileWeb/Wallpaper.jpg); */
+        background: #46415d;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+#center {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WadahLogin {
+    margin-left: 32px;
+    margin-right: 32px;
+    background: #bed3e1e0;
+    width: 400px;
+    border-radius: 12px;
+    padding-bottom: 26px;
+    animation: WadahLogin 1.4s ease forwards;
+}
+@keyframes WadahLogin {
+    0%{
+        transform: scale(0.5) translateY(-380%);
+        width: 180px;
+    }
+    100%{
+        transform: scale(1);
+        width: 400px;
+    }
+}
+
+.WadahLoginNav {
+    margin-bottom: 26px;
+    width: 100%;
+    height: 42px;
+    position: relative;
+    background: linear-gradient(to right, red, #f94f3c);
+    border-radius: 0.6em 0.6em 0.1em 0.1em;
+    margin-bottom: 24px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputLogin {
+    border-radius: 0.6em;
+    border: 1px solid;
+}
+.inputLogin:focus::placeholder {
+    color: #f94f3c;
+    transition: all 0.36s ease;
+}
+.inputLogin[type=text] {
+    border-radius: 12px;
+    border: 1px solid;
+    width: 64%;
+    height: 26px;
+    margin: 6px 0px 16px 0px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    padding: 13px;
+}
+.inputLogin[type=password] {
+    border-radius: 12px;
+    border: 1px solid;
+    width: 64%;
+    height: 26px;
+    margin: 6px 0px 16px 0px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    padding: 13px;
+}
+
+.buttonLogin {
+    position: relative;
+    height: 29px;
+    width: 90px;
+    color: black;
+    background: #56ff40e5;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-radius: 12px;
+    border: 0px;
+}
+.buttonLogin:hover {
+    background: #a5fe38;
+    transition: all 0.42s ease;
+}
+.buttonLogin:active {
+    background: #c3ea33;
+    transition: all 0.16s ease;
+}
+
+
+#buttonLogoutRegistrasi {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    height: 72px;
+    width: 100%;
+    border: 0;
+    font-weight: 550;
+    font-size: 17px;
+    color: black;
+    text-shadow: -3px -3px 4px rgba(255, 255, 255, 0.02), 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+#buttonLogoutRegistrasi:active {
+    color: white;
+    transition: all 0.2s ease;
+}
+
+#textRegistrasi {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    opacity: 0;
+}
+
+#textLogin {
+    position: relative;
+    display: block;
+    transform: scale(1.24);
+    opacity: 1;
+}
+
+@keyframes textLogin {
+    0% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+}
+@keyframes textLoginR {
+    0% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+}
+@keyframes textRegistrasi {
+    0% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+}
+@keyframes textRegistrasiR {
+    0% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+}

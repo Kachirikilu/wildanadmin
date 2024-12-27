@@ -1,0 +1,1156 @@
+@media only screen and (min-width: 940px) {
+    #homeLite {
+        height: calc(100vh - 76px)
+    }
+    #layerUtama, .ul-top3DPX {
+        margin-top: 76px;
+    }
+    #chat-Box-Pribadi {
+        margin-top: 76px;
+        height: calc(100vh - 76px);
+    }
+}
+@media only screen and (min-width: 620px) and (max-width: 939.5px) {
+    #homeLite {
+        height: calc(100vh - 70px)
+    }
+    #layerUtama, .ul-top3DPX {
+        margin-top: 70px;
+    }
+    #chat-Box-Pribadi {
+        margin-top: 70px;
+        height: calc(100vh - 70px);
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 619.5px) {
+    #homeLite {
+        height: calc(100vh - 66px)
+    }
+    #layerUtama, .ul-top3DPX {
+        margin-top: 66px;
+    }
+    #chat-Box-Pribadi {
+        margin-top: 66px;
+        height: calc(100vh - 66px);
+    }
+}
+
+
+@media only screen and (min-width: 1150px) {
+    .grid-item, .grid-itemUtama  {
+        margin-bottom: 42px;
+    }
+    #picturePop, #picturePopUser {
+        width: max-content;
+        height: 36px;
+    }
+
+    #Kategori, #EditText, #DeleteText, #Kategori1, #Kategori2, #Kategori3, #Kategori4, #Kategori5, #Kategori6, #Kategori7, #Kategori8, #Kategori9, #Kategori10, #Kategori11, #Kategori12, #Kategori13, #Kategori14 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .dp-slide {
+        width: 50%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 40%;
+        height: 14%;
+    }
+
+    .ul-top3DU, .ul-top3DP {  
+        height: calc(100vh - 76px);
+        top: 76px;
+    }
+    .ul-top3DPX {  
+        height: calc(100vh - 76px);
+    }
+    #du-slidePictureText, #du-slidePictureTextNone {
+        width: calc(40%*1.6);
+        height: calc(14%*1.6);
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavHomeM, #buttonNavHomeX, #buttonNavHomeMX, #buttonNavHomeX2, #buttonNavBack, #buttonNavHomeP, #buttonNavCreate, #buttonNavCreateX, #buttonNavCreateP, #buttonNavNews, #buttonNavNewsX, #buttonNavNewsP, #buttonNavChat, #buttonNavChatM, #buttonNavChatX, #buttonNavWallpaper, #buttonNavWallpaperX, #buttonNavProfil, #buttonNavProfilM, #buttonNavProfilX, #buttonNavLogout, #buttonNavLogoutX, #buttonNavLogoutP, #buttonMenu, #buttonMenuX, #buttonMenuP {
+        height: 76px;
+    }
+    #pictureText, #pictureEdit, #pictureDelete, #pictureText1, #pictureText2, #pictureText3, #pictureText4, #pictureText5, #pictureText6, #pictureText7, #pictureText8, #pictureText9, #pictureText10, #pictureText11, #pictureText12, #pictureText13, #pictureText14 {
+        font-size: 16px;
+    }
+
+    /* Pembatas */
+
+    .teks, .teksLite {
+        transform: scale(1);
+    }
+    .icon18 {
+        transform: scale(1.8);
+    }
+    .icon20 {
+        transform: scale(2.0);
+    }
+    .icon20 {
+        transform: scale(2.0);
+    }
+    .icon22 {
+        transform: scale(2.2);
+    }
+    #MenuPopUp {
+        display: none;
+    }
+    #Nav2B {
+        display: none;
+    }
+    #NavCenterX3 {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1100px) and (max-width: 1149.5px) {
+    #header {
+        height: calc(164px + 20px + 76px);
+    }
+    .grid-item, .grid-itemUtama  {
+        margin-bottom: 40px;
+    }
+    #picturePop, #picturePopUser {
+        width: max-content;
+        height: 35px;
+    }
+
+    #Kategori, #EditText, #DeleteText, #Kategori1, #Kategori2, #Kategori3, #Kategori4, #Kategori5, #Kategori6, #Kategori7, #Kategori8, #Kategori9, #Kategori10, #Kategori11, #Kategori12, #Kategori13, #Kategori14 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .dp-slide {
+        width: 56%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 40%;
+        height: 14%;
+    }
+
+    .ul-top3DU, .ul-top3DP {  
+        height: calc(100vh - 76px);
+        top: 76px;
+    }
+    .ul-top3DPX {  
+        height: calc(100vh - 76px);
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100%/3 - 10px) calc(100%/3 - 10px) calc(100%/3 - 10px);
+        max-height: calc(90vh - 76px);
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*1.8);
+        height: calc(14%*1.8);
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavHomeM, #buttonNavHomeX, #buttonNavHomeMX, #buttonNavHomeX2, #buttonNavBack, #buttonNavHomeP, #buttonNavCreate, #buttonNavCreateX, #buttonNavCreateP, #buttonNavNews, #buttonNavNewsX, #buttonNavNewsP, #buttonNavChat, #buttonNavChatM, #buttonNavChatX, #buttonNavWallpaper, #buttonNavWallpaperX, #buttonNavProfil, #buttonNavProfilM, #buttonNavProfilX, #buttonNavLogout, #buttonNavLogoutX, #buttonNavLogoutP, #buttonMenu, #buttonMenuX, #buttonMenuP {
+        height: 76px;
+    }
+
+    #pictureText, #pictureEdit, #pictureDelete, #pictureText1, #pictureText2, #pictureText3, #pictureText4, #pictureText5, #pictureText6, #pictureText7, #pictureText8, #pictureText9, #pictureText10, #pictureText11, #pictureText12, #pictureText13, #pictureText14 {
+        font-size: 15px;
+    }
+
+    .grid-itemUtama {
+        grid-column: 1 / span 2;
+    }
+
+    /* Pembatas */
+   
+    .teks, .teksLite {
+        transform: scale(1);
+    }
+    .icon18 {
+        transform: scale(1.8);
+    }
+    .icon20 {
+        transform: scale(2.0);
+    }
+    .icon20 {
+        transform: scale(2.0);
+    }
+    .icon22 {
+        transform: scale(2.2);
+    }
+    #MenuPopUp {
+        display: none;
+    }
+    #Nav2B {
+        display: none;
+    }
+    #NavCenterX3 {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1099.5px) {
+    #header {
+        height: calc(164px + 20px + 76px);
+    }
+    .grid-item, .grid-itemUtama  {
+        margin-bottom: 40px;
+    }
+    #picturePop, #picturePopUser {
+        width: max-content;
+        height: 34px;
+    }
+
+    #Kategori, #EditText, #DeleteText, #Kategori1, #Kategori2, #Kategori3, #Kategori4, #Kategori5, #Kategori6, #Kategori7, #Kategori8, #Kategori9, #Kategori10, #Kategori11, #Kategori12, #Kategori13, #Kategori14 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .dp-slide {
+        width: 58%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 40%;
+        height: 14%;
+    }
+
+    .ul-top3DU, .ul-top3DP {  
+        height: calc(100vh - 76px);
+        top: 76px;
+    }
+    .ul-top3DPX {  
+        height: calc(100vh - 76px);
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100%/3 - 10px) calc(100%/3 - 10px) calc(100%/3 - 10px);
+        max-height: calc(90vh - 76px);
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*2.1);
+        height: calc(14%*2.1);
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavHomeM, #buttonNavHomeX, #buttonNavHomeMX, #buttonNavHomeX2, #buttonNavBack, #buttonNavHomeP, #buttonNavCreate, #buttonNavCreateX, #buttonNavCreateP, #buttonNavNews, #buttonNavNewsX, #buttonNavNewsP, #buttonNavChat, #buttonNavChatM, #buttonNavChatX, #buttonNavWallpaper, #buttonNavWallpaperX, #buttonNavProfil, #buttonNavProfilM, #buttonNavProfilX, #buttonNavLogout, #buttonNavLogoutX, #buttonNavLogoutP, #buttonMenu, #buttonMenuX, #buttonMenuP {
+        height: 76px;
+    }
+    #pictureText, #pictureEdit, #pictureDelete, #pictureText1, #pictureText2, #pictureText3, #pictureText4, #pictureText5, #pictureText6, #pictureText7, #pictureText8, #pictureText9, #pictureText10, #pictureText11, #pictureText12, #pictureText13, #pictureText14 {
+        font-size: 14px;
+    }
+
+    /* Pembatas */
+   
+    .teks, .teksLite {
+        transform: scale(1);
+    }
+    .icon18 {
+        transform: scale(1.8);
+    }
+    .icon20 {
+        transform: scale(2.0);
+    }
+    .icon20 {
+        transform: scale(2.0);
+    }
+    .icon22 {
+        transform: scale(2.2);
+    }
+    #MenuPopUp {
+        display: none;
+    }
+    #Nav2B {
+        display: none;
+    }
+    #NavCenterX3 {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 940px) and (max-width: 999.5px) {
+    #header {
+        height: calc(164px + 20px + 76px);
+    }
+    .grid-item, .grid-itemUtama  {
+        margin-bottom: 34px;
+    }
+    #picturePop, #picturePopUser {
+        width: max-content;
+        height: 36px;
+    }
+
+    #Kategori, #EditText, #DeleteText, #Kategori1, #Kategori2, #Kategori3, #Kategori4, #Kategori5, #Kategori6, #Kategori7, #Kategori8, #Kategori9, #Kategori10, #Kategori11, #Kategori12, #Kategori13, #Kategori14 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .dp-slide {
+        width: 60%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 40%;
+        height: 14%;
+    }
+
+    .ul-top3DU, .ul-top3DP {  
+        height: calc(100vh - 76px);
+        top: 76px;
+    }
+    .ul-top3DPX {  
+        height: calc(100vh - 76px);
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100%/2 - 10px) calc(100%/2 - 10px);
+        max-height: calc(90vh - 76px);
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*1.4);
+        height: calc(14%*1.4);
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavHomeM, #buttonNavHomeX, #buttonNavHomeMX, #buttonNavHomeX2, #buttonNavBack, #buttonNavHomeP, #buttonNavCreate, #buttonNavCreateX, #buttonNavCreateP, #buttonNavNews, #buttonNavNewsX, #buttonNavNewsP, #buttonNavChat, #buttonNavChatM, #buttonNavChatX, #buttonNavWallpaper, #buttonNavWallpaperX, #buttonNavProfil, #buttonNavProfilM, #buttonNavProfilX, #buttonNavLogout, #buttonNavLogoutX, #buttonNavLogoutP, #buttonMenu, #buttonMenuX, #buttonMenuP {
+        height: 76px;
+    }
+    #pictureText, #pictureEdit, #pictureDelete, #pictureText1, #pictureText2, #pictureText3, #pictureText4, #pictureText5, #pictureText6, #pictureText7, #pictureText8, #pictureText9, #pictureText10, #pictureText11, #pictureText12, #pictureText13, #pictureText14 {
+        font-size: 16px;
+    }
+
+    /* Pembatas */
+   
+    .teks, .teksLite {
+        transform: scale(1);
+    }
+    .icon18 {
+        transform: scale(1.8);
+    }
+    .icon20 {
+        transform: scale(2.0);
+    }
+    .icon20 {
+        transform: scale(2.0);
+    }
+    .icon22 {
+        transform: scale(2.2);
+    }
+    #MenuPopUp {
+        display: none;
+    }
+    #Nav2B {
+        display: none;
+    }
+    #NavCenterX3 {
+        display: none;
+    }
+    .div1 {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 850px) and (max-width: 939.5px) {
+    #header {
+        height: calc(164px + 20px + 70px);
+    }
+    .grid-item, .grid-itemUtama  {
+        margin-bottom: 34px;
+    }
+    #picturePop, #picturePopUser {
+        width: max-content;
+        height: 36px;
+    }
+
+    #Kategori, #EditText, #DeleteText, #Kategori1, #Kategori2, #Kategori3, #Kategori4, #Kategori5, #Kategori6, #Kategori7, #Kategori8, #Kategori9, #Kategori10, #Kategori11, #Kategori12, #Kategori13, #Kategori14 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .dp-slide {
+        width: 62%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 40%;
+        height: 14%;
+    }
+
+    .ul-top3DU, .ul-top3DP {  
+        height: calc(100vh - 70px);
+        top: 70px;
+    }
+    .ul-top3DPX {  
+        height: calc(100vh - 70px);
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100%/2 - 10px) calc(100%/2 - 10px);
+        max-height: calc(90vh - 70px);
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*1.6);
+        height: calc(14%*1.6);
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavHomeM, #buttonNavHomeX, #buttonNavHomeMX, #buttonNavHomeX2, #buttonNavBack, #buttonNavHomeP, #buttonNavCreate, #buttonNavCreateX, #buttonNavCreateP, #buttonNavNews, #buttonNavNewsX, #buttonNavNewsP, #buttonNavChat, #buttonNavChatM, #buttonNavChatX, #buttonNavWallpaper, #buttonNavWallpaperX, #buttonNavProfil, #buttonNavProfilM, #buttonNavProfilX, #buttonNavLogout, #buttonNavLogoutX, #buttonNavLogoutP, #buttonMenu, #buttonMenuX, #buttonMenuP {
+        height: 70px;
+    }
+    #pictureText, #pictureEdit, #pictureDelete, #pictureText1, #pictureText2, #pictureText3, #pictureText4, #pictureText5, #pictureText6, #pictureText7, #pictureText8, #pictureText9, #pictureText10, #pictureText11, #pictureText12, #pictureText13, #pictureText14 {
+        font-size: 16px;
+    }
+
+    /* Pembatas */
+   
+    .teks, .teksLite {
+        transform: scale(1.05);
+    }
+    .icon18 {
+        transform: scale(1.89);
+    }
+    .icon20 {
+        transform: scale(2.1);
+    }
+    .icon22 {
+        transform: scale(2.31);
+    }
+    #MenuPopUp {
+        display: none;
+    }
+    #Nav2B {
+        display: none;
+    }
+    #NavCenterX3 {
+        display: none;
+    }
+    .div1 {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 800px) and (max-width: 849.5px) {
+    #header {
+        height: calc(164px + 20px + 70px);
+    }
+    .grid-item, .grid-itemUtama  {
+        margin-bottom: 34px;
+    }
+    #picturePop, #picturePopUser {
+        width: max-content;
+        height: 35px;
+    }
+
+    #Kategori, #EditText, #DeleteText, #Kategori1, #Kategori2, #Kategori3, #Kategori4, #Kategori5, #Kategori6, #Kategori7, #Kategori8, #Kategori9, #Kategori10, #Kategori11, #Kategori12, #Kategori13, #Kategori14 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .dp-slide {
+        width: 64%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 40%;
+        height: 14%;
+    }
+
+    .ul-top3DU, .ul-top3DP {  
+        height: calc(100vh - 70px);
+        top: 70px;
+    }
+    .ul-top3DPX {  
+        height: calc(100vh - 70px);
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100%/2 - 10px) calc(100%/2 - 10px);
+        max-height: calc(90vh - 70px);
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*1.6);
+        height: calc(14%*1.6);
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavHomeM, #buttonNavHomeX, #buttonNavHomeMX, #buttonNavHomeX2, #buttonNavBack, #buttonNavHomeP, #buttonNavCreate, #buttonNavCreateX, #buttonNavCreateP, #buttonNavNews, #buttonNavNewsX, #buttonNavNewsP, #buttonNavChat, #buttonNavChatM, #buttonNavChatX, #buttonNavWallpaper, #buttonNavWallpaperX, #buttonNavProfil, #buttonNavProfilM, #buttonNavProfilX, #buttonNavLogout, #buttonNavLogoutX, #buttonNavLogoutP, #buttonMenu, #buttonMenuX, #buttonMenuP {
+        height: 70px;
+    }
+    #pictureText, #pictureEdit, #pictureDelete, #pictureText1, #pictureText2, #pictureText3, #pictureText4, #pictureText5, #pictureText6, #pictureText7, #pictureText8, #pictureText9, #pictureText10, #pictureText11, #pictureText12, #pictureText13, #pictureText14 {
+        font-size: 15px;
+    }
+
+    /* Pembatas */
+   
+    .teks, .teksLite {
+        transform: scale(1.06);
+    }
+    .icon18 {
+        transform: scale(1.908);
+    }
+    .icon20 {
+        transform: scale(2.12);
+    }
+    .icon22 {
+        transform: scale(2.332);
+    }
+    #MenuPopUp {
+        display: none;
+    }
+    #Nav2B {
+        display: none;
+    }
+    #NavCenterX3 {
+        display: none;
+    }
+    .div1 {
+        display: none;
+    }
+    .div2 {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 780px) and (max-width: 799.5px) {
+    #header {
+        height: calc(164px + 20px + 70px);
+    }
+    .grid-item, .grid-itemUtama  {
+        margin-bottom: 34px;
+    }
+    #picturePop, #picturePopUser {
+        width: max-content;
+        height: 34px;
+    }
+
+    #Kategori, #EditText, #DeleteText, #Kategori1, #Kategori2, #Kategori3, #Kategori4, #Kategori5, #Kategori6, #Kategori7, #Kategori8, #Kategori9, #Kategori10, #Kategori11, #Kategori12, #Kategori13, #Kategori14 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .dp-slide {
+        width: 68%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 40%;
+        height: 14%;
+    }
+    #pictureTextX {
+        transform: scale(1.06);
+    }
+
+    .ul-top3DU, .ul-top3DP {  
+        height: calc(100vh - 70px);
+        top: 70px;
+    }
+    .ul-top3DPX {  
+        height: calc(100vh - 70px);
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100%/2 - 10px) calc(100%/2 - 10px);
+        max-height: calc(90vh - 90px);
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*1.9);
+        height: calc(14%*1.9);
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavHomeM, #buttonNavHomeX, #buttonNavHomeMX, #buttonNavHomeX2, #buttonNavBack, #buttonNavHomeP, #buttonNavCreate, #buttonNavCreateX, #buttonNavCreateP, #buttonNavNews, #buttonNavNewsX, #buttonNavNewsP, #buttonNavChat, #buttonNavChatM, #buttonNavChatX, #buttonNavWallpaper, #buttonNavWallpaperX, #buttonNavProfil, #buttonNavProfilM, #buttonNavProfilX, #buttonNavLogout, #buttonNavLogoutX, #buttonNavLogoutP, #buttonMenu, #buttonMenuX, #buttonMenuP {
+        height: 70px;
+    }
+    #pictureText, #pictureEdit, #pictureDelete, #pictureText1, #pictureText2, #pictureText3, #pictureText4, #pictureText5, #pictureText6, #pictureText7, #pictureText8, #pictureText9, #pictureText10, #pictureText11, #pictureText12, #pictureText13, #pictureText14 {
+        font-size: 14px;
+    }
+
+    /* Pembatas */
+   
+    .teks, .teksLite {
+        transform: scale(1.06);
+    }
+    .icon18 {
+        transform: scale(1.908);
+    }
+    .icon20 {
+        transform: scale(2.12);
+    }
+    .icon22 {
+        transform: scale(2.332);
+    }
+    #MenuPopUp {
+        display: none;
+    }
+    #Nav2B {
+        display: none;
+    }
+    #NavCenterX3 {
+        display: none;
+    }
+    .div1 {
+        display: none;
+    }
+    .div2 {
+        display: none;
+    }
+    .div3 {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 679px) and (max-width: 779.5px) {
+    #header {
+        height: calc(164px + 20px + 70px);
+    }
+    .pencarianDIV {
+        display: none;
+    }
+
+    .grid-item, .grid-itemUtama  {
+        margin-bottom: 42px;
+    }
+    #picturePop, #picturePopUser {
+        width: max-content;
+        height: 34px;
+    }
+
+    #Kategori, #EditText, #DeleteText, #Kategori1, #Kategori2, #Kategori3, #Kategori4, #Kategori5, #Kategori6, #Kategori7, #Kategori8, #Kategori9, #Kategori10, #Kategori11, #Kategori12, #Kategori13, #Kategori14 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .dp-slide {
+        width: 74%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 44%;
+        height: 15.4%;
+    }
+
+    .ul-top3DU, .ul-top3DP {  
+        height: calc(100vh - 70px);
+        top: 70px;
+    }
+    .ul-top3DPX {  
+        height: calc(100vh - 70px);
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100% - 10px);
+        max-height: calc(90vh - 70px);
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*1.6);
+        height: calc(14%*1.6);
+    }
+    #pictureTextX, #pictureTextD {
+        transform: scale(124%);
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavHomeM, #buttonNavHomeX, #buttonNavHomeMX, #buttonNavHomeX2, #buttonNavBack, #buttonNavHomeP, #buttonNavCreate, #buttonNavCreateX, #buttonNavCreateP, #buttonNavNews, #buttonNavNewsX, #buttonNavNewsP, #buttonNavChat, #buttonNavChatM, #buttonNavChatX, #buttonNavWallpaper, #buttonNavWallpaperX, #buttonNavProfil, #buttonNavProfilM, #buttonNavProfilX, #buttonNavLogout, #buttonNavLogoutX, #buttonNavLogoutP, #buttonMenu, #buttonMenuX, #buttonMenuP {
+        height: 70px;
+    }
+    #pictureText, #pictureEdit, #pictureDelete, #pictureText1, #pictureText2, #pictureText3, #pictureText4, #pictureText5, #pictureText6, #pictureText7, #pictureText8, #pictureText9, #pictureText10, #pictureText11, #pictureText12, #pictureText13, #pictureText14 {
+        font-size: 14px;
+    }
+
+  /* Pembatas */
+   
+    .teks, .teksLite {
+        transform: scale(1.06);
+    }
+    .teksP, .teksPLite {
+        transform: scale(calc(1.06*1.2));
+    }
+    .icon18 {
+        transform: scale(calc(1.908*1.2));
+    }
+    .icon20 {
+        transform: scale(calc(1.908*1.2));
+    }
+    .icon22 {
+        transform: scale(calc(2.332*1.2));
+    }
+    .icon18P {
+        transform: scale(calc(1.908*1.2));
+    }
+    .icon22P {
+        transform: scale(calc(2.332*1.2));
+    }
+    #NavCenterX {
+        display: none;
+    }
+    .div1 {
+        display: none;
+    }
+    #NavCenter2A {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 620px) and (max-width: 678.5px) {
+    #header {
+        height: calc(164px + 20px + 70px);
+    }
+    .pencarianDIV {
+        display: none;
+    }
+
+    .grid-item, .grid-itemUtama  {
+        margin-bottom: 34px;
+    }
+    #picturePop, #picturePopUser {
+        width: max-content;
+        height: 40px;
+    }
+
+    #Kategori, #EditText, #DeleteText, #Kategori1, #Kategori2, #Kategori3, #Kategori4, #Kategori5, #Kategori6, #Kategori7, #Kategori8, #Kategori9, #Kategori10, #Kategori11, #Kategori12, #Kategori13, #Kategori14 {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .dp-slide {
+        width: 76%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 44%;
+        height: 15.4%;
+    }
+
+    .ul-top3DU, .ul-top3DP {  
+        height: calc(100vh - 70px);
+        top: 70px;
+    }
+    .ul-top3DPX {  
+        height: calc(100vh - 70px);
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100% - 10px);
+        max-height: calc(90vh - 70px);
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*1.6);
+        height: calc(14%*1.6);
+    }
+    #pictureTextX, #pictureTextD {
+        transform: scale(124%);
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavHomeM, #buttonNavHomeX, #buttonNavHomeMX, #buttonNavHomeX2, #buttonNavBack, #buttonNavHomeP, #buttonNavCreate, #buttonNavCreateX, #buttonNavCreateP, #buttonNavNews, #buttonNavNewsX, #buttonNavNewsP, #buttonNavChat, #buttonNavChatM, #buttonNavChatX, #buttonNavWallpaper, #buttonNavWallpaperX, #buttonNavProfil, #buttonNavProfilM, #buttonNavProfilX, #buttonNavLogout, #buttonNavLogoutX, #buttonNavLogoutP, #buttonMenu, #buttonMenuX, #buttonMenuP {
+        height: 66px;
+    }
+    #pictureText, #pictureEdit, #pictureDelete, #pictureText1, #pictureText2, #pictureText3, #pictureText4, #pictureText5, #pictureText6, #pictureText7, #pictureText8, #pictureText9, #pictureText10, #pictureText11, #pictureText12, #pictureText13, #pictureText14 {
+        font-size: 16px;
+    }
+
+  /* Pembatas */
+   
+    .teks, .teksLite {
+        transform: scale(1.06);
+    }
+    .teksP, .teksPLite {
+        transform: scale(calc(1.06*1.2));
+    }
+    .icon18 {
+        transform: scale(calc(1.908*1.2));
+    }
+    .icon20 {
+        transform: scale(calc(1.908*1.2));
+    }
+    .icon22 {
+        transform: scale(calc(2.332*1.2));
+    }
+    .icon18P {
+        transform: scale(calc(1.908*1.2));
+    }
+    .icon22P {
+        transform: scale(calc(2.332*1.2));
+    }
+    #NavCenterX {
+        display: none;
+    }
+    .div1 {
+        display: none;
+    }
+    #NavCenter2A {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 540px) and (max-width: 619.5px) {
+    #header {
+        height: calc(164px + 20px + 66px);
+    }
+    .pencarianDIV {
+        display: none;
+    }
+
+    .grid-item, .grid-itemUtama  {
+        margin-bottom: 26px;
+    }
+    #picturePop, #picturePopUser {
+        width: max-content;
+        height: 37px;
+    }
+
+    #Kategori, #EditText, #DeleteText, #Kategori1, #Kategori2, #Kategori3, #Kategori4, #Kategori5, #Kategori6, #Kategori7, #Kategori8, #Kategori9, #Kategori10, #Kategori11, #Kategori12, #Kategori13, #Kategori14 {
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+
+    .dp-slide {
+        width: 84%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 52%;
+        height: 18.2%;
+    }
+    #pictureTextX {
+        transform: scale(0.72);
+    }
+
+    .ul-top3DU, .ul-top3DP {  
+        height: calc(100vh - 66px);
+        top: 66px;
+    }
+    .ul-top3DPX {  
+        height: calc(100vh - 66px);
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100% - 10px);
+        max-height: calc(90vh - 66px);
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*1.6);
+        height: calc(14%*1.6);
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavHomeM, #buttonNavHomeX, #buttonNavHomeMX, #buttonNavHomeX2, #buttonNavBack, #buttonNavHomeP, #buttonNavCreate, #buttonNavCreateX, #buttonNavCreateP, #buttonNavNews, #buttonNavNewsX, #buttonNavNewsP, #buttonNavChat, #buttonNavChatM, #buttonNavChatX, #buttonNavWallpaper, #buttonNavWallpaperX, #buttonNavProfil, #buttonNavProfilM, #buttonNavProfilX, #buttonNavLogout, #buttonNavLogoutX, #buttonNavLogoutP, #buttonMenu, #buttonMenuX, #buttonMenuP {
+        height: 66px;
+    }
+    #pictureText, #pictureEdit, #pictureDelete, #pictureText1, #pictureText2, #pictureText3, #pictureText4, #pictureText5, #pictureText6, #pictureText7, #pictureText8, #pictureText9, #pictureText10, #pictureText11, #pictureText12, #pictureText13, #pictureText14 {
+        font-size: 15px;
+    }
+
+    /* Pembatas */
+   
+    .teks, .teksLite {
+        transform: scale(1.06);
+    }
+    .teksP, .teksPLite {
+        transform: scale(calc(1.06*1.2));
+    }
+    .icon18 {
+        transform: scale(calc(1.908*1.2));
+    }
+    .icon20 {
+        transform: scale(calc(1.908*1.2));
+    }
+    .icon22 {
+        transform: scale(calc(2.332*1.2));
+    }
+    .icon18P {
+        transform: scale(calc(1.908*1.2));
+    }
+    .icon22P {
+        transform: scale(calc(2.332*1.2));
+    }
+    #NavCenterX {
+        display: none;
+    }
+    .div1 {
+        display: none;
+    }
+    .div2 {
+        display: none;
+    }
+    #NavCenter2A {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 539.5px) {
+    #header {
+        height: calc(164px + 20px + 66px);
+    }
+    .pencarianDIV {
+        display: none;
+    }
+
+    .grid-item, .grid-itemUtama  {
+        margin-bottom: 20px;
+    }
+    /* #isiTanggal {
+        font-size: 14px;
+        padding-bottom: 9px;
+    }
+    #picturePop, #picturePopUser {
+        width: max-content;
+        height: 38px;
+    } */
+
+    /* #Kategori, #EditText, #DeleteText, #Kategori1, #Kategori2, #Kategori3, #Kategori4, #Kategori5, #Kategori6, #Kategori7, #Kategori8, #Kategori9, #Kategori10, #Kategori11, #Kategori12, #Kategori13, #Kategori14 {
+        padding-left: 12px;
+        padding-right: 12px;
+    } */
+
+    .dp-slide {
+        width: 92%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 54.6%;
+        height: 19.11%;
+    }
+    #pictureTextX {
+        transform: scale(0.72);
+    }
+
+    .ul-top3DU, .ul-top3DP {  
+        height: calc(100vh - 66px);
+        top: 66px;
+    }
+    .ul-top3DPX {  
+        height: calc(100vh - 66px);
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100% - 10px);
+        max-height: calc(90vh - 66px);
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*1.6);
+        height: calc(14%*1.6);
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavHomeM, #buttonNavHomeX, #buttonNavHomeMX, #buttonNavHomeX2, #buttonNavBack, #buttonNavHomeP, #buttonNavCreate, #buttonNavCreateX, #buttonNavCreateP, #buttonNavNews, #buttonNavNewsX, #buttonNavNewsP, #buttonNavChat, #buttonNavChatM, #buttonNavChatX, #buttonNavWallpaper, #buttonNavWallpaperX, #buttonNavProfil, #buttonNavProfilM, #buttonNavProfilX, #buttonNavLogout, #buttonNavLogoutX, #buttonNavLogoutP, #buttonMenu, #buttonMenuX, #buttonMenuP {
+        height: 66px;
+    }
+    #pictureText, #pictureEdit, #pictureDelete, #pictureText1, #pictureText2, #pictureText3, #pictureText4, #pictureText5, #pictureText6, #pictureText7, #pictureText8, #pictureText9, #pictureText10, #pictureText11, #pictureText12, #pictureText13, #pictureText14 {
+        font-size: 14px;
+    }
+
+    /* Pembatas */
+   
+    .teks, .teksLite {
+        transform: scale(1.06);
+    }
+    .teksP, .teksPLite {
+        transform: scale(calc(1.06*1.2));
+    }
+    .icon18 {
+        transform: scale(calc(1.908*1.2));
+    }
+    .icon20 {
+        transform: scale(calc(1.908*1.2));
+    }
+    .icon22 {
+        transform: scale(calc(2.332*1.2));
+    }
+    .icon18P {
+        transform: scale(calc(1.908*1.2));
+    }
+    .icon22P {
+        transform: scale(calc(2.332*1.2));
+    }
+    #NavCenterX {
+        display: none;
+    }
+    .div1 {
+        display: none;
+    }
+    .div2 {
+        display: none;
+    }
+}
+
+/* Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas PembatasPembatas Pembatas  */
+/* Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas PembatasPembatas Pembatas  */
+/* Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas PembatasPembatas Pembatas  */
+
+
+@media only screen and (min-width: 370px) and (max-width: 539.5px) {
+    #isiTanggal {
+        font-size: 14px;
+        padding-bottom: 9px;
+    }
+    #picturePop, #picturePopUser {
+        width: max-content;
+        height: 38px;
+    }
+    #Kategori, #EditText, #DeleteText, #Kategori1, #Kategori2, #Kategori3, #Kategori4, #Kategori5, #Kategori6, #Kategori7, #Kategori8, #Kategori9, #Kategori10, #Kategori11, #Kategori12, #Kategori13, #Kategori14 {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+@media only screen and (min-width: 280px) and (max-width: 369.5px) {
+    #isiTanggal {
+        font-size: 10px;
+        padding-bottom: 9px;
+    }
+    #picturePop, #picturePopUser {
+        width: max-content;
+        height: 32px;
+    }
+    #Kategori, #EditText, #DeleteText, #Kategori1, #Kategori2, #Kategori3, #Kategori4, #Kategori5, #Kategori6, #Kategori7, #Kategori8, #Kategori9, #Kategori10, #Kategori11, #Kategori12, #Kategori13, #Kategori14 {
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 279.5px) {
+    #isiTanggal {
+        font-size: 14px;
+        padding-bottom: 9px;
+    }
+    #picturePop, #picturePopUser {
+        width: max-content;
+        height: 38px;
+    }
+    #Kategori, #EditText, #DeleteText, #Kategori1, #Kategori2, #Kategori3, #Kategori4, #Kategori5, #Kategori6, #Kategori7, #Kategori8, #Kategori9, #Kategori10, #Kategori11, #Kategori12, #Kategori13, #Kategori14 {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+/* Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas PembatasPembatas Pembatas  */
+/* Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas PembatasPembatas Pembatas  */
+/* Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas PembatasPembatas Pembatas  */
+
+@media only screen and (min-width: 500px) and (max-width: 539.5px) {
+    #NavCenter2A {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+}
+@media only screen and (min-width: 453px) and (max-width: 499.5px) {
+    #NavCenter2A {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 452.5px) {
+    #NavCenter2A {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+
+
+@media only screen and (min-width: 780px) {
+    #NavCenterMob {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 779.5px) {
+    #NavCenterDes {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 679px) {
+    #pictureIMGUtama:hover {
+        transform: scale(112%);
+        word-wrap: break-word;
+    }
+    #pictureIMG:hover {
+        transform: scale(120%);
+        word-wrap: break-word;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 678.5px) {
+    #pictureIMGUtama:hover {
+        transform: scale(112%);
+        word-wrap: break-word;
+        transition-delay: 2.8s;
+    }
+    #pictureIMG:hover {
+        transform: scale(120%);
+        word-wrap: break-word;
+        transition-delay: 2.8s;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 539.5px) {
+    #pictureIMGUtama:hover {
+        transform: scale(112%);
+        word-wrap: break-word;
+        transition-delay: 4.2s;
+    }
+    #pictureIMG:hover {
+        transform: scale(120%);
+        word-wrap: break-word;
+        transition-delay: 4.2s;
+    }
+}
+
+/* Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas PembatasPembatas Pembatas  */
+/* Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas PembatasPembatas Pembatas  */
+/* Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas PembatasPembatas Pembatas  */
+
+#Kategori, #EditText, #DeleteText, #Kategori1, #Kategori2, #Kategori3, #Kategori4, #Kategori5, #Kategori6, #Kategori7, #Kategori8, #Kategori9, #Kategori10, #Kategori11, #Kategori12, #Kategori13, #Kategori14 {
+    padding-bottom: 1px;
+}
+
+/* Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas PembatasPembatas Pembatas  */
+
+@media only screen and (min-width: 450px) {
+    #judulHuruf {
+        font-size: 18px;
+    }
+    #isiHuruf {
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 380px) and (max-width: 449.5px) {
+    #isiDiv {
+        display: none;
+    }
+    #judulHuruf {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 379.5px) {
+    #isiDiv, #tanggalDiv {
+        display: none;
+    }
+    #judulHuruf {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+}

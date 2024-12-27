@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+        /* background-image: url(/FileWeb/Wallpaper.jpg); */
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+#Nav {
+    background: linear-gradient(to right, #0985e3, #57e0ff);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 52px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px 24px;
+    z-index: 5;
+}
+
+#NavLeft {
+    color: white;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+#NavCenter {
+    color: white;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#Nav2 {
+  position: fixed;
+  z-index: 4;
+}
+
+#NavCenterPopUp {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#NavRight {
+    color: white;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+#buttonMenu{
+    background: transparent;
+    width: 60px;
+    border: 0;
+    border-bottom: 0;
+    font-weight: 550;
+  }
+.buttonMenu:active{
+    padding-top: 4px;
+    transition: all 0.098s ease;
+  }
+.buttonMenuAB{
+    background: transparent;
+    width: 60px;
+    border: 0;
+  }
+
+  
+.buttonMenuT{
+    background: transparent;
+    width: 60px;
+    border: 0;
+    z-index: 4;
+    padding-top: 0px;
+}
+
+.Pencarian {
+    border-radius: 12px;
+    border: 1px solid;
+}
+.Pencarian:focus::placeholder {
+    color: #f94f3c;
+}
+.Pencarian[type=text] {
+    border-radius: 12px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    padding: 13px;
+}
+
+@keyframes buttonMenu2A {
+  0%{
+    transform: translateY(4px);
+  }
+  100%{
+    transform: translateY(1px);
+  }
+}
+
+@keyframes buttonMenu2AR {
+  0%{
+    transform: translateY(1px);
+}
+  100%{
+    transform: translateY(4px);
+}
+}
+
+@keyframes buttonMenu2B {
+  0%{
+      transform: translateY(-4px);
+    }
+  100%{
+      transform: translateY(-1px);
+    }
+
+}
+
+@keyframes buttonMenu2BR {
+  0%{
+    transform: translateY(-1px);
+  }
+  100%{
+    transform: translateY(-4px);
+  }
+}
+
+
+@keyframes ul-topA2 {
+  0%{
+    top: -240px
+  }
+  100%{
+    top: 72px;
+  }
+}
+@keyframes ul-topA2R {
+  0%{
+    top: 72px;
+  }
+  100%{
+    top: -240px
+  }
+}

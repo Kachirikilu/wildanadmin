@@ -1,0 +1,40 @@
+#header, #datauser, .UltraBlur, .UltraBlurX {
+    background-image: url(/FileWeb/Wallpaper/W12.jpg);
+    /* animation: Wallpaper 4.004s ease forwards; */
+    background-position-y: 77%;
+}
+.scroll-bodyKomentar, .layerChat, .layerChat-menu {
+    background-image: url(/FileWeb/Wallpaper/W12.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+.forCustomPicture {
+    content: url(/FileWeb/Wallpaper/W12.jpg);
+}
+
+@keyframes Wallpaper {
+    0% {
+        background-position-y: 0%;
+    } 100% {
+        background-position-y: 77%;
+    }
+}
+
+#idText {
+    color: white;
+    background: rgba(138, 42, 39, 0.86);
+}
+
+#buttonNavColor, #buttonNavImage {
+    background: rgba(138, 42, 39, 0.16);
+    border: 2px solid rgba(138, 42, 39);
+}
+#buttonNavColor:hover, #buttonNavImage:hover {
+    background: rgb(138, 42, 39, 0.64);
+}
+#buttonNavColor:active, #buttonNavImage:active {
+    background: rgb(138, 42, 39, 0.42);
+}
+#iconColor, #iconImage {
+    color: white;
+}

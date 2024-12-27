@@ -1,0 +1,31 @@
+.picturePreview {
+    position: relative;
+    object-fit:cover;
+    margin-top: 6px;
+    margin-bottom: 2px;
+    border-radius: 0.38em;
+}
+.picturePreviewLite {
+    position: relative;
+    object-fit:cover;
+    margin-top: 6px;
+    margin-bottom: 2px;
+    border-radius: 0.38em;
+}
+
+@media only screen and (min-width: 500px) {
+    .picturePreview {
+        width: 76%;
+    }
+    .picturePreviewLite {
+        width: 58%;;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 499.5px) {
+    .picturePreview {
+        width: 84%;
+    }
+    .picturePreviewLite {
+        width: 72%;;
+    }
+}

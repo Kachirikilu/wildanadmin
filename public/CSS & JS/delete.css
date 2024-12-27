@@ -1,0 +1,354 @@
+body {
+    overflow: hidden;
+}
+
+#WadahDelete {
+    position: absolute; 
+    width: 100%;
+    height: 100vh; 
+    z-index: 10; 
+    justify-content: center;
+    align-items: center;
+}
+
+.UltraBlur, .UltraBlurX {
+    transform: scale(1.04);
+    background-position: center;
+    background-size: cover;
+    animation: UltraBlur 1.6s ease forwards;
+    position: absolute;
+    width: 100%; height:
+    100vh;
+    z-index:-1;
+}
+
+@keyframes UltraBlur {
+    0%{
+        transform: scale(1);
+        filter: blur(0px)
+    }
+    100% {
+        transform: scale(1.04);
+        filter: blur(6px)
+    }
+}
+
+#center {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WadahDelete {
+    background: #d1e1ece0;
+    border-radius: 0.21em;
+    animation: WadahLogin 1.4s ease forwards;
+}
+.WadahEditKomenIsiforDelete {
+    position: relative;
+    overflow-y: scroll;
+    max-height: 66vh;
+    width: calc(100% + 20px);
+    
+}
+
+@media only screen and (min-width: 308px) {
+    @keyframes WadahLogin {
+        0%{
+            opacity: 0;
+            width: 300px;
+        }
+        100%{
+            opacity: 1;
+            width: 300px;
+        }
+    }
+}
+@media only screen and (min-width: 260px) and (max-width: 307.5px) {
+    @keyframes WadahLogin {
+        0%{
+            opacity: 0;
+            width: 256px;
+        }
+        100%{
+            opacity: 1;
+            width: 256px;
+        }
+    }
+}
+@media only screen and (min-width: 220px) and (max-width: 359.5px) {
+    @keyframes WadahLogin {
+        0%{
+            transform: scale(0.5) translateY(-380%);
+            width: 216px;
+        }
+        100%{
+            transform: scale(1);
+            width: 216px;
+        }
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 219.5px) {
+    @keyframes WadahLogin {
+        0%{
+            transform: scale(0.5) translateY(-380%);
+            width: 200px;
+        }
+        100%{
+            transform: scale(1);
+            width: 200px;
+        }
+    }
+}
+
+.WadahDeleteNav {
+    width: 100%;
+    height: 42px;
+    position: relative;
+    border-radius: 0.21em 0.21em 0.1em 0.1em;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputLogin {
+    border-radius: 12px;
+    border: 1px solid;
+}
+.inputLogin:focus::placeholder {
+    color: #f94f3c;
+}
+.inputLogin[type=text] {
+    border-radius: 12px;
+    border: 1px solid;
+    width: 64%;
+    height: 26px;
+    margin: 6px 0px 20px 0px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    padding: 13px;
+}
+.inputLogin[type=password] {
+    border-radius: 12px;
+    border: 1px solid;
+    width: 64%;
+    height: 26px;
+    margin: 6px 0px 20px 0px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    padding: 13px;
+}
+
+#buttonLogoutRegistrasi {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    height: 72px;
+    width: 100%;
+    border: 0;
+    font-weight: 550;
+    font-size: 17px;
+    color: black;
+}
+#buttonLogoutRegistrasi:active {
+    color: white;
+    transition: all 0.2s ease;
+}
+
+#textRegistrasi {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    opacity: 0;
+}
+
+#textLogin {
+    position: relative;
+    display: block;
+    transform: scale(1.24);
+    opacity: 1;
+}
+
+@keyframes textLogin {
+    0% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+}
+@keyframes textLoginR {
+    0% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+}
+@keyframes textRegistrasi {
+    0% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+}
+@keyframes textRegistrasiR {
+    0% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+}
+
+
+#DIVbuttonOkeCancel {
+    display: grid;
+    grid-template-columns: calc(50% - 4px) calc(50% - 4px);
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 14px;
+    margin-right: 4px;
+    margin-left: 4px;
+    transform: translateY(-6px);
+}
+#DIVbuttonOke, #DIVbuttonCancel {
+    width: 100%;
+}
+
+.buttonOke {
+    position: relative;
+    height: 32px;
+    width: 100%;
+    color: black;
+    background: rgba(0, 0, 0, 0.006);
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border: 2px double rgba(32, 32, 32, 0.36);
+    border-radius: 0.21em;
+    transition: all 0.26s ease-out;
+}
+.buttonOke:hover {
+    background: rgba(0, 0, 0, 0.012);
+    transform: translateY(-0.86px);
+    border: 1.4px groove rgba(0, 0, 0, 0.84);
+}
+.buttonOke:active {
+    background: rgba(0, 0, 0, 0.026);
+    transform: translateY(-0.24px);
+    border: 1.2px groove rgba(0, 0, 0);
+    transition: all 0.04s ease;
+}
+
+.buttonCancel {
+    position: relative;
+    height: 32px;
+    width: 100%;
+    color: black;
+    background: rgba(0, 0, 0, 0.006);
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border: 1px solid rgba(32, 32, 32, 0.36);
+    border-radius: 0.21em;
+    transition: all 0.26s ease-out;
+}
+.buttonCancel:hover {
+    background: rgba(0, 0, 0, 0.012);
+    transform: translateY(-0.86px);
+    border: 1px solid rgba(0, 0, 0, 0.84);
+}
+.buttonCancel:active {
+    background: rgba(0, 0, 0, 0.026);
+    transform: translateY(-0.24px);
+    border: 1px solid rgba(0, 0, 0);
+    transition: all 0.04s ease;
+}
+
+#buttonCreateBack {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    height: 72px;
+    width: 100%;
+    border: 0;
+    font-weight: 550;
+    font-size: 17px;
+    color: black;
+}
+#buttonCreateBack:active {
+    color: white;
+    transition: all 0.2s ease;
+}
+
+#textBack {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    opacity: 0;
+}
+
+#textCreate {
+    position: relative;
+    display: block;
+    transform: scale(1.24);
+    opacity: 1;
+}
+
+@keyframes textCreate {
+    0% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+}
+@keyframes textCreateR {
+    0% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+}
+@keyframes textBack {
+    0% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+}
+@keyframes textBackR {
+    0% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+}

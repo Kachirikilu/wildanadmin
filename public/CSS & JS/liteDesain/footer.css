@@ -1,0 +1,55 @@
+#footer {
+    width: 90%;
+    height: 300px;
+    z-index: 6;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1.2px solid rgb(190, 190, 190);
+    border-radius: 0.2em;
+}
+
+#WadahKaki {
+    width: 100%;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: space-around;
+    text-align: left;
+}
+#WadahKakiText {
+    position: relative;
+    top: 0px;
+    height: 100%;
+    vertical-align: top;
+}
+#WadahKakiPicture {
+    display: flex;
+    align-items: center;
+}
+
+.pictureKaki {
+    width: 180px;
+    transition: 0.18s ease-out;
+}
+.pictureKaki:hover {
+    width: 200px;
+}
+
+#DIVaFooter {
+    padding: 5px;
+}
+
+#aFooter {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    transition: 0.16s ease-out;
+}
+#aFooter:hover {
+    color: red;
+    padding-left: 3px;
+}

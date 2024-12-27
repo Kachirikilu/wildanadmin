@@ -1,0 +1,96 @@
+.animated-Background {
+    position: fixed;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    z-index: -1;
+}
+
+.container-Background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bubbles {
+    position: relative;
+    display: flex;
+}
+.bubbles span {
+    position: relative;
+    width: 30px;
+    aspect-ratio: 1 / 1;
+    margin: 0 4px;
+    border-radius: 100%;
+    animation: animated-Background 15s linear infinite;
+    animation-duration: calc(108s / var(--i));
+}
+.spanOriginal {
+    background: #166af2;
+    box-shadow: 0 0 0 10px #166af244, 0 0 50px #166af2, 0 0 100px #166af2;
+}
+.spanOriginalX {
+    background: #57f4ff;
+    box-shadow: 0 0 0 10px #57f4ff44, 0 0 50px #57f4ff, 0 0 100px #57f4ff;
+}
+.spanNightMode {
+    background: #004ecb;
+    box-shadow: 0 0 0 10px #004ecb44, 0 0 50px #004ecb, 0 0 100px #004ecb;
+}
+.spanNightModeX {
+    background: #2fc3ce;
+    box-shadow: 0 0 0 10px #2fc3ce44, 0 0 50px #2fc3ce, 0 0 100px #2fc3ce;
+}
+.spanApriza {
+    background: #ff0000;
+    box-shadow: 0 0 0 10px #ff000044, 0 0 50px #ff0000, 0 0 100px #ff0000;
+}
+.spanAprizaX {
+    background: #ffa500;
+    box-shadow: 0 0 0 10px #ffa50044, 0 0 50px #ffa500, 0 0 100px #ffa500;
+}
+.spanVira {
+    background: #ffeaa6;
+    box-shadow: 0 0 0 10px #ffeaa644, 0 0 50px #ffeaa6, 0 0 100px #ffeaa6;
+}
+.spanViraX {
+    background: #a52b2a;
+    box-shadow: 0 0 0 10px #a52b2a44, 0 0 50px #a52b2a, 0 0 100px #a52b2a;
+}
+.spanAulia {
+    background: #fda7ff;
+    box-shadow: 0 0 0 10px #fda7ff44, 0 0 50px #fda7ff, 0 0 100px #fda7ff;
+}
+.spanAuliaX {
+    background: #ca4369;
+    box-shadow: 0 0 0 10px #ca436944, 0 0 50px #ca4369, 0 0 100px #ca4369;
+}
+.spanDaffa {
+    background: #7e2ce8;
+    box-shadow: 0 0 0 10px #7e2ce844, 0 0 50px #7e2ce8, 0 0 100px #7e2ce8;
+}
+.spanDaffaX {
+    background: #926ac6;
+    box-shadow: 0 0 0 10px #926ac644, 0 0 50px #926ac6, 0 0 100px #926ac6;
+}
+.spanAncaGTG {
+    background: #ff00ea;
+    box-shadow: 0 0 0 10px #ff00ea44, 0 0 50px #ff00ea, 0 0 100px #ff00ea;
+}
+.spanAncaGTGX {
+    background: #40ffff;
+    box-shadow: 0 0 0 10px #40ffff44, 0 0 50px #40ffff, 0 0 100px #40ffff;
+}
+/* .bubbles span:nth-child(even) {
+    background: #ff2d75;
+    box-shadow: 0 0 0 10px #ff2d7544, 0 0 50px #ff2d75, 0 0 100px #ff2d75;
+} */
+@keyframes animated-Background {
+    0% {
+        transform: translateY(108vh) scale(0);
+    } 100% {
+        transform: translateY(-24vh) scale(1.6);
+    }
+}

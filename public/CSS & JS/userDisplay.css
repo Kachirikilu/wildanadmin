@@ -1,0 +1,964 @@
+@media only screen and (min-width: 1150px) {
+    #layerUtama {
+        margin-top: 76px;
+    }
+    #home {
+        height: calc(100vh - 76px);
+        margin-top: 76px;
+    }
+
+    #BETAVERSION {
+        margin: 0 12px 0 48px;
+    }
+    #NavCenter1, #NavCenter2, #NavCenter3, #NavCenter4 {
+        margin: 0 38px 0 38px;
+    }
+    .Pencarian {
+        width: 40vh;
+        max-width: 280px;
+        margin: 0 0 0 12px;
+    }
+    #NavRight5 {
+        margin: 0 24px 0 24px;
+    }
+
+    .grid-item, .grid-itemUtama  {
+        padding-bottom: 42px;
+    }
+    #judulHuruf {
+        -webkit-line-clamp: 2; /* number of lines to show */
+    }
+    #isiHuruf {
+        -webkit-line-clamp: 3; /* number of lines to show */
+    }
+    #picturePopUser {
+        width: max-content;
+        height: 36px;
+    }
+
+    #Kategori, #EditText, #DeleteText {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Pembatas */
+
+    #judulDiv {
+        margin-top: 6px;
+        margin-bottom: 6px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        padding-bottom: 8px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.6px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 18px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 16px;
+    }
+    #isiTanggal {
+        font-size: 12px;
+    }
+    #pictureText {
+        font-size: 16px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1100px) and (max-width: 1149.5px) {
+    #layerUtama {
+        margin-top: 76px;
+    }
+    #home {
+        height: calc(100vh - 76px);
+        margin-top: 76px;
+    }
+
+    #BETAVERSION {
+        margin: 0 12px 0 48px;
+    }
+    #NavCenter1, #NavCenter2, #NavCenter3, #NavCenter4 {
+        margin: 0 32px 0 32px;
+    }
+    .Pencarian {
+        width: 40vh;
+        height: 32px;
+        margin: 0 0 0 12px;
+    }
+    #NavRight5 {
+        margin: 0 24px 0 24px;
+    }
+
+    .grid-item, .grid-itemUtama  {
+        padding-bottom: 40px;
+    }
+    #judulHuruf {
+        -webkit-line-clamp: 2; /* number of lines to show */
+    }
+    #isiHuruf {
+        -webkit-line-clamp: 3; /* number of lines to show */
+    }
+    #picturePopUser {
+        width: max-content;
+        height: 35px;
+    }
+
+    #Kategori, #EditText, #DeleteText {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Pembatas */
+    
+    #judulDiv {
+        margin-top: 6px;
+        margin-bottom: 6px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        padding-bottom: 8px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.4px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 18px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 16px;
+    }
+    #isiTanggal {
+        font-size: 12px;
+    }
+    #pictureText {
+        font-size: 15px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1099.5px) {
+    #layerUtama {
+        margin-top: 76px;
+    }
+    #home {
+        height: calc(100vh - 76px);
+        margin-top: 76px;
+    }
+
+    #BETAVERSION {
+        margin: 0 8px 0 48px;
+    }
+    #NavCenter1, #NavCenter2, #NavCenter3, #NavCenter4 {
+        margin: 0 24px 0 24px;
+    }
+    .Pencarian {
+        width: 36vh;
+        height: 32px;
+        margin: 0 0 0 8px;
+    }
+    #NavRight5 {
+        margin: 0 24px 0 24px;
+    }
+    
+    .grid-item, .grid-itemUtama  {
+        padding-bottom: 40px;
+    }
+    #judulHuruf {
+        -webkit-line-clamp: 2; /* number of lines to show */
+    }
+    #isiHuruf {
+        -webkit-line-clamp: 3; /* number of lines to show */
+    }
+    #picturePopUser {
+        width: max-content;
+        height: 34px;
+    }
+
+    #Kategori, #EditText, #DeleteText {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Pembatas */
+
+    #judulDiv {
+        margin-top: 6px;
+        margin-bottom: 6px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        padding-bottom: 6px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.2px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 16px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 15px;
+    }
+    #isiTanggal {
+        font-size: 12px;
+    }
+    #pictureText {
+        font-size: 14px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 940px) and (max-width: 999.5px) {
+    #layerUtama {
+        margin-top: 76px;
+    }
+    #home {
+        height: calc(100vh - 76px);
+        margin-top: 76px;
+    }
+
+    #BETAVERSION {
+        margin: 0 8px 0 32px;
+    }
+    #NavCenter1, #NavCenter2, #NavCenter3, #NavCenter4 {
+        margin: 0 16px 0 24px;
+    }
+    .Pencarian {
+        width: 36vh;
+        height: 32px;
+        margin: 0 0 0 8px;
+    }
+    #NavRight5 {
+        margin: 0 16px 0 16px;
+    }
+
+    .grid-item, .grid-itemUtama  {
+        padding-bottom: 34px;
+    }
+    #judulHuruf {
+        -webkit-line-clamp: 2; /* number of lines to show */
+    }
+    #isiHuruf {
+        -webkit-line-clamp: 3; /* number of lines to show */
+    }
+    #picturePopUser {
+        width: max-content;
+        height: 36px;
+    }
+
+    #Kategori, #EditText, #DeleteText {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Pembatas */
+
+    #judulDiv {
+        margin-top: 6px;
+        margin-bottom: 6px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        padding-bottom: 6px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.4px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 18px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 16px;
+    }
+    #isiTanggal {
+        font-size: 12px;
+    }
+
+    #pictureText {
+        font-size: 16px;
+    }
+    
+}
+
+
+
+
+@media only screen and (min-width: 850px) and (max-width: 939.5px) {
+    #layerUtama {
+        margin-top: 70px;
+    }
+    #home {
+        height: calc(100vh - 70px);
+        margin-top: 70px;
+        margin-top: 70px;
+    }
+
+    #BETAVERSION {
+        margin: 0 6px 0 24px;
+    }
+    #NavCenter1, #NavCenter2, #NavCenter3, #NavCenter4 {
+        margin: 0 16px 0 16px;
+    }
+    .Pencarian {
+        width: 32vh;
+        height: 16px;
+        margin: 0 0 0 6px;
+    }
+    #NavRight5 {
+        margin: 0 12px 0 12px;
+    }
+
+    .grid-item, .grid-itemUtama {
+        padding-bottom: 34px;
+    }
+    #judulHuruf {
+        -webkit-line-clamp: 2; /* number of lines to show */
+    }
+    #isiHuruf {
+        -webkit-line-clamp: 3; /* number of lines to show */
+    }
+    #picturePopUser {
+        width: max-content;
+        height: 36px;
+    }
+
+    #Kategori, #EditText, #DeleteText {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Pembatas */
+
+    #judulDiv {
+        margin-top: 6px;
+        margin-bottom: 6px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        padding-bottom: 6px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.4px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 18px;   
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 16px;
+    }
+    #isiTanggal {
+        font-size: 12px;
+    }
+    #pictureText {
+        font-size: 16px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 800px) and (max-width: 849.5px) {
+    #layerUtama {
+        margin-top: 70px;
+    }
+    #home {
+        height: calc(100vh - 70px);
+        margin-top: 70px;
+    }
+
+    #BETAVERSION {
+        margin: 0 10px 0 36px;
+    }
+    #NavCenter1, #NavCenter2, #NavCenter4 {
+        margin: 0 24px 0 24px;
+    }
+    #NavCenter3 {
+        display: none;
+    }
+    .Pencarian {
+        width: 30vh;
+        height: 12px;
+        margin: 0 0 0 10px;
+    }
+    #NavRight5 {
+        margin: 0 18px 0 18px;
+    }
+
+    .grid-item, .grid-itemUtama  {
+        padding-bottom: 34px;
+    }
+    #judulHuruf {
+        -webkit-line-clamp: 2; /* number of lines to show */
+    }
+    #isiHuruf {
+        -webkit-line-clamp: 3; /* number of lines to show */
+    }
+    #picturePopUser {
+        width: max-content;
+        height: 35px;
+    }
+
+    #Kategori, #EditText, #DeleteText {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    /* Pembatas */
+
+    #judulDiv {
+        margin-top: 6px;
+        margin-bottom: 6px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        padding-bottom: 6px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.2px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 16px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 15px;
+    }
+    #isiTanggal {
+        font-size: 12px;
+    }
+    #pictureText {
+        font-size: 15px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 780px) and (max-width: 799.5px) {
+    #layerUtama {
+        margin-top: 70px;
+    }
+    #home {
+        height: calc(100vh - 70px);
+        margin-top: 70px;
+    }
+
+    #BETAVERSION {
+        margin: 0 10px 0 28px;
+    }
+    #NavCenter1, #NavCenter2, #NavCenter4 {
+        margin: 0 24px 0 24px;
+    }
+    #NavCenter3 {
+        display: none;
+    }
+    .Pencarian {
+        width: 30vh;
+        height: 12px;
+        margin: 0 0 0 10px;
+    }
+    #NavRight5 {
+        margin: 0 14px 0 14px;
+    }
+
+    .grid-item, .grid-itemUtama  {
+        padding-bottom: 34px;
+    }
+    #judulHuruf {
+        -webkit-line-clamp: 2; /* number of lines to show */
+    }
+    #isiHuruf {
+        -webkit-line-clamp: 3; /* number of lines to show */
+    }
+    #picturePopUser {
+        width: max-content;
+        height: 34px;
+    }
+
+    #Kategori, #EditText, #DeleteText {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavHomeX, #buttonNavHomeP, #buttonNavCreate, #buttonNavCreateX, #buttonNavCreateP, #buttonNavNews, #buttonNavNewsX, #buttonNavNewsP, #buttonNavChat, #buttonNavChatX, #buttonNavWallpaper, #buttonNavWallpaperX, #buttonNavProfil, #buttonNavProfilX, #buttonNavLogout, #buttonNavLogoutX, #buttonNavLogoutP, #buttonMenu, #buttonMenuX, #buttonMenuP {
+        height: 90px;
+    }
+
+    #judulDiv {
+        margin-top: 6px;
+        margin-bottom: 6px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        padding-bottom: 6px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.2px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 18px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 16px;
+    }
+    #isiTanggal {
+        font-size: 14px;
+    }
+
+    #pictureText {
+        font-size: 14px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 679px) and (max-width: 779.5px) {
+    #layerUtama {
+        margin-top: 70px;
+    }
+    #home {
+        height: calc(100vh - 70px);
+        margin-top: 70px;
+    }
+
+    #BETAVERSION {
+        margin: 0 14px 0 36px;
+    }
+    #NavCenter1, #NavCenter2 {
+        margin: 0 26px 0 26px;
+    }
+    #NavCenter3, #NavCenter4 {
+        display: none;
+    }
+    .Pencarian {
+        width: 28vh;
+        height: 12px;
+        margin: 0 0 0 14px;
+    }
+    #NavRight5 {
+        margin: 0 18px 0 18px;
+    }
+
+    .grid-item, .grid-itemUtama  {
+        padding-bottom: 42px;
+    }
+    #judulHuruf {
+        -webkit-line-clamp: 2; /* number of lines to show */
+    }
+    #isiHuruf {
+        -webkit-line-clamp: 3; /* number of lines to show */
+    }
+    #picturePopUser {
+        width: max-content;
+        height: 34px;
+    }
+
+    #Kategori, #EditText, #DeleteText {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* Pembatas */
+    
+    #judulDiv {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        padding-bottom: 10px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.4px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 18px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 16px;
+    }
+    #isiTanggal {
+        font-size: 14px;
+    }
+    #pictureText {
+        font-size: 14px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 620px) and (max-width: 678.5px) {
+    #layerUtama {
+        margin-top: 70px;
+    }
+    #home {
+        height: calc(100vh - 70px);
+        margin-top: 70px;
+    }
+
+    #BETAVERSION {
+        display: none;
+    }
+    #NavCenter1, #NavCenter2, #NavCenter3, #NavCenter4 {
+        margin: 0 14px 0 14px;
+    }
+    .Pencarian {
+        width: 24vh;
+        height: 12px;
+    }
+    #NavRight5 {
+        margin: 0 10px 0 10px;
+    }
+    
+    .grid-item, .grid-itemUtama  {
+        padding-bottom: 34px;
+    }
+    #judulHuruf {
+        -webkit-line-clamp: 2; /* number of lines to show */
+    }
+    #isiHuruf {
+        -webkit-line-clamp: 3; /* number of lines to show */
+    }
+    #picturePopUser {
+        width: max-content;
+        height: 40px;
+    }
+
+    #Kategori, #EditText, #DeleteText {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    /* Pembatas */
+    
+    #judulDiv {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        padding-bottom: 10px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.4px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 18px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 16px;
+    }
+    #isiTanggal {
+        font-size: 14px;
+    }
+    #pictureText {
+        font-size: 16px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 540px) and (max-width: 619.5px) {
+    #layerUtama {
+        margin-top: 66px;
+    }
+    #home {
+        height: calc(100vh - 66px);
+        margin-top: 66px;
+    }
+
+    #BETAVERSION {
+        display: none;
+    }
+    #NavCenter1, #NavCenter2, #NavCenter4 {
+        margin: 0 20px 0 20px;
+    }
+    #NavCenter3 {
+        display: none;
+    }
+    .Pencarian {
+        width: 24vh;
+        height: 12px;
+    }
+    #NavRight5 {
+        margin: 0 10px 0 10px;
+    }
+
+    .grid-item, .grid-itemUtama  {
+        padding-bottom: 26px;
+    }
+    #judulHuruf {
+        -webkit-line-clamp: 2; /* number of lines to show */
+    }
+    #isiHuruf {
+        -webkit-line-clamp: 3; /* number of lines to show */
+    }
+    #picturePopUser {
+        width: max-content;
+        height: 37px;
+    }
+
+    #Kategori, #EditText, #DeleteText {
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+
+    /* Pembatas */
+
+    #pictureDivUtama {
+        height: calc(1.2*300px);  
+    }
+    #judulDiv {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        padding-bottom: 10px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.6px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 16px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 16px;
+    }
+    #isiTanggal {
+        font-size: 14px;
+        padding-bottom: 4px;
+    }
+    #pictureText {
+        font-size: 15px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 539.5px) {
+    #layerUtama {
+        margin-top: 66px;
+    }
+    #home {
+        height: calc(100vh - 66px);
+        margin-top: 66px;
+    }
+
+    #BETAVERSION {
+        display: none;
+    }
+    #NavCenter1, #NavCenter2 {
+        margin: 0 30px 0 30px;
+    }
+    #NavCenter3, #NavCenter4, .Pencarian {
+        display: none;
+    }
+    #NavRight5 {
+        margin: 0 22px 0 22px;
+    }
+
+    .grid-item, .grid-itemUtama  {
+        padding-bottom: 20px;
+    }
+    #judulHuruf {
+        -webkit-line-clamp: 3; /* number of lines to show */
+    }
+    #isiHuruf {
+        -webkit-line-clamp: 4; /* number of lines to show */
+    }
+    /* #isiTanggal {
+        font-size: 14px;
+        padding-bottom: 9px;
+    }
+    #picturePopUser {
+        width: max-content;
+        height: 18px;
+    }
+
+    #Kategori, #EditText, #DeleteText {
+        padding-left: 12px;
+        padding-right: 12px;
+    } */
+
+    /* Pembatas */
+
+    #pictureDivUtama {
+        height: calc(1.2*240px);  
+    }
+    #judulDiv {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        padding-bottom: 10px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.6px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 18px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 16px;
+    }
+    #pictureText {
+        font-size: 14px;
+    }
+}
+
+/* Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas PembatasPembatas Pembatas  */
+/* Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas PembatasPembatas Pembatas  */
+/* Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas PembatasPembatas Pembatas  */
+
+@media only screen and (min-width: 370px) and (max-width: 539.5px) {
+    #isiTanggal {
+        font-size: 14px;
+        padding-bottom: 9px;
+    }
+    #picturePopUser {
+        width: max-content;
+        height: 38px;
+    }
+    
+    #Kategori, #EditText, #DeleteText {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+@media only screen and (min-width: 280px) and (max-width: 369.5px) {
+    #isiTanggal {
+        font-size: 10px;
+        padding-bottom: 9px;
+    }
+    #picturePopUser {
+        width: max-content;
+        height: 32px;
+    }
+    
+    #Kategori, #EditText, #DeleteText {
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 279.5px) {
+    #isiTanggal {
+        font-size: 14px;
+        padding-bottom: 9px;
+    }
+    #picturePopUser {
+        width: max-content;
+        height: 38px;
+    }
+    
+    #Kategori, #EditText, #DeleteText {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+/* Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas PembatasPembatas Pembatas  */
+/* Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas PembatasPembatas Pembatas  */
+/* Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas PembatasPembatas Pembatas  */
+
+#Kategori, #EditText, #DeleteText {
+    padding-bottom: 1px;
+}
+
+/* Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas PembatasPembatas Pembatas  */
+
+@media only screen and (min-width: 450px) {
+    #judulHuruf {
+        font-size: 18px;
+    }
+    #isiHuruf {
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 380px) and (max-width: 449.5px) {
+    #isiDiv {
+        display: none;
+    }
+    #judulHuruf {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 379.5px) {
+    #isiDiv, #tanggalDiv {
+        display: none;
+    }
+    #judulHuruf {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+}

@@ -1,0 +1,335 @@
+#home, #datauser {
+    position: relative;
+    height: 100vh;
+    justify-content: center;
+    overflow: auto;
+    background-position: center;
+    background-size: cover;
+}
+#home {
+    width: var(--widthPC1);
+}
+#datauser {
+    width: calc(100% + 20px);
+}
+@media only screen and (min-width: 450px) {
+    :root {
+        --widthPC1: 100%;
+        --widthPC2: calc(100% + 20px);
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 449.5px) {
+    :root {
+        --widthPC1: calc(100% + 20px);
+        --widthPC2: calc(100% + 20px);
+    }
+}
+
+#homeLite {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    overflow: auto;
+    background-position: center;
+    background-size: cover;
+}
+@media only screen and (min-width: 450px) {
+    #homeLite {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 449.5px) {
+    #homeLite {
+        width: calc(100% + 20px);
+    }
+}
+
+#blur {
+    overflow-y: auto;
+}
+
+@keyframes blur {
+    0%{
+        filter: none;
+    }
+    100%{
+        /* transform: scale(1.012); */
+        filter: blur(1px);
+    }
+}
+@keyframes blurR { 
+    0%{
+        /* transform: scale(1.012); */
+        filter: blur(1px);
+    }
+    100%{
+        filter: none;
+    }
+}
+@keyframes blur2 {
+    0%{
+        filter: none;
+    }
+    100%{
+        /* transform: scale(1.012); */
+        filter: blur(2px);
+    }
+}
+@keyframes blur2R { 
+    0%{
+        /* transform: scale(1.012); */
+        filter: blur(2px);
+    }
+    100%{
+        filter: none;
+    }
+}
+
+@keyframes homeback {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    } 100% {
+        opacity: 1;
+    }
+}
+@keyframes homebackR {
+    0% {
+        opacity: 1;
+    } 100% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+}
+
+@keyframes nav {
+    0%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
+@keyframes navR {
+    0%{
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes navX { 
+    0%{
+        transform: translateY(-100%);
+    }
+    32%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0%);
+        border-radius: 0.6em;
+        margin: 0 5%;
+    }
+}
+@keyframes navXR { 
+    0%{
+        transform: translateY(0%);
+        border-radius: 0.6em;
+        margin: 0 5%;
+    }
+    32%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+}
+
+#grid-container {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    overflow-y: auto;
+    animation: opacityAwalContainer 1.8s ease forwards;
+}
+
+@keyframes opacityAwalContainer {
+    0% {
+        opacity: 0;
+    } 50% {
+        opacity: 0;
+    } 100% {
+        opacity: 1;
+    }
+}
+
+.grid-item {
+    width: 100%;
+    border-radius: 0.6em;
+}
+#pictureDiv {
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 0.6em;
+    aspect-ratio: 3 / 2;
+}
+
+.grid-itemUtama {
+    width: 100%;
+}
+#pictureDivUtama {
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 0.6em;
+    width: 100%;
+    height: 100%;
+}
+#pictureIMGUtama, #pictureIMGVideo, #pictureIMGButton, #pictureIMGUtamaCUSTOM {
+    position: relative;
+    z-index: 2;
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.16s ease-out;
+    background: transparent;
+    border: 0;
+}
+
+
+#judulDiv {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    letter-spacing: 0.6px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#isiDiv {
+    padding-bottom: 8px;
+}
+#tanggalDiv {
+    padding-bottom: 12.5px;
+    display: flex;
+    align-items: center;
+}
+#judulHuruf, #isiHuruf, #isiTanggal {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+}
+#judulHuruf {
+    /* font-size: 18px; */
+    -webkit-line-clamp: 2; /* number of lines to show */
+    font-weight: 600;
+    text-align: left;
+}
+#isiHuruf {
+    /* font-size: 16px; */
+    -webkit-line-clamp: 3; /* number of lines to show */
+    text-align: left;
+}
+/* #isiTanggal {
+    font-size: 12px;
+} */
+
+#buttonDetail {
+    background: transparent;
+    border: none;
+    width: 100%;
+}
+
+#pictureDiv2 {
+    position: relative;
+    z-index: 2;
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
+
+#pictureIMG {
+    object-fit:cover;
+    width:100%;
+    height:100%;  
+    transition: 0.22s ease-out;
+}
+#pictureDiv:hover > #picturePopUser {
+    transform: translateY(0%);
+}
+
+#picturePop, #picturePopUser {
+    position: relative;
+    transform: translateY(calc(-100% + 1px));
+    z-index: 2;
+    transition: all 0.22s ease-out;
+}
+#picturePop:hover {
+    transform: translateY(calc(-300% + 1px));
+}
+
+#pictureText, #pictureEdit, #pictureDelete, #pictureDeleteX, #pictureEditX, #pictureTextCEO, #pictureTextAdmin, #pictureTextUser, #pictureTextCEOX, #pictureTextAdminX, #pictureTextUserX {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    transition:  all 0.22s ease-out;
+    border: 0;
+}
+
+#pictureText {
+    border-radius: 0.1em 0.56em 0 0;
+}
+#pictureTextCEO, #pictureTextCEOX {
+    border-radius: 0.1em 0.56em 0 0;
+    background: #fff30d;
+    transition: 0.2s ease-out;
+}
+#pictureTextAdmin, #pictureTextAdminX {
+    border-radius: 0.1em 0.56em 0 0;
+    background: #3be2ff;
+    transition: 0.2s ease-out;
+}
+#pictureTextUser, #pictureTextUserX {
+    border-radius: 0.1em 0.56em 0 0;
+    background: #26de81;
+    transition: 0.2s ease-out;
+}
+
+#pictureTextCEOX:hover, #pictureTextAdminX:hover, #pictureTextUserX:hover {
+    width: 132%;
+}
+
+
+#pictureEdit {
+    transition:  all 0.2s ease-out
+}
+#pictureEdit:hover {
+    background: #f6b93b;
+}
+#pictureEdit:hover > a {
+      color: white;
+}
+#pictureDelete {
+    transition:  all 0.2s ease-out
+}
+#pictureDelete:hover {
+    background: red;
+}
+#pictureDelete:hover > a {
+      color: white;
+}

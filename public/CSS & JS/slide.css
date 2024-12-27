@@ -1,0 +1,123 @@
+.ul-top3W {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    width: 100%;
+    height: 100%;
+}
+#container-Wallpaper {
+    display: grid;
+    background: rgba(64, 64, 64, 0.64);
+    border-radius: 0.8em;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px 12px;
+}
+
+.dp-slideColor {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    height: max-content;
+    padding: 0.5%;
+}
+.dp-slidePicture {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: max-content;
+    padding: 0.5%;
+}
+
+
+@keyframes ul-top3W {
+    0%{
+        opacity: 0;
+        display: none;
+    }
+    100%{
+        opacity: 1;
+        display: inline;
+    }
+}
+@keyframes ul-top3WR {
+    0%{
+        opacity: 1;
+        display: inline;
+    }
+    100%{
+        opacity: 0;
+        display: none;
+    }
+}
+@keyframes ul-top3WR2 {
+    0%{
+        opacity: 1;
+        display: inline;
+    }
+    100%{
+        opacity: 0;
+        display: none;
+    }
+}
+
+.w-slide {
+    background: #202121ba;
+    border-radius: 0.8em;
+    color: rgb(230, 230, 230);
+    border: 0px;
+    aspect-ratio: 3 / 1.8;
+    transition: 0.21s ease-out;
+}
+.w-sliderx {
+    border-radius: 16px;
+    transition: 0.21s ease-out;
+}
+
+.w-slide:hover {
+    background: #ea2009fb;
+    animation: wallpaperOpsiKey 0.21s ease forwards;
+}
+@keyframes wallpaperOpsiKey {
+    0%{
+        transform: scale(1);
+    }
+    42%{
+        transform: scale(1.02);
+    }
+    100%{
+        transform: scale(0.98);
+    }
+}
+.w-slide:active {
+    background: #cc0f09fb;
+    animation: wallpaperOpsiKeyA 0.06s ease forwards
+}
+@keyframes wallpaperOpsiKeyA {
+    0%{
+        transform: scale(1.04);
+    }
+    64%{
+        transform: scale(0.972);
+    }
+    100%{
+        transform: scale(0.96);
+    }
+}

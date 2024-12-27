@@ -1,0 +1,748 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+.UltraBlur,
+.UltraBlurX {
+  background-position: center;
+  background-size: cover;
+  animation: UltraBlur 1.6s ease forwards;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+@media only screen and (min-width: 700px) {
+  .WadahCreate {
+    width: 600px;
+  }
+  .WadahEdit,
+  .WadahEditComment {
+    width: 360px;
+  }
+
+  .inputTextContent[type="text"],
+  .inputCoding[type="text"],
+  .outputTextArea,
+  .headerTextArea,
+  .CodeMirror {
+    min-width: 86%;
+    max-width: 86%;
+  }
+
+  .inputCreateJ[type="text"],
+  .inputEditComment {
+    width: 86%;
+  }
+  .picturePreviewKomen {
+    width: 78%;
+  }
+  .inputCreate[type="text"] {
+    width: 86%;
+  }
+  .inputCreate[type="date"] {
+    width: 86%;
+  }
+  .inputCreate[type="file"] {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 582px) and (max-width: 699.5px) {
+  .WadahCreate {
+    width: 560px;
+  }
+  .WadahEdit,
+  .WadahEditComment {
+    width: 360px;
+  }
+
+  .inputTextContent[type="text"],
+  .inputCoding[type="text"],
+  .outputTextArea,
+  .headerTextArea,
+  .CodeMirror {
+    min-width: 86%;
+    max-width: 86%;
+  }
+
+  .inputCreateJ[type="text"],
+  .inputEditComment {
+    width: 86%;
+  }
+  .picturePreviewKomen {
+    width: 78%;
+  }
+  .inputCreate[type="text"] {
+    width: 86%;
+  }
+  .inputCreate[type="date"] {
+    width: 86%;
+  }
+  .inputCreate[type="file"] {
+    width: 52%;
+  }
+}
+@media only screen and (min-width: 518px) and (max-width: 581.5px) {
+  .WadahCreate {
+    width: 490px;
+  }
+}
+@media only screen and (min-width: 478px) and (max-width: 517.5px) {
+  .WadahCreate {
+    width: 464px;
+  }
+}
+@media only screen and (min-width: 448px) and (max-width: 477.5px) {
+  .WadahCreate {
+    width: 436px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 447.5px) {
+  .WadahCreate {
+    width: 412px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 399.5px) {
+  .WadahCreate {
+    width: 99.8%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 581.5px) {
+  .inputTextContent[type="text"],
+  .inputCoding[type="text"],
+  .outputTextArea,
+  .headerTextArea,
+  .CodeMirror {
+    min-width: 92%;
+    max-width: 92%;
+  }
+
+  .inputCreateJ[type="text"],
+  .inputEditComment {
+    width: 92%;
+  }
+  .picturePreviewKomen {
+    width: 84%;
+  }
+  .inputCreate[type="text"] {
+    width: 92%;
+  }
+  .inputCreate[type="date"] {
+    width: 92%;
+  }
+  .inputCreate[type="file"] {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 308px) and (max-width: 581.5px) {
+  .WadahEdit,
+  .WadahEditComment {
+    width: 300px;
+  }
+}
+@media only screen and (min-width: 260px) and (max-width: 307.5px) {
+  .WadahEdit,
+  .WadahEditComment {
+    width: 256px;
+  }
+}
+@media only screen and (min-width: 220px) and (max-width: 359.5px) {
+  .WadahEdit,
+  .WadahEditComment {
+    width: 216px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 219.5px) {
+  .WadahEdit,
+  .WadahEditComment {
+    width: 200px;
+  }
+}
+
+.WadahEditComment {
+  margin: 32px 21px 21px 0;
+  position: relative;
+  background: #d1e1ece0;
+  border-radius: 0.21em;
+  animation: WadahCreate 1.4s ease forwards;
+}
+
+@keyframes UltraBlur {
+  0% {
+    transform: scale(1);
+    filter: blur(0px);
+  }
+  100% {
+    transform: scale(1.04);
+    filter: blur(6px);
+  }
+}
+
+.WadahCreateT {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.WadahCreateFlex {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.WadahCreate {
+  position: relative;
+  background: #d1e1ece0;
+  border-radius: 0.21em;
+  animation: WadahCreate 1.4s ease forwards;
+}
+
+@keyframes WadahCreate {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.WadahCreateNav {
+  width: 100%;
+  height: 42px;
+  position: relative;
+  border-radius: 0.21em 0.21em 0.1em 0.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.WadahCreateIsi {
+  position: relative;
+  overflow-y: scroll;
+  width: calc(100% + 20px);
+  max-height: calc(85vh - 42px);
+  padding-top: 26px;
+  padding-bottom: 32px;
+}
+.WadahEditKomenIsi {
+  position: relative;
+  overflow-y: scroll;
+  width: calc(100% + 20px);
+  max-height: 80vh;
+  margin-bottom: 18px;
+}
+
+.optionTerpilih {
+  background: red;
+  color: white;
+}
+
+.inputCreate {
+  border-radius: 0.6em;
+  outline: none;
+}
+.inputCreateJ:focus::placeholder,
+.inputCreate:focus::placeholder,
+.inputEditComment:focus::placeholder {
+  color: #f94f3c;
+  transition: all 0.56s ease;
+}
+.inputCreateJ[type="text"]:focus,
+.inputCreate[type="text"]:focus,
+.inputCreate[type="date"]:focus,
+.inputTextContent[type="text"]:focus,
+.inputCoding[type="text"]:focus,
+.inputEditComment[type="text"]:focus {
+  border-color: #ff1900;
+  transition: all 0.56s ease;
+}
+
+.inputCreateJ[type="text"] {
+  border-radius: 0.6em;
+  height: 39px;
+  margin: 9px 0px 16px 0px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.384);
+  padding: 13px;
+  outline: none;
+}
+.inputCreate[type="text"] {
+  border-radius: 0.6em;
+  height: 39px;
+  margin: 9px 0px 9px 0px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.384);
+  padding: 13px;
+  outline: none;
+}
+.inputEditComment {
+  border-radius: 0.6em;
+  height: 39px;
+  margin-top: 27px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.384);
+  padding: 13px;
+  outline: none;
+}
+.inputCreate[type="date"] {
+  border-radius: 0.6em;
+  height: 39px;
+  margin: 9px 0px 16px 0px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.384);
+  padding: 13px;
+  outline: none;
+}
+
+.inputCreateOpsi,
+.inputCreateOpsiX,
+.inputCreateOpsi2,
+.inputCreateOpsi3 {
+  border-radius: 0.6em;
+  border: 1px solid;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.384);
+  padding-left: 9.4px;
+  color: #46415d;
+  outline: none;
+}
+.inputCreateOpsi {
+  margin: 9px 0px 16px 0px;
+  width: 70%;
+  height: 32px;
+}
+.inputCreateOpsiX {
+  width: 140px;
+  height: 27px;
+}
+.inputCreateOpsi2 {
+  margin: 0px 0px 16px 0px;
+  width: 70%;
+  height: 32px;
+}
+.inputCreateOpsi3 {
+  margin: 0px 0px 16px 0px;
+  width: 120px;
+  height: 27px;
+}
+
+.inputCreateOpsi:focus {
+  border-color: #ff1900;
+  transition: all 0.56s ease;
+}
+
+.inputCreate[type="file"] {
+  position: relative;
+  height: 27.8px;
+  margin-top: 9px;
+  margin-bottom: 2px;
+  padding: 0 80px 0 13px;
+  border-radius: 3px;
+  font-size: 15px;
+  background: #dcddde64;
+  transition: all 0.3s ease;
+  border-radius: 0.52em;
+  border: 1px solid rgba(0, 0, 0, 0.384);
+  outline: none;
+}
+.inputCreate[type="file"]::placeholder {
+  color: #f94f3c;
+  transition: all 0.36s ease;
+}
+.inputCreate[type="file"]:focus {
+  border-color: #ff1900;
+  transition: all 0.56s ease;
+}
+.inputCreate[type="file"]::-webkit-file-upload-button {
+  display: none;
+}
+.inputCreate[type="file"]::before {
+  content: "Pictureㅤ";
+  color: #46415d;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+.inputCreateX[type="file"] {
+  position: relative;
+  height: 27.8px;
+  width: 150px;
+  padding: 0 20px 0 20px;
+  font-size: 15px;
+  background: #dcddde64;
+  transition: all 0.3s ease;
+  border-radius: 0.52em;
+  border: 1px solid rgba(0, 0, 0, 0.384);
+  margin-top: 8px;
+  outline: none;
+}
+.inputCreateX[type="file"]::placeholder {
+  color: #f94f3c;
+  transition: all 0.36s ease;
+}
+.inputCreateX[type="file"]:focus {
+  border-color: #ff1900;
+  transition: all 0.56s ease;
+}
+.inputCreateX[type="file"]::-webkit-file-upload-button {
+  display: none;
+}
+.inputCreateX[type="file"]::before {
+  content: "Pictureㅤ";
+  color: #46415d;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+.inputTextContent {
+  border-radius: 0.6em;
+  height: 50px;
+}
+
+.inputTextContent:focus::placeholder,
+.inputCoding:focus::placeholder {
+  color: #f94f3c;
+  transition: all 0.36s ease;
+}
+.inputTextContent[type="text"] {
+  border-radius: 0.6em;
+  min-height: 130px;
+  margin: 9px 0px 16px 0px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.384);
+  padding: 13px;
+  outline: none;
+}
+
+.buttonCreate {
+  position: absolute;
+  height: 27.8px;
+  width: 90px;
+  margin-top: 9px;
+  margin-bottom: 2px;
+  color: black;
+  background: #56ff40;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  border-radius: 0.6em;
+  border: 0px;
+  transform: translate(-98%, 0);
+  transition: all 0.42s ease-out;
+}
+.buttonCreate:hover {
+  background: #a5fe38;
+}
+.buttonCreate:active {
+  background: #c3ea33;
+  transition: all 0.16s ease;
+}
+
+.buttonPicture {
+  position: relative;
+  height: 27.8px;
+  width: 150px;
+  color: #0000008a;
+  background: #56ff408a;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  border-radius: 0.52em;
+  border: 0px;
+  margin-top: 8px;
+}
+.buttonPicture:hover {
+  background: #82ccdd;
+  color: #000000;
+  transition: all 0.42s ease;
+}
+.buttonPicture:active {
+  background: #56ff40;
+  transition: all 0.16s ease;
+}
+
+.buttonDelete {
+  position: relative;
+  height: 29px;
+  width: 150px;
+  color: #0000008a;
+  background: #ffc3128a;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  border-radius: 0.52em;
+  border: 0px;
+}
+.buttonDelete:hover {
+  background: #d91009;
+  color: #000000;
+  transition: all 0.42s ease;
+}
+.buttonDelete:active {
+  background: #ffc312;
+  transition: all 0.16s ease;
+}
+
+.buttonParagraf {
+  position: relative;
+  height: 29px;
+  width: 150px;
+  color: #0000008a;
+  background: #82ccdd8a;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  border-radius: 0.52em;
+  border: 0px;
+  margin-top: 8px;
+}
+.buttonParagraf:hover {
+  background: #56ff40;
+  color: #000000;
+  transition: all 0.42s ease;
+}
+.buttonParagraf:active {
+  background: #82ccdd;
+  transition: all 0.16s ease;
+}
+
+@media only screen and (min-width: 370px) {
+  .inputCreateX[type="file"],
+  .buttonPicture,
+  .buttonDelete,
+  .buttonParagraf {
+    margin-bottom: 6px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 369.5px) {
+  .buttonDelete,
+  .buttonParagraf {
+    margin-bottom: 6px;
+  }
+}
+
+.picturePreviewKomen {
+  position: relative;
+  object-fit: cover;
+  margin-top: 6px;
+  margin-bottom: 2px;
+  border-radius: 0.38em;
+}
+
+/* Pembatas */
+
+@keyframes RotateIcon {
+  0% {
+    transform: scale(1.2) translateY(1.8px) rotate(0deg);
+  }
+  100% {
+    transform: scale(1.2) translateY(1.8px) rotate(-180deg);
+  }
+}
+@keyframes RotateIconR {
+  0% {
+    transform: scale(1.2) translateY(1.8px) rotate(-180deg);
+  }
+  100% {
+    transform: scale(1.2) translateY(1.8px) rotate(0deg);
+  }
+}
+
+#buttonCreateBack {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  height: 72px;
+  width: 100%;
+  border: 0;
+  font-weight: 550;
+  font-size: 17px;
+}
+
+#textBack {
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  font-size: 16px;
+  opacity: 0;
+}
+
+#textCreate {
+  position: relative;
+  display: block;
+  transform: scale(1.24);
+  opacity: 1;
+}
+
+@keyframes textCreate {
+  0% {
+    transform: translateY(0px) scale(1.24);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(40px) scale(0.8);
+    opacity: 0;
+  }
+}
+@keyframes textCreateR {
+  0% {
+    transform: translateY(40px) scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px) scale(1.24);
+    opacity: 1;
+  }
+}
+@keyframes textBack {
+  0% {
+    transform: translateY(40px) scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px) scale(1.24);
+    opacity: 1;
+  }
+}
+@keyframes textBackR {
+  0% {
+    transform: translateY(0px) scale(1.24);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(40px) scale(0.8);
+    opacity: 0;
+  }
+}
+
+
+/* .wadahTextArea {
+  margin-bottom: 1100px;
+} */
+
+.headerTextArea {
+  height: 32px;
+  margin: 0 12px;
+  background: #2a323c;
+  border-radius: 0.25em 0.25em 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+.headerTextArea > div {
+  width: min-content;
+  display: flex;
+}
+
+.buttonRunCopy {
+  background: transparent;
+  width: max-content;
+  height: 32px;
+  color: white;
+  font-size: 11px;
+  padding: 0 12px;
+  letter-spacing: 1px;
+  border: 0;
+  transition: all 240ms ease-in-out;
+}
+.buttonRunCopy:hover {
+  background: #232a32;
+}
+.pInfoCoding {
+  margin: 0 12px;
+  color: white;
+  font-size: 10px;
+  letter-spacing: 1px;
+  width: max-content;
+}
+
+.inputCoding {
+  background: rgb(17, 19, 21);
+  color: white;
+}
+.inputCoding[type="text"] {
+  border-radius: 0 0 0.25em 0.25em;
+  min-height: 240px;
+  margin: 0px 0px 12px 0px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.384);
+  padding: 13px;
+  outline: none;
+  resize: both;
+  overflow: auto;
+}
+
+.textAreaDesain {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: rgb(17, 19, 21);
+  color: white;
+  height: calc(240px);
+  padding: 5px;
+  border-radius: 0 0 0.25em 0.25em;
+  border: 0;
+  resize: none;
+}
+.textAreaDesain:focus {
+  outline: none;
+}
+.CodeMirror {
+  min-height: 380px;
+  text-align: left;
+  border-radius: 0 0 0.25em 0.25em;
+}
+
+.wadahHTMLCSSJS {
+  width: 100%;
+  height: 380px;
+  overflow: hidden;
+  margin: 0px 0px 12px 0px;
+}
+
+.inputTextContent::-webkit-resizer {
+  background: linear-gradient(
+    135deg,
+    /* transparent 6%, */ transparent 46%,
+    rgb(200, 200, 200) 46%,
+    rgb(200, 200, 200) 58%,
+    transparent 58%,
+    transparent 66%,
+    rgb(200, 200, 200) 66%,
+    rgb(200, 200, 200) 78%,
+    transparent 78%,
+    transparent 100%
+  );
+  border-bottom-right-radius: 0em;
+  cursor: nwse-resize;
+}
+.inputCoding::-webkit-resizer {
+  background: linear-gradient(
+    135deg,
+    transparent 0%,
+    transparent 54%,
+    rgb(42, 42, 42) 54%,
+    rgb(42, 42, 42) 70%,
+    transparent 70%,
+    transparent 80%,
+    rgb(42, 42, 42) 80%,
+    rgb(42, 42, 42) 100%
+  );
+  border-bottom-right-radius: 0.25em;
+  cursor: nwse-resize;
+}

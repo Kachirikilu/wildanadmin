@@ -1,0 +1,858 @@
+.UltraBlurPro {
+    position: absolute;
+    animation: UltraBlurPro 1.2s ease forwards;
+    position: absolute;
+    width: 100%; height:
+    100vh;
+    z-index:-1
+}
+
+@keyframes UltraBlurPro {
+    0%{
+        filter: blur(6px);
+        transform: translateY(-100%) scale(0);
+    }
+    40%{
+        filter: blur(12px);
+        transform: translateY(6%) scale(1.1);
+    }
+    60%{
+        transform: translateY(0%) scale(1);
+    }
+    100% {
+        filter: blur(0px);
+    }
+}
+
+@media only screen and (min-width: 1150px) {
+    .bodyKomentarLite {
+        display: none;
+    }
+    .input-dataKomentar {
+        width: 84%;
+    }
+    #divUtama {
+        width: 74%;
+    }
+    #divP {
+        width: 70%;
+        margin-top: 40px;
+    }
+
+    #komentar-profil {
+        width: 16%;
+    }
+    #komentar-name {
+        width: 84%;
+    }
+
+    #Judul {
+        letter-spacing: 0.4px;
+        font-size: 24px;
+    }
+    #P {
+        letter-spacing: 0.4px;
+        font-size: 18px;
+        padding-bottom: 32px;
+    }
+
+
+    #layer1 {
+        margin-top: 74px;
+        padding-top: 42px;
+        width: 68%;
+    }
+    #layer2 {
+        margin-top: 74px;
+    }
+    .bodyKomentar {
+        width: 32%;
+    }
+    .user-typingKomentar {
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (min-width: 1100px) and (max-width: 1149.5px) {
+    .bodyKomentarLite {
+        display: none;
+    }
+    .input-dataKomentar {
+        width: 84%;
+    }
+    #divUtama {
+        width: 77.7%;
+    }
+    #divP {
+        width: 73.5%;
+        margin-top: 40px;
+    }
+
+    #komentar-profil {
+        width: 18%;
+    }
+    #komentar-name {
+        width: 82%;
+    }
+
+    #Judul {
+        letter-spacing: 0.4px;
+        font-size: 24px;
+    }
+    #P {
+        letter-spacing: 0.4px;
+        font-size: 18px;
+        padding-bottom: 32px;
+    }
+
+
+    #layer1 {
+        margin-top: 74px;
+        padding-top: 46px;
+        width: 68%;
+    }
+    #layer2 {
+        margin-top: 74px;
+    }
+    .bodyKomentar {
+        width: 32%;
+    }
+    .user-typingKomentar {
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1099.5px) {
+    .bodyKomentarLite {
+        display: none;
+    }
+    .input-dataKomentar {
+        width: 84%;
+    }
+    #divUtama {
+        width: 79.92%;
+    }
+    #divP {
+        width: 75.6%;
+        margin-top: 40px;
+    }
+
+    #komentar-profil {
+        width: 20%;
+    }
+    #komentar-name {
+        width: 80%;
+    }
+
+    #Judul {
+        letter-spacing: 0.4px;
+        font-size: calc(24px/1.01);
+    }
+    #P {
+        letter-spacing: 0.4px;
+        font-size: calc(18px/1.01);
+        padding-bottom: 32px;
+    }
+
+
+    #layer1 {
+        margin-top: 74px;
+        padding-top: 46px;
+        width: 68%;
+    }
+    #layer2 {
+        margin-top: 74px;
+    }
+    .bodyKomentar {
+        width: 32%;
+    }
+    .user-typingKomentar {
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (min-width: 940px) and (max-width: 999.5px) {
+    .bodyKomentarLite {
+        display: none;
+    }
+    .input-dataKomentar {
+        width: 84%;
+    }
+    #divUtama {
+        width: 81.4%;
+    }
+    #divP {
+        width: 77%;
+        margin-top: 40px;
+    }
+
+    #komentar-profil {
+        width: 22%;
+    }
+    #komentar-name {
+        width: 78%;
+    }
+
+    #Judul {
+        letter-spacing: 0.4px;
+        font-size: calc(24px/1.02);
+    }
+    #P {
+        letter-spacing: 0.4px;
+        font-size: calc(18px/1.02);
+        padding-bottom: 32px;
+    }
+
+
+    #layer1 {
+        margin-top: 74px;
+        padding-top: 46px;
+        width: 68%;
+    }
+    #layer2 {
+        margin-top: 74px;
+    }
+    .bodyKomentar {
+        width: 32%;
+    }
+    .user-typingKomentar {
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (min-width: 850px) and (max-width: 939.5px) {
+    .bodyKomentar {
+        display: none;
+    }
+    .user-typingKomentarLite {
+        position: relative;
+        transform: translateY(156%);
+    }
+    #divUtama {
+        width: 83.842%;
+    }
+    #divP {
+        width: 79.31%;
+        margin-top: 40px;
+    }
+
+    #komentar-profil {
+        width: 9%;
+    }
+    #komentar-name {
+        width: 91%;
+    }
+
+    #Judul {
+        letter-spacing: 0.4px;
+        font-size: calc(24px/1.03);
+    }
+    #P {
+        letter-spacing: 0.4px;
+        font-size: calc(18px/1.03);
+        padding-bottom: 32px;
+    }
+
+
+    #layer1 {
+        margin-top: 84px;
+        padding-top: 54px;
+        width: 100%;
+    }
+    .scroll-bodyKomentarLite {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
+
+
+
+@media only screen and (min-width: 800px) and (max-width: 849.5px) {
+    .bodyKomentar {
+        display: none;
+    }
+    .user-typingKomentarLite {
+        position: relative;
+        transform: translateY(156%);
+    }
+    .input-dataKomentar {
+        width: 100vh;
+    }
+
+    #divUtama {
+        width: 86.284%;
+    }
+    #divP {
+        width: 81.62%;
+        margin-top: calc(1600px/46);
+    }
+
+    #komentar-profil {
+        width: 10%;
+    }
+    #komentar-name {
+        width: 90%;
+    }
+
+    #Judul {
+        letter-spacing: 0.4px;
+        font-size: calc(24px/1.06);
+    }
+    #P {
+        letter-spacing: 0.4px;
+        font-size: calc(18px/1.06);
+        padding-bottom: 32px;
+    }
+
+
+    #layer1 {
+        margin-top: 84px;
+        padding-top: 40px;
+        width: 100%;
+    }
+    .scroll-bodyKomentarLite {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+}
+
+
+
+@media only screen and (min-width: 780px) and (max-width: 799.5px) {
+    .bodyKomentar {
+        display: none;
+    }
+    .user-typingKomentarLite {
+        position: relative;
+        transform: translateY(156%);
+    }
+    #divUtama {
+        width: calc(86.284%*1.086);
+    }
+    #divP {
+        width: calc(81.62%*1.086);
+        margin-top: calc(1440px/46);
+    }
+
+    #komentar-profil {
+        width: 10%;
+    }
+    #komentar-name {
+        width: 90%;
+    }
+
+    #Judul {
+        letter-spacing: 0.4px;
+        font-size: calc(24px/1.09);
+    }
+    #P {
+        letter-spacing: 0.4px;
+        font-size: calc(18px/1.09);
+        padding-bottom: 32px;
+    }
+
+
+    #layer1 {
+        margin-top: 90px;
+        padding-top: 36px;
+        width: 100%;
+    }
+    .scroll-bodyKomentarLite {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+}
+
+
+
+@media only screen and (min-width: 700px) and (max-width: 779.5px) {
+    .bodyKomentar {
+        display: none;
+    }
+    .user-typingKomentarLite {
+        position: relative;
+        transform: translateY(156%);
+    }
+    #divUtama {
+        width: 86.284%;
+    }
+    #divP {
+        width: 81.62%;
+        margin-top: 40px;
+    }
+
+    #komentar-profil {
+        width: 10%;
+    }
+    #komentar-name {
+        width: 90%;
+    }
+
+    #Judul {
+        letter-spacing: 0.4px;
+        font-size: calc(24px/1.06);
+    }
+    #P {
+        letter-spacing: 0.4px;
+        font-size: calc(18px/1.06);
+        padding-bottom: 32px;
+    }
+
+
+    #layer1 {
+        margin-top: 92px;
+        padding-top: 46px;
+        width: 100%;
+    }
+    .scroll-bodyKomentarLite {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 699.5px) {
+    .bodyKomentar {
+        display: none;
+    }
+    .user-typingKomentarLite {
+        position: relative;
+        transform: translateY(156%);
+    }
+    #divUtama {
+        width: 89.73536%;
+    }
+    #divP {
+        width: 84.8848%;
+        margin-top: calc(1560px/46);
+    }
+
+    #komentar-profil {
+        width: 10%;
+    }
+    #komentar-name {
+        width: 90%;
+    }
+
+    #Judul {
+        letter-spacing: 0.4px;
+        font-size: calc(24px/1.08);
+    }
+    #P {
+        letter-spacing: 0.4px;
+        font-size: calc(18px/1.08);
+        padding-bottom: 32px;
+    }
+
+
+    #layer1 {
+        margin-top: 92px;
+        padding-top: 39px;
+        width: 100%;
+    }
+    .scroll-bodyKomentarLite {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+}
+
+
+
+@media only screen and (min-width: 540px) and (max-width: 599.5px) {
+    .bodyKomentar {
+        display: none;
+    }
+    .user-typingKomentarLite {
+        position: relative;
+        transform: translateY(156%);
+    }
+    #divUtama {
+        width: 90.6327136%
+    }
+    #divP {
+        width: 85.733648%;
+        margin-top: calc(1280px/46);
+    }
+
+    #komentar-profil {
+        width: 12%;
+    }
+    #komentar-name {
+        width: 88%;
+    }
+
+    #Judul {
+        letter-spacing: 0.4px;
+        font-size: calc(24px/1.1);
+    }
+    #P {
+        letter-spacing: 0.4px;
+        font-size: calc(18px/1.1);
+        padding-bottom: 32px;
+    }
+
+
+    #layer1 {
+        margin-top: 92px;
+        padding-top: 28px;
+        width: 100%;
+    }
+    .scroll-bodyKomentarLite {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 539.5px) {
+    .bodyKomentar {
+        display: none;
+    }
+    .user-typingKomentarLite {
+        position: relative;
+        transform: translateY(156%);
+    }
+    #divUtama {
+        width: 90.6327136%
+    }
+    #divP {
+        width: 85.733648%;
+        margin-top: calc(960px/46);
+    }
+
+    #komentar-profil {
+        width: 14%;
+    }
+    #komentar-name {
+        width: 86%;
+    }
+
+    #Judul {
+        letter-spacing: 0.4px;
+        font-size: calc(24px/1.12);
+    }
+    #P {
+        letter-spacing: 0.4px;
+        font-size: calc(18px/1.12);
+        padding-bottom: 32px;
+    }
+
+
+    #layer1 {
+        margin-top: 92px;
+        padding-top: 24px;
+        width: 100%;
+    }
+    .scroll-bodyKomentarLite {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+.btn-Edit, .btn-Delete {
+    width: 60px;
+    height: 28px;
+    border-radius: 0.6em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 600;
+    border: 0;
+    transition: all 0.12s ease-out;
+}
+.btn-Edit:hover, .btn-Delete:hover {
+    width: 70px;
+    transform: translateY(-2px);
+}
+.btn-Edit:active, .btn-Delete:active {
+    width: 66px;
+    transform: translateY(-1.2px);
+    transition: all 0.04s ease
+}
+
+.btn-Edit {
+    background: #f6b93b;
+}
+.btn-Delete {
+    background: red;
+}
+
+
+.divPangkat {
+    position: relative;
+}
+
+.pangkatCEO {
+    background: #fff30d;
+    position: absolute;
+    width: 100%;
+    vertical-align: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.2em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: 600;
+    transform: translateY(-66%) scale(76%);
+}
+.pangkatAdmin {
+    background: #3be2ff;
+    position: absolute;
+    width: 100%;
+    vertical-align: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.2em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: 600;
+    transform: translateY(-66%) scale(76%);
+}
+
+#divUtama {
+    aspect-ratio: 3 / 2;
+}
+#divUtama:hover {
+    aspect-ratio: 3 / 2.8;
+}
+
+#layerUtama {
+    display: flex;
+}
+#layer1 {
+    overflow: auto;
+    height: 86vh;
+}
+
+#divUtama {
+    position: relative;
+    overflow: hidden;
+    z-index: 3;
+    border-radius: 0.8em;
+    transition: 0.22s ease-out;
+}
+#divUtama:hover {
+    transition: all 0.3s ease-in;
+}
+#divGambar {
+    position: relative;
+    z-index: 2;
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
+#divJudul {
+    position: relative;
+    transform: translateY(-100%);
+    background: rgba(240, 248, 255, 0.224);
+    border-radius: 0.2em;
+    width: 100%;
+    z-index: 2;
+}
+
+#Picture {
+    object-fit:cover;
+    transition: all 0.3s ease-out;
+    width:100%;
+    height:100%;  
+}
+
+
+#Judul {
+    text-align: left;
+    object-fit: cover;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 600;
+    padding-top: 3.2%;
+    padding-bottom: 3.2%;
+    padding-left: 3.8%;
+    padding-right: 3.8%;
+}
+
+
+#P {
+    text-indent: 12%;
+    text-align: left;
+    object-fit: cover;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#P-Pic {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 82%;
+    height: min-content;
+    margin-bottom: 5%;
+    border-radius: 0.8em;
+}
+#P-PicX {
+    position: relative;
+    width: 100%;
+    height: 100%; 
+    transition: all 0.209s ease-in-out; 
+}
+#P-PicX:hover {
+    object-fit: cover;
+    transform: scale(114%);
+}
+
+
+
+.bodyKomentar {
+    height: 100vh;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    right: 0px;
+}
+
+.scroll-bodyKomentar {
+    width: 100%;
+    height: 100vh;
+    background: #f5f6fa;
+    overflow-x: none;
+    overflow-y: auto;
+}
+.scroll-bodyKomentarLite {
+    background: #f5f6fa;
+    border-radius: 1.2em 1.2em 0 0;
+    overflow-x: none;
+    overflow-y: auto;
+    min-height: 88vh;
+}
+
+.input-dataKomentarInput:focus {
+    border-color: #b5170600;
+}
+.input-dataKomentarButton {
+    height: 32px;
+    width: 108px;
+    color: black;
+    background: #56ff40e5;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-radius: 100px;
+    border: 0px;
+    transition: all 0.12s ease-out;
+}
+.input-dataKomentarButton:hover {
+    background: #a5fe38;
+    transition: all 0.42s ease;
+}
+.input-dataKomentarButton:active {
+    background: #c3ea33;
+    transition: all 0.16s ease;
+}
+
+
+.user-typingKomentar {
+    position: absolute;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background: linear-gradient(to right, #169af2a5, #57caffa5);
+    border-radius: 24px 8px 0 0;
+    transform: translateY(-249.2%);
+}
+.input-dataKomentar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-dataKomentarInput {
+    height: 34px;
+    width: 100%;
+    outline: none;
+    border: 1px solid transparent;
+    padding: 0 80px 0 15px;
+    border: 1px solid rgba(0, 0, 0, 0.256);
+    font-size: 15px;
+    background: #edf0f3e5;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+.input-dataKomentarInput::placeholder {
+    color: #000000;
+    transition: all 0.36s ease;
+}
+.input-dataKomentarInput:focus::placeholder {
+    color: #f94f3c;
+}
+
+
+
+
+#komentar-kolom {
+    margin-top: 8px;
+    border-top: 1.4px solid #dcdde1;
+    border-radius: 1.2em;
+    
+}
+#komentar-profil {
+    vertical-align: top;
+}
+.komentar-profil {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    margin: 10%;
+    aspect-ratio: 1 / 1;
+    border-radius: 10em;
+    background-size: cover;
+    background-position: center;
+}
+.komentar-profil-Picture {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: 0.22s ease-out;
+}
+.komentar-profil-Picture:hover {
+    transform: scale(120%);
+}
+
+#komentar-name {
+    font-weight: 600;
+    vertical-align: bottom;
+}
+.komentar-name {
+    position: relative;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 12px;
+}
+#komentar-isi {
+    height: infinite;
+    padding: 12px 4px;
+}
+.komentar-isi {
+    margin-left: 14px;
+    word-wrap: break-word;
+    color: #333; 
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    animation: bot-msg-A 1.4s ease forwards
+}
+.komentar-delete {
+    position: relative;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 10px;
+    color: red;
+}

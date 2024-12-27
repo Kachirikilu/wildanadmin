@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+        /* background-image: url(/FileWeb/Wallpaper.jpg); */
+        background: #46415d;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+#none {
+    background: transparent;
+}
+
+#center {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WadahRegistrasi {
+    margin-left: 32px;
+    margin-right: 32px;
+    background: #bed3e1e0;
+    border-radius: 12px;
+    padding-bottom: 33px;
+    animation: WadahRegistrasi 1.4s ease forwards;
+}
+@keyframes WadahRegistrasi {
+    0%{
+        transform: scale(0.5) translateY(-280%);
+        width: 180px;
+    }
+    100%{
+        transform: scale(1);
+        width: 400px;
+    }
+}
+
+.WadahRegisterNav {
+    margin-bottom: 26px;
+    width: 100%;
+    height: 42px;
+    position: relative;
+    background: linear-gradient(to right, red, #f94f3c);
+    border-radius: 0.6em 0.6em 0.2em 0.2em;
+    margin-bottom: 24px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputRegistrasi {
+    border-radius: 0.6em;
+    border: 1px solid;
+}
+.inputRegistrasi:focus::placeholder {
+    color: #f94f3c;
+    transition: all 0.36s ease;
+}
+.inputRegistrasi[type=text] {
+    border-radius: 12px;
+    border: 1px solid;
+    width: 64%;
+    height: 26px;
+    margin: 4px 0px 14px 0px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    padding: 13px;
+}
+.inputRegistrasi[type=number] {
+    border-radius: 12px;
+    border: 1px solid;
+    width: 64%;
+    height: 26px;
+    margin: 4px 0px 14px 0px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    padding: 13px;
+}
+.inputRegistrasi[type=email] {
+    border-radius: 12px;
+    border: 1px solid;
+    width: 64%;
+    height: 26px;
+    margin: 4px 0px 14px 0px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    padding: 13px;
+}
+.inputRegistrasi[type=password] {
+    border-radius: 12px;
+    border: 1px solid;
+    width: 64%;
+    height: 26px;
+    margin: 4px 0px 14px 0px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    padding: 13px;
+}
+
+.inputRegistrasi[type=file] {
+    height: 26px;
+    width: 40%;
+    margin-top: 6.4px;
+    padding: 0 80px 0 13px;
+    border-radius: 3px;
+    font-size: 15px;
+    background: #d0d5dae5;
+    transition: all 0.3s ease;
+    border-radius: 12px;
+    border: 1px solid red;
+}
+.inputRegistrasi[type=file]::placeholder {
+    color: #f94f3c;
+    transition: all 0.36s ease;
+}
+.inputRegistrasi[type=file]:focus {
+    border-color: #b5170600;
+}
+.inputRegistrasi[type=file]::-webkit-file-upload-button {
+    display: none;
+}
+.inputRegistrasi[type=file]::before {
+    content: 'Profilㅤ';
+    color: #46415d;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.buttonRegistrasi {
+    position: absolute;
+    height: 28.042px;
+    width: 90px;
+    color: black;
+    background: #56ff40;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-radius: 12px;
+    border: 0px;
+    transform: translate(-99.6%, 22.64%);
+}
+.buttonRegistrasi:hover {
+    background: #a5fe38;
+    transition: all 0.42s ease;
+}
+.buttonRegistrasi:active {
+    background: #c3ea33;
+    transition: all 0.16s ease;
+}
+
+
+
+#buttonRegistrasiLogout {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    height: 72px;
+    width: 100%;
+    border: 0;
+    font-weight: 550;
+    font-size: 17px;
+    color: black;
+    text-shadow: -3px -3px 4px rgba(255, 255, 255, 0.02), 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+#buttonRegistrasiLogout:active {
+    color: white;
+    transition: all 0.2s ease;
+}
+
+#textLogin {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    opacity: 0;
+}
+
+#textRegistrasi {
+    position: relative;
+    display: block;
+    transform: scale(1.24);
+    opacity: 1;
+}
+
+@keyframes textRegistrasi {
+    0% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+}
+@keyframes textRegistrasiR {
+    0% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+}
+@keyframes textLogin {
+    0% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+}
+@keyframes textLoginR {
+    0% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+}

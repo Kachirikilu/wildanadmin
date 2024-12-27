@@ -1,0 +1,75 @@
+@media only screen and (min-width: 850px) {
+    #frist-last-down, #previos-next-down {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 849.5px) {
+    #frist-last-up, #previos-next-down {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 699.5px) {
+    #frist-last-up, #previos-next-up {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Page-navigation {
+    background: red;
+    color: red
+}
+
+.pagination {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-item, .page-item2 {
+    background: #43b7ff;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.32em;
+    padding-left: 14px;
+    padding-right: 14px;
+    height: 26px;
+    margin: 2.4px;
+    transition: 0.14s ease-out;
+}
+.page-item:hover {
+    transform: translateY(-4.6px) scale(1.04);
+    background: #F79F1F;
+}
+.page-item2:hover {
+    transform: translateY(4.6px) scale(1.04);
+    background: #F79F1F;
+}
+.page-itemX {
+    text-decoration: none;
+}
+.buttonPage {
+    background: transparent;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: white;
+    border: none;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

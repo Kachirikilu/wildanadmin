@@ -1,0 +1,1468 @@
+@media only screen and (min-width: 1150px) {
+    #Nav {
+        padding: 12px;
+        height: 52px;
+    }
+    #home {
+        top: 76px;
+        padding-top: 42px;
+        height: calc(100vh - (76px + 42px));
+    }
+    #grid-container {
+        grid-template-columns: calc(25% - 3%) calc(25% - 3%) calc(25% - 3%) calc(25% - 3%);
+        width: calc(100% - 2*8%);
+        margin: 0 8% calc(1.5*42px) 8%;
+        gap: 0 3%;
+    }
+    #grid-item, #grid-itemUtama  {
+        padding-bottom: 42px;
+    }
+
+    #EditText {
+        transform: scale(1.08);
+    }
+    #DeleteText {
+        transform: scale(1.08);
+    }
+
+    .dp-slide {
+        width: 50%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 40%;
+        height: 14%;
+    }
+
+    .ul-top3DU {  
+        height: calc(100vh - 76px);
+        top: 76px;
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100%/3 - 10px) calc(100%/3 - 10px) calc(100%/3 - 10px);
+        height: calc(90vh - 76px);
+        animation: containerDU1 0.36s ease-in-out;
+    }
+    @keyframes containerDU1 {
+        0% {
+            transform: scale(100%);
+        } 50% {
+            transform: scale(105%);
+        } 100% {
+            transform: scale(100%);
+        }
+    }
+    #du-slidePictureText, #du-slidePictureTextNone {
+        width: calc(40%*1.6);
+        height: calc(14%*1.6);
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavCreate, #buttonNavNews, #buttonNavChat, #buttonNavWallpaper,  #buttonNavProfil, #buttonNavLogout {
+        height: 76px;
+    }
+
+    #pictureDiv {
+        height: 168px;  
+    }
+    #judulDiv {
+        min-height: 32px;
+        margin-top: 4px;
+        margin-bottom: 6px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        height: 60px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.6px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 18px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 16px;
+    }
+    #pictureText {
+        font-size: 16px;
+    }
+    #grid-itemUtama {
+        height: 294px;
+        grid-column: 1 / span 2;
+    }
+
+    /* Pembatas */
+
+    .teks {
+        transform: scale(1);
+    }
+    .icon18 {
+        transform: scale(1.8);
+    }
+    .icon22 {
+        transform: scale(2.2);
+    }
+    #MenuPopUp {
+        display: none;
+    }
+    #Nav2B {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1100px) and (max-width: 1149.5px) {
+    #Nav {
+        padding: 12px;
+        height: 52px;
+    }
+    #home {
+        top: 76px;
+        padding-top: 46px;
+        height: calc(100vh - (76px + 46px));
+    }
+
+    #grid-container {
+        grid-template-columns: calc(25% - 2.6%) calc(25% - 2.6%) calc(25% - 2.6%) calc(25% - 2.6%);
+        width: calc(100% - 2*8%);
+        margin: 0 8% calc(1.5*42px) 8%;
+        gap: 0 2.6%;
+    }
+    #grid-item, #grid-itemUtama  {
+        padding-bottom: 46px;
+    }
+
+    #EditText {
+        transform: scale(1.08);
+    }
+    #DeleteText {
+        transform: scale(1.08);
+    }
+
+    .dp-slide {
+        width: 52%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 40%;
+        height: 14%;
+    }
+
+    .ul-top3DU {  
+        height: calc(100vh - 76px);
+        top: 76px;
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100%/3 - 10px) calc(100%/3 - 10px) calc(100%/3 - 10px);
+        height: calc(90vh - 76px);
+        animation: containerDU2 0.36s ease-in-out;
+    }
+    @keyframes containerDU2 {
+        0% {
+            transform: scale(100%);
+        } 50% {
+            transform: scale(105%);
+        } 100% {
+            transform: scale(100%);
+        }
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*1.8);
+        height: calc(14%*1.8);
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavCreate, #buttonNavNews, #buttonNavChat, #buttonNavWallpaper,  #buttonNavProfil, #buttonNavLogout {
+        height: 76px;
+    }
+    
+    #pictureDiv {
+        height: 162px;  
+    }
+    #judulDiv {
+        min-height: 32px;
+        margin-top: 4px;
+        margin-bottom: 6px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        height: 72px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.4px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 18px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 16px;
+    }
+    #pictureText {
+        font-size: 15px;
+    }
+
+    #grid-itemUtama {
+        height: 90%;
+        grid-column: 1 / span 2;
+    }
+
+    /* Pembatas */
+   
+    .teks {
+        transform: scale(1);
+    }
+    .icon18 {
+        transform: scale(1.8);
+    }
+    .icon22 {
+        transform: scale(2.2);
+    }
+    #MenuPopUp {
+        display: none;
+    }
+    #Nav2B {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1099.5px) {
+    #Nav {
+        padding: 12px;
+        height: 52px;
+    }
+    #home {
+        top: 76px;
+        padding-top: 44px;
+        height: calc(100vh - (76px + 44px));
+    }
+
+    #grid-container {
+        grid-template-columns: calc(25% - 2%) calc(25% - 2%) calc(25% - 2%) calc(25% - 2%);
+        width: calc(100% - 2*6%);
+        margin: 0 6% calc(1.5*42px) 6%;
+        gap: 0 2%;
+    }
+    #grid-item, #grid-itemUtama  {
+        padding-bottom: 44px;
+    }
+
+    #EditText {
+        transform: scale(1.08);
+    }
+    #DeleteText {
+        transform: scale(1.08);
+    }
+
+    .dp-slide {
+        width: 54%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 40%;
+        height: 14%;
+    }
+
+    .ul-top3DU {  
+        height: calc(100vh - 76px);
+        top: 76px;
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100%/3 - 10px) calc(100%/3 - 10px) calc(100%/3 - 10px);
+        height: calc(90vh - 76px);
+        animation: containerDU3 0.36s ease-in-out;
+    }
+    @keyframes containerDU3 {
+        0% {
+            transform: scale(100%);
+        } 50% {
+            transform: scale(105%);
+        } 100% {
+            transform: scale(100%);
+        }
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*2.1);
+        height: calc(14%*2.1);
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavCreate, #buttonNavNews, #buttonNavChat, #buttonNavWallpaper,  #buttonNavProfil, #buttonNavLogout {
+        height: 76px;
+    }
+
+    #pictureDiv {
+        height: 150px;  
+    }
+    #judulDiv {
+        min-height: 32px;
+        margin-top: 4px;
+        margin-bottom: 6px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        height: 86px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.2px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 16px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 15px;
+    }
+    #pictureText {
+        font-size: 14.5px;
+    }
+    #grid-itemUtama {
+        height: 90%;
+        grid-column: 1 / span 2;
+    }
+
+    /* Pembatas */
+   
+    .teks {
+        transform: scale(1);
+    }
+    .icon18 {
+        transform: scale(1.8);
+    }
+    .icon22 {
+        transform: scale(2.2);
+    }
+    #MenuPopUp {
+        display: none;
+    }
+    #Nav2B {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 940px) and (max-width: 999.5px) {
+    #Nav {
+        padding: 8px;
+        height: 60px;
+    }
+    #home {
+        top: 76px;
+        padding-top: 44px;
+        height: calc(100vh - (76px + 44px));
+    }
+
+    #grid-container {
+        grid-template-columns: calc(25% - 2%) calc(25% - 2%) calc(25% - 2%) calc(25% - 2%);
+        width: calc(100% - 2*5%);
+        margin: 0 5% calc(1.5*42px) 5%;
+        gap: 0 2%;
+    }
+    #grid-item, #grid-itemUtama  {
+        padding-bottom: 44px;
+    }
+
+    #EditText {
+        transform: scale(1.08);
+    }
+    #DeleteText {
+        transform: scale(1.08);
+    }
+
+    .dp-slide {
+        width: 56%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 40%;
+        height: 14%;
+    }
+
+    .ul-top3DU {  
+        height: calc(100vh - 76px);
+        top: 76px;
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100%/2 - 10px) calc(100%/2 - 10px);
+        height: calc(90vh - 76px);
+        animation: containerDU4 0.36s ease-in-out;
+    }
+    @keyframes containerDU4 {
+        0% {
+            transform: scale(100%);
+        } 50% {
+            transform: scale(105%);
+        } 100% {
+            transform: scale(100%);
+        }
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*1.4);
+        height: calc(14%*1.4);
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavCreate, #buttonNavNews, #buttonNavChat, #buttonNavWallpaper,  #buttonNavProfil, #buttonNavLogout {
+        height: 76px;
+    }
+
+    #pictureDiv {
+        height: 140px;  
+    }
+    #judulDiv {
+        min-height: 32px;
+        margin-top: 4px;
+        margin-bottom: 6px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        height: 84px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.4px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 18px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    #pictureText {
+        font-size: 16px;
+    }
+    
+    #grid-itemUtama {
+        height: 90%;
+        grid-column: 1 / span 2;
+    }
+
+    /* Pembatas */
+   
+    .teks {
+        transform: scale(1);
+    }
+    .icon18 {
+        transform: scale(1.8);
+    }
+    .icon22 {
+        transform: scale(2.2);
+    }
+    #MenuPopUp {
+        display: none;
+    }
+    #Nav2B {
+        display: none;
+    }
+    .div1 {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 850px) and (max-width: 939.5px) {
+    #Nav {
+        padding: 0px;
+        height: 84px;
+    }
+    #home {
+        top: 84px;
+        padding-top: 44px;
+        height: calc(100vh - (84px + 44px));
+    }
+
+    #grid-container {
+        grid-template-columns: calc(25% - 2%) calc(25% - 2%) calc(25% - 2%) calc(25% - 2%);
+        width: calc(100% - 2*5%);
+        margin: 0 5% calc(1.5*42px) 5%;
+        gap: 0 2%;
+    }
+    #grid-item, #grid-itemUtama  {
+        padding-bottom: 44px;
+    }
+
+    #EditText {
+        transform: scale(1.08);
+    }
+    #DeleteText {
+        transform: scale(1.08);
+    }
+
+    .dp-slide {
+        width: 58%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 40%;
+        height: 14%;
+    }
+
+    .ul-top3DU {  
+        height: calc(100vh - 84px);
+        top: 84px;
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100%/2 - 10px) calc(100%/2 - 10px);
+        height: calc(90vh - 84px);
+        animation: containerDU5 0.36s ease-in-out;
+    }
+    @keyframes containerDU5 {
+        0% {
+            transform: scale(100%);
+        } 50% {
+            transform: scale(105%);
+        } 100% {
+            transform: scale(100%);
+        }
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*1.6);
+        height: calc(14%*1.6);
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavCreate, #buttonNavNews, #buttonNavChat, #buttonNavWallpaper,  #buttonNavProfil, #buttonNavLogout {
+        height: 84px;
+    }
+
+    #pictureDiv {
+        height: 132px;  
+    }
+    #judulDiv {
+        min-height: 32px;
+        margin-top: 4px;
+        margin-bottom: 6px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        height: 72px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.4px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 18px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 16px;
+    }
+    #pictureText {
+        font-size: 16px;
+    }
+    #grid-itemUtama {
+        height: 90%;
+        grid-column: 1 / span 2;
+    }
+
+    /* Pembatas */
+   
+    .teks {
+        transform: scale(1.05);
+    }
+    .icon18 {
+        transform: scale(1.89);
+    }
+    .icon22 {
+        transform: scale(2.31);
+    }
+    #MenuPopUp {
+        display: none;
+    }
+    #Nav2B {
+        display: none;
+    }
+    .div1 {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 800px) and (max-width: 849.5px) {
+    #Nav {
+        padding: 0px;
+        height: 84px;
+    }
+    #home {
+        top: 84px;
+        padding-top: 50px;
+        height: calc(100vh - (84px + 50px));
+    }
+
+    #grid-container {
+        grid-template-columns: calc(100%/3 - 2%) calc(100%/3 - 2%) calc(100%/3 - 2%);
+        width: calc(100% - 2*6%);
+        margin: 0 6% calc(1.5*42px) 6%;
+        gap: 0 2%;
+    }
+    #grid-item, #grid-itemUtama  {
+        padding-bottom: 50px;
+    }
+
+    #EditText {
+        transform: scale(1.08);
+    }
+    #DeleteText {
+        transform: scale(1.08);
+    }
+
+    .dp-slide {
+        width: 64%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 40%;
+        height: 14%;
+    }
+
+    .ul-top3DU {  
+        height: calc(100vh - 84px);
+        top: 84px;
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100%/2 - 10px) calc(100%/2 - 10px);
+        height: calc(90vh - 84px);
+        animation: containerDU6 0.36s ease-in-out;
+    }
+    @keyframes containerDU6 {
+        0% {
+            transform: scale(100%);
+        } 50% {
+            transform: scale(105%);
+        } 100% {
+            transform: scale(100%);
+        }
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*1.6);
+        height: calc(14%*1.6);
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavCreate, #buttonNavNews, #buttonNavChat, #buttonNavWallpaper,  #buttonNavProfil, #buttonNavLogout {
+        height: 84px;
+    }
+
+    #pictureDiv {
+        height: 160px;  
+    }
+    #judulDiv {
+        min-height: 32px;
+        margin-top: 4px;
+        margin-bottom: 6px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        height: 100px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.2px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 16px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 15px;
+    }
+    #pictureText {
+        font-size: 15px;
+    }
+    #grid-itemUtama {
+        height: 90%;
+        grid-column: 1 / span 2;
+    }
+
+    /* Pembatas */
+   
+    .teks {
+        transform: scale(1.06);
+    }
+    .icon18 {
+        transform: scale(1.908);
+    }
+    .icon22 {
+        transform: scale(2.332);
+    }
+    #MenuPopUp {
+        display: none;
+    }
+    #Nav2B {
+        display: none;
+    }
+    .div1 {
+        display: none;
+    }
+    .div2 {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 780px) and (max-width: 799.5px) {
+    #Nav {
+        padding-left: 32px;
+        padding-right: 32px;
+        height: 90px;
+    }
+    #home {
+        top: 90px;
+        padding-top: 38px;
+        height: calc(100vh - (90px + 38px));
+    }
+
+    #grid-container {
+        grid-template-columns: calc(100%/3 - 2%) calc(100%/3 - 2%) calc(100%/3 - 2%);
+        width: calc(100% - 2*4%);
+        margin: 0 4% calc(1.5*42px) 4%;
+        gap: 0 2%;
+    }
+    #grid-item, #grid-itemUtama  {
+        padding-bottom: 38px;
+    }
+
+    #EditText {
+        transform: scale(1.08);
+    }
+    #DeleteText {
+        transform: scale(1.1);
+    }
+
+    .dp-slide {
+        width: 68%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 40%;
+        height: 14%;
+    }
+    #pictureTextX {
+        transform: scale(1.06);
+    }
+
+    .ul-top3DU {  
+        height: calc(100vh - 90px);
+        top: 90px;
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100%/2 - 10px) calc(100%/2 - 10px);
+        height: calc(90vh - 90px);
+        animation: containerDU7 0.36s ease-in-out;
+    }
+    @keyframes containerDU7 {
+        0% {
+            transform: scale(100%);
+        } 50% {
+            transform: scale(105%);
+        } 100% {
+            transform: scale(100%);
+        }
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*1.9);
+        height: calc(14%*1.9);
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavCreate, #buttonNavNews, #buttonNavChat, #buttonNavWallpaper,  #buttonNavProfil, #buttonNavLogout {
+        height: 90px;
+    }
+
+    #pictureDiv {
+        height: 150px;  
+    }
+    #judulDiv {
+        min-height: 32px;
+        margin-top: 4px;
+        margin-bottom: 6px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        height: 94px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.2px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 18px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    #pictureText {
+        font-size: 14.5px;
+    }
+    #grid-itemUtama {
+        height: 90%;
+        grid-column: 1 / span 2;
+    }
+
+    /* Pembatas */
+   
+    .teks {
+        transform: scale(1.06);
+    }
+    .icon18 {
+        transform: scale(1.908);
+    }
+    .icon22 {
+        transform: scale(2.332);
+    }
+    #MenuPopUp {
+        display: none;
+    }
+    #Nav2B {
+        display: none;
+    }
+    .div1 {
+        display: none;
+    }
+    .div2 {
+        display: none;
+    }
+    .div3 {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 700px) and (max-width: 779.5px) {
+    #Nav {
+        padding-left: 24px;
+        padding-right: 24px;
+        height: 92px;
+    }
+    #home {
+        top: 92px;
+        padding-top: 42px;
+        height: calc(100vh - (92px + 42px));
+    }
+
+    #grid-container {
+        grid-template-columns: calc(50% - 2%) calc(50% - 2%);
+        width: calc(100% - 2*6%);
+        margin: 0 6% calc(1.5*42px) 6%;
+        gap: 0 2%;
+    }
+    #grid-item, #grid-itemUtama  {
+        padding-bottom: 42px;
+    }
+
+    #EditText {
+        transform: scale(1.2);
+    }
+    #DeleteText {
+        transform: scale(1.2);
+    }
+
+    .dp-slide {
+        width: 74%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 44%;
+        height: 15.4%;
+    }
+
+    .ul-top3DU {  
+        height: calc(100vh - 90px);
+        top: 90px;
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100% - 10px);
+        height: calc(90vh - 90px);
+        transform: scale(85%);
+        animation: containerDU8 0.36s ease-in-out;
+    }
+    @keyframes containerDU8 {
+        0% {
+            transform: scale(90%);
+        } 50% {
+            transform: scale(95%);
+        } 100% {
+            transform: scale(90%);
+        }
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*1.6);
+        height: calc(14%*1.6);
+    }
+    #pictureTextX, #pictureTextD {
+        transform: scale(124%);
+    }
+
+    /* Pembatas */
+
+    #buttonNavHome, #buttonNavHomeP, #buttonNavCreate, #buttonNavCreateP, #buttonNavNews, #buttonNavNewsP, #buttonNavChat, #buttonNavWallpaper,  #buttonNavProfil, #buttonNavLogout, #buttonNavLogoutP, #buttonMenu {
+        height: 92px;
+    }
+    
+    #pictureDiv {
+        height: 220px;  
+    }
+    #judulDiv {
+        min-height: 32px;
+        margin-top: 6px;
+        margin-bottom: 8px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        height: 90px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.4px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 20px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 18px;
+    }
+    #pictureText {
+        font-size: 17px;
+    }
+    #grid-itemUtama {
+        height: 360px;
+        grid-column: 1 / span 2;
+    }
+
+  /* Pembatas */
+   
+    .teks {
+        transform: scale(1.06);
+    }
+    .teksP {
+        transform: scale(calc(1.06*1.2));
+    }
+    .icon18 {
+        transform: scale(1.908);
+    }
+    .icon22 {
+        transform: scale(2.332);
+    }
+    .icon18P {
+        transform: scale(calc(1.908*1.2));
+    }
+    .icon22P {
+        transform: scale(calc(2.332*1.2));
+    }
+    /* #MenuPopUp {
+        display: none;
+    } */
+    #NavCenterX {
+        display: none;
+    }
+    .div1 {
+        display: none;
+    }
+    .div1P {
+        display: none;
+    }
+    .div2P {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 620px) and (max-width: 699.5px) {
+    #Nav {
+        padding-left: 24px;
+        padding-right: 24px;
+        height: 92px;
+    }
+    #home {
+        top: 92px;
+        padding-top: 32px;
+        height: calc(100vh - (92px + 32px));
+    }
+
+    #grid-container {
+        grid-template-columns: 100%;
+        width: calc(100% - 2*4%);
+        margin: 0 4% calc(1.5*42px) 4%;
+        gap: 0 2%;
+    }
+    #grid-item, #grid-itemUtama  {
+        padding-bottom: 32px;
+    }
+
+    #EditText {
+        transform: scale(1.6);
+    }
+    #DeleteText {
+        transform: scale(1.6);
+    }
+
+    .dp-slide {
+        width: 78%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 48%;
+        height: 16.8%;
+    }
+    #pictureTextX {
+        transform: scale(0.72);
+    }
+
+    .ul-top3DU {  
+        height: calc(100vh - 92px);
+        top: 92px;
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100% - 10px);
+        height: calc(90vh - 92px);
+        transform: scale(90%);
+        animation: containerDU9 0.36s ease-in-out;
+    }
+    @keyframes containerDU9 {
+        0% {
+            transform: scale(90%);
+        } 50% {
+            transform: scale(95%);
+        } 100% {
+            transform: scale(90%);
+        }
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*1.6);
+        height: calc(14%*1.6);
+    }
+    #pictureTextX {
+        transform: scale(88%);
+    }
+    #pictureTextD {
+        transform: scale(118%);
+    }
+
+    /* Pembatas */
+    #buttonNavHome, #buttonNavHomeP, #buttonNavCreate, #buttonNavCreateP, #buttonNavNews, #buttonNavNewsP, #buttonNavChat, #buttonNavWallpaper,  #buttonNavProfil, #buttonNavLogout, #buttonNavLogoutP, #buttonMenu {
+        height: 92px;
+    }
+
+    #pictureDiv {
+        height: 340px;  
+    }
+    #pictureDivUtama {
+        height: 340px;  
+    }
+    #judulDiv {
+        min-height: 32px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        height: 90px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.6px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 26px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 22px;
+    }
+    #pictureText {
+        font-size: 24px;
+    }
+    #grid-itemUtama {
+        height: 340px;
+        grid-column: 1 / span 1;
+    }
+
+    /* Pembatas */
+   
+    .teks {
+        transform: scale(1.06);
+    }
+    .teksP {
+        transform: scale(calc(1.06*1.2));
+    }
+    .icon18 {
+        transform: scale(1.908);
+    }
+    .icon22 {
+        transform: scale(2.332);
+    }
+    .icon18P {
+        transform: scale(calc(1.908*1.2));
+    }
+    .icon22P {
+        transform: scale(calc(2.332*1.2));
+    }
+    /* #MenuPopUp {
+        display: none;
+    } */
+    #NavCenterX {
+        display: none;
+    }
+    .div1 {
+        display: none;
+    }
+    .div2 {
+        display: none;
+    }
+    .div1P {
+        display: none;
+    }
+    .div2P {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 540px) and (max-width: 619.5px) {
+    #Nav {
+        padding-left: 24px;
+        padding-right: 24px;
+        height: 92px;
+    }
+    #home {
+        top: 92px;
+        padding-top: 26px;
+        height: calc(100vh - (92px + 26px));
+    }
+
+    #grid-container {
+        grid-template-columns: 100%;
+        width: calc(100% - 2*4%);
+        margin: 0 4% calc(1.5*42px) 4%;
+        gap: 0 2%;
+    }
+    #grid-item, #grid-itemUtama  {
+        padding-bottom: 26px;
+    }
+
+    #EditText {
+        transform: scale(1.6);
+    }
+    #DeleteText {
+        transform: scale(1.6);
+    }
+
+    .dp-slide {
+        width: 84%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 52%;
+        height: 18.2%;
+    }
+    #pictureTextX {
+        transform: scale(0.72);
+    }
+
+    .ul-top3DU {  
+        height: calc(100vh - 92px);
+        top: 92px;
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100% - 10px);
+        height: calc(90vh - 92px);
+        transform: scale(95%);
+        animation: containerDU10 0.36s ease-in-out;
+    }
+    @keyframes containerDU10 {
+        0% {
+            transform: scale(95%);
+        } 50% {
+            transform: scale(100%);
+        } 100% {
+            transform: scale(95%);
+        }
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*1.6);
+        height: calc(14%*1.6);
+    }
+
+    /* Pembatas */
+    #buttonNavHome, #buttonNavHomeP, #buttonNavCreate, #buttonNavCreateP, #buttonNavNews, #buttonNavNewsP, #buttonNavChat, #buttonNavWallpaper,  #buttonNavProfil, #buttonNavLogout, #buttonNavLogoutP, #buttonMenu {
+        height: 92px;
+    }
+
+    #pictureDiv {
+        height: 300px;  
+    }
+    #pictureDivUtama {
+        height: 300px;  
+    }
+    #judulDiv {
+        min-height: 32px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        height: 90px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.6px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 26px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 22px;
+    }
+    #pictureText {
+        font-size: 24px;
+    }
+    #grid-itemUtama {
+        height: 300px;
+        grid-column: 1 / span 1;
+    }
+
+    /* Pembatas */
+   
+    .teks {
+        transform: scale(1.06);
+    }
+    .teksP {
+        transform: scale(calc(1.06*1.2));
+    }
+    .icon18 {
+        transform: scale(1.908);
+    }
+    .icon22 {
+        transform: scale(2.332);
+    }
+    .icon18P {
+        transform: scale(calc(1.908*1.2));
+    }
+    .icon22P {
+        transform: scale(calc(2.332*1.2));
+    }
+    /* #MenuPopUp {
+        display: none;
+    } */
+    #NavCenterX {
+        display: none;
+    }
+    .div1 {
+        display: none;
+    }
+    .div2 {
+        display: none;
+    }
+    .div1P {
+        display: none;
+    }
+    .div2P {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 539.5px) {
+    #Nav {
+        padding-left: 24px;
+        padding-right: 24px;
+        height: 92px;
+    }
+    #home {
+        top: 92px;
+        padding-top: 20px;
+        height: calc(100vh - (92px + 20px));
+    }
+
+    #grid-container {
+        grid-template-columns: 100%;
+        width: calc(100% - 2*4%);
+        margin: 0 4% calc(1.5*42px) 4%;
+        gap: 0 2%;
+    }
+    #grid-item, #grid-itemUtama  {
+        padding-bottom: 20px;
+    }
+
+    #EditText {
+        transform: scale(1.6);
+    }
+    #DeleteText {
+        transform: scale(1.6);
+    }
+
+    .dp-slide {
+        width: 90%;
+    }
+    #dp-slidePictureText, #duX-slidePictureText {
+        width: 54.6%;
+        height: 19.11%;
+    }
+    #pictureTextX {
+        transform: scale(0.72);
+    }
+
+    .ul-top3DU {  
+        height: calc(100vh - 92px);
+        top: 92px;
+    }
+    #container-DataUser {
+        grid-template-columns: calc(100% - 10px);
+        height: calc(90vh - 92px);
+        transform: scale(100%);
+        animation: containerDU11 0.36s ease-in-out;
+    }
+    @keyframes containerDU11 {
+        0% {
+            transform: scale(100%);
+        } 50% {
+            transform: scale(105%);
+        } 100% {
+            transform: scale(100%);
+        }
+    }
+    #du-slidePictureText, #du-slidePictureTextNone  {
+        width: calc(40%*1.6);
+        height: calc(14%*1.6);
+    }
+
+    /* Pembatas */
+    #buttonNavHome, #buttonNavHomeP, #buttonNavCreate, #buttonNavCreateP, #buttonNavNews, #buttonNavNewsP, #buttonNavChat, #buttonNavWallpaper,  #buttonNavProfil, #buttonNavLogout, #buttonNavLogoutP, #buttonMenu {
+        height: 92px;
+    }
+
+    #pictureDiv {
+        height: 240px;  
+    }
+    #judulDiv {
+        min-height: 32px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #isiDiv {
+        height: 90px;
+    }
+    #judulHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        letter-spacing: 0.6px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 26px;    
+    }
+    #isiHuruf {
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        text-align: left;
+        font-size: 22px;
+    }
+    #pictureText {
+        font-size: 24px;
+    }
+    #grid-itemUtama {
+        height: 250px;
+        grid-column: 1 / span 1;
+    }
+
+     /* Pembatas */
+   
+     .teks {
+        transform: scale(1.06);
+    }
+    .teksP {
+        transform: scale(calc(1.06*1.2));
+    }
+    .icon18 {
+        transform: scale(1.908);
+    }
+    .icon22 {
+        transform: scale(2.332);
+    }
+    .icon18P {
+        transform: scale(calc(1.908*1.2));
+    }
+    .icon22P {
+        transform: scale(calc(2.332*1.2));
+    }
+    /* #MenuPopUp {
+        display: none;
+    } */
+    #NavCenterX {
+        display: none;
+    }
+    .div1 {
+        display: none;
+    }
+    .div2 {
+        display: none;
+    }
+    .div1P {
+        display: none;
+    }
+    .div2P {
+        display: none;
+    }
+    .div3P {
+        display: none;
+    }
+}

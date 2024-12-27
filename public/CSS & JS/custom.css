@@ -1,0 +1,234 @@
+#pictureIMGUtamaCUSTOM {
+    overflow-y: scroll;
+}
+.divCUSTOM {
+    padding: 22px 0 22px 24px;
+}
+.nameCUSTOM {
+    margin: 1px;
+}
+.nameCUSTOMX {
+    padding: 0 0 21px 0;
+}
+.inputCUSTOM[type=color] {
+    margin: 1px 0 8px 0;
+    border-radius: 0.32em;
+    border: none;
+    appearance: none;
+}
+
+.divCUSTOMX {
+    padding: 20px 0 0 20px;
+}
+#divCustom {
+    width: calc(100% - 2*12px);
+    padding: 12px;
+    margin-bottom: 20px;
+    background: rgb(202, 202, 202);
+    border-radius: 0.6em;
+}
+
+
+.inputBy {
+    margin: 8px 2px 0 0;
+    border-radius: 0.32em;
+    outline: none;
+    width: 180px;
+    height: 25px;
+    border: 0;
+}
+.inputBy[type=text]  {
+    padding: 0 0 0 12px;
+}
+
+.buttonBy {
+    margin: 8px 2px 0 2px;
+    border-radius: 0.32em;
+    width: 60px;
+    height: 25px;
+    background: #56ff40e5;
+    font-weight: 600;
+    border: 0;
+    transition: all 0.42s ease-out;
+}
+.buttonByDelete {
+    margin: 8px 0 0 2px;
+    border-radius: 0.32em;
+    width: 60px;
+    height: 25px;
+    background: red;
+    color: white;
+    font-weight: 600;
+    border: 0;
+    transition: all 0.42s ease-out;
+}
+
+#pictureText, #pictureText1, #pictureText2, #pictureText3, #pictureText4, #pictureText5, #pictureText6, #pictureEdit, #pictureEdit1, #pictureEdit2, #pictureEdit3, #pictureEdit4, #pictureEdit5, #pictureText6, #pictureText7, #pictureText8, #pictureText9, #pictureText10, #pictureText11, #pictureText12, #pictureText13, #pictureText14  {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    transition:  all 0.22s ease-out;
+}
+
+#pictureText, #pictureText1, #pictureText2, #pictureText3, #pictureText4, #pictureText5, #pictureText6, #pictureText7, #pictureText8, #pictureText9, #pictureText10, #pictureText11, #pictureText12, #pictureText13, #pictureText14 {
+    border-radius: 0.1em 0.56em 0 0;
+}
+
+
+/* Navbar */
+
+:root {
+    --padding1: 6px 13.5px 6px 16px;
+    --padding086: calc(6px * 0.86) calc(13.5px * 0.86) calc(6px * 0.86) calc(16px * 0.86);
+    --padding08: calc(6px * 0.8) calc(13.5px * 0.8) calc(6px * 0.8) calc(16px * 0.8);
+    --padding074: calc(6px * 0.74) calc(13.5px * 0.74) calc(6px * 0.74) calc(16px * 0.74);  
+}
+
+
+#Nav {
+    background: linear-gradient(to right, #166af2, #57f4ff);
+}
+#NavCenter {
+    color: 	#e8fffd;
+}
+#NavCenter2 {
+    color: 	#e8fffd;
+}
+#NavCenter2X {
+    color: 	#e8fffd;
+}
+
+@media only screen and (min-width: 780px) {
+    .Pencarian[type=text] {
+        border: 3.4px solid #e8fffd;
+        color: 	#e8fffd;
+    }
+    .Pencarian::placeholder {
+        color: #d4eae8;
+    }
+    .Pencarian:focus::placeholder {
+        color: 	#e8fffd;
+    }
+
+    .PencarianLens {
+        color: 	#e8fffd;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 779.5px) {
+    .Pencarian[type=text] {
+        border: 3.4px solid white;
+        color: 	white;
+    }
+    .Pencarian::placeholder {
+        color: 	#d4eae8;
+    }
+    .Pencarian:focus::placeholder {
+        color: 	white;
+    }
+
+    .PencarianLens {
+        color: 	white;
+    }
+}
+
+.icon18, .icon20, .icon22, .teks {
+    color: 	#e8fffd;
+}
+.iconM {
+    color: 	#e8fffd;
+}
+
+/* Navbar */
+
+
+
+
+/* Home */
+
+#background {
+    background: white;
+}
+.grid-item {
+    border-bottom: 4px solid #30e3f0;
+}
+#judulHuruf, #isiHuruf, #isiTanggal {
+    background: rgb(226, 226, 226);
+    border-radius: 0.3em;
+    color: transparent;
+}
+#pictureDivUtama {
+    background: rgb(226, 226, 226);
+}
+
+#pictureText, #pictureText1, #pictureText2, #pictureText3, #pictureText4, #pictureText5, #pictureText6, #pictureText7, #pictureText8, #pictureText9, #pictureText10, #pictureText11, #pictureText12, #pictureText13, #pictureText14, #pictureEdit, #pictureEdit1, #pictureEdit2, #pictureEdit3, #pictureEdit4, #pictureEdit5, #pictureEdit6, #pictureEdit7, #pictureEdit8, #pictureEdit9, #pictureEdit10, #pictureEdit11, #pictureEdit12, #pictureEdit13, #pictureEdit14 {
+    background: #1e90ff;
+}
+
+#Kategori, #EditText, #DeleteText, #Kategori1, #Kategori2, #Kategori3, #Kategori4, #Kategori5, #Kategori6, #Kategori7, #Kategori8, #Kategori9, #Kategori10, #Kategori11, #Kategori12, #Kategori13, #Kategori14 {
+    color: white;
+}
+
+/* Home */
+
+
+
+
+/* Page */
+
+.page-item {
+    background: #43b7ff;
+}
+.page-item:hover {
+    background: #1e90ff;
+}
+.buttonPage {
+    color: #e8fffd;
+}
+
+/* Page */
+
+
+
+
+/* Footer */
+
+#footer {
+    border-top: 1.2px solid #30e3f0;
+}
+#aFooter {
+    color: black;
+}
+#aFooter:hover {
+    color: red;
+}
+
+/* Footer */
+
+
+
+
+/* Webkit */
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10em; 
+}
+::-webkit-scrollbar-thumb {
+    background: #167ce2;
+    border-radius: 10em;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+
+/* Webkit */

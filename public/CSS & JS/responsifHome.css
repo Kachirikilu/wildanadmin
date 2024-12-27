@@ -1,0 +1,336 @@
+@media only screen and (min-width: 1550px) {
+    #Nav, #NavLite, #NavX, #NavNon {
+        padding: 12px 1.5%;
+        height: 52px;
+    }
+    #grid-container {
+        width: calc(100% - 2*9%);
+        margin: 42px 9% calc(1.5*42px / 2) 9%;
+        gap: 0 24px;
+    }
+}
+
+@media only screen and (min-width: 1450px) and (max-width: 1549.5px) {
+    #Nav, #NavLite, #NavX, #NavNon {
+        padding: 12px 1.5%;
+        height: 52px;
+    }
+    #grid-container {
+        width: calc(100% - 2*8%);
+        margin: 42px 8% calc(1.5*42px / 2) 8%;
+        gap: 0 2%;
+    }
+}
+
+@media only screen and (min-width: 1350px) and (max-width: 1449.5px) {
+    #Nav, #NavLite, #NavX, #NavNon {
+        padding: 12px 1%;
+        height: 52px;
+    }
+    #grid-container {
+        width: calc(100% - 2*10%);
+        margin: 42px 10% calc(1.5*42px / 2) 10%;
+        gap: 0 3%;
+    }
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 1349.5px) {
+    #Nav, #NavLite, #NavX, #NavNon {
+        padding: 12px 1%;
+        height: 52px;
+    }
+    #grid-container {
+        width: calc(100% - 2*8%);
+        margin: 42px 8% calc(1.5*42px / 2) 8%;
+        gap: 0 3%;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1149.5px) {
+    #Nav, #NavLite, #NavX, #NavNon {
+        padding: 12px;
+        height: 52px;
+    }
+    #grid-container {
+        width: calc(100% - 2*8%);
+        margin: 40px 8% calc(1.5*40px / 2) 8%;
+        gap: 0 2.6%;
+    }
+    :root {
+        --margin-Grid-itemUtema: calc(100% - 40px); 
+    }
+    .grid-item, .grid-itemUtama  {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1099.5px) {
+    #Nav, #NavLite, #NavX, #NavNon {
+        padding: 12px;
+        height: 52px;
+    }
+    #grid-container {
+        width: calc(100% - 2*6%);
+        margin: 40px 6% calc(1.5*40px / 2) 6%;
+        gap: 0 2%;
+    }
+}
+
+@media only screen and (min-width: 940px) and (max-width: 999.5px) {
+    #Nav, #NavLite, #NavX, #NavNon {
+        padding: 8px;
+        height: 60px;
+    }
+    #grid-container {
+        width: calc(100% - 2*5%);
+        margin: 34px 5% calc(1.5*34px / 2) 5%;
+        gap: 0 2%;
+    }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 939.5px) {
+    #Nav, #NavLite, #NavX, #NavNon {
+        padding: 0px;
+        height: 70px;
+    }
+    #grid-container {
+        width: calc(100% - 2*5%);
+        margin: 34px 5% calc(1.5*34px / 2) 5%;
+        gap: 0 2%;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 849.5px) {
+    #Nav, #NavLite, #NavX, #NavNon {
+        padding: 0px;
+        height: 70px;
+    }
+    #grid-container {
+        width: calc(100% - 2*6%);
+        margin: 34px 6% calc(1.5*34px / 2) 6%;
+        gap: 0 2%;
+    }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 799.5px) {
+    #Nav, #NavLite, #NavX, #NavNon {
+        padding-left: 32px;
+        padding-right: 32px;
+        height: 70px;
+    }
+    #grid-container {
+        width: calc(100% - 2*4%);
+        margin: 34px 4% calc(1.5*34px / 2) 4%;
+        gap: 0 2%;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 779.5px) {
+    #Nav, #NavLite, #NavX, #NavNon {
+        padding-left: 24px;
+        padding-right: 24px;
+        height: 70px;
+    }
+    #grid-container {
+        width: calc(100% - 2*4%);
+        margin: 42px 4% calc(1.5*42px / 2) 4%;
+        gap: 0 2%;
+    }
+}
+
+@media only screen and (min-width: 620px) and (max-width: 699.5px) {
+    #Nav, #NavLite, #NavX, #NavNon {
+        padding-left: 24px;
+        padding-right: 24px;
+        height: 70px;
+    }
+    #grid-container {
+        width: calc(100% - 2*4%);
+        margin: 34px 4% calc(1.5*34px / 2) 4%;
+        gap: 0 2%;
+    }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 619.5px) {
+    #Nav, #NavLite, #NavX, #NavNon {
+        padding-left: 24px;
+        padding-right: 24px;
+        height: 66px;
+    }
+
+    #grid-container {
+        width: calc(100% - 2*4%);
+        margin: 26px 4% calc(1.5*42px / 2) 4%;
+        gap: 0 2.4%;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 539.5px) {
+    #Nav, #NavLite, #NavX, #NavNon {
+        padding-left: 24px;
+        padding-right: 24px;
+        height: 66px;
+    }
+    #grid-container {
+        width: calc(100% - 2*3%);
+        margin: 20px 3% calc(1.5*42px / 2) 3%;
+        gap: 0 2%;
+    }
+}
+
+
+
+@media only screen and (min-width: 620px) {
+    #grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .grid-itemUtama {
+        grid-column: 1 / span 2;
+    }
+    #pictureDivUtama, .grid-itemUtama {
+        aspect-ratio: 16 / 10;
+    }
+}
+@media only screen and (min-width: 455px) and (max-width: 619.5px) {
+    #grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .grid-itemUtama {
+        grid-column: 1 / span 2;
+    }
+    #pictureDivUtama, .grid-itemUtama {
+         aspect-ratio: 16 / 10;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 454.5px) {
+    #grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .grid-itemUtama {
+        grid-column: 1 / span 2;
+    }
+    #pictureDivUtama, .grid-itemUtama {
+         aspect-ratio: 16 / 10;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 359.5px) {
+    #grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+    .grid-itemUtama {
+        grid-column: 1 / span 2;
+    }
+    #pictureDivUtama, .grid-itemUtama {
+         aspect-ratio: 16 / 10;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 319.5px) {
+    #grid-container {
+        grid-template-columns: 100%;
+    }
+    .grid-itemUtama {
+        grid-column: 1 / span 1;
+    }
+    #pictureDivUtama, .grid-itemUtama {
+         aspect-ratio: 3 / 2;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 3750px) {
+    #container-DataUser {
+        grid-template-columns: calc(100%/8 - 10px) calc(100%/8 - 10px) calc(100%/8 - 10px) calc(100%/8 - 10px) calc(100%/8 - 10px) calc(100%/8 - 10px) calc(100%/8 - 10px) calc(100%/8 - 10px);
+        max-height: calc(90vh - 76px);
+    }
+}
+@media only screen and (min-width: 3350px) and (max-width: 3749.5px) {
+    #container-DataUser {
+        grid-template-columns: calc(100%/8 - 10px) calc(100%/8 - 10px) calc(100%/8 - 10px) calc(100%/8 - 10px) calc(100%/8 - 10px) calc(100%/8 - 10px) calc(100%/8 - 10px) calc(100%/8 - 10px);
+        max-height: calc(90vh - 76px);
+    }
+}
+@media only screen and (min-width: 3000px) and (max-width: 3349.5px) {
+    #container-DataUser {
+        grid-template-columns: calc(100%/7 - 10px) calc(100%/7 - 10px) calc(100%/7 - 10px) calc(100%/7 - 10px) calc(100%/7 - 10px) calc(100%/7 - 10px) calc(100%/7 - 10px);
+        max-height: calc(90vh - 76px);
+    }
+}
+@media only screen and (min-width: 2760px) and (max-width: 2999.5px) {
+    #container-DataUser {
+        grid-template-columns: calc(100%/7 - 10px) calc(100%/7 - 10px) calc(100%/7 - 10px) calc(100%/7 - 10px) calc(100%/7 - 10px) calc(100%/7 - 10px) calc(100%/7 - 10px);
+        max-height: calc(90vh - 76px);
+    }
+}
+@media only screen and (min-width: 2460px) and (max-width: 2759.5px) {
+    #container-DataUser {
+        grid-template-columns: calc(100%/6 - 10px) calc(100%/6 - 10px) calc(100%/6 - 10px) calc(100%/6 - 10px) calc(100%/6 - 10px) calc(100%/6 - 10px);
+        max-height: calc(90vh - 76px);
+    }
+}
+@media only screen and (min-width: 2200px) and (max-width: 2459.5px) {
+    #container-DataUser {
+        grid-template-columns: calc(100%/5 - 10px) calc(100%/5 - 10px) calc(100%/5 - 10px) calc(100%/5 - 10px) calc(100%/5 - 10px);
+        max-height: calc(90vh - 76px);
+    }
+}
+@media only screen and (min-width: 2000px) and (max-width: 2199.5px) {
+    #container-DataUser {
+        grid-template-columns: calc(100%/5 - 10px) calc(100%/5 - 10px) calc(100%/5 - 10px) calc(100%/5 - 10px) calc(100%/5 - 10px);
+        max-height: calc(90vh - 76px);
+    }
+}
+@media only screen and (min-width: 1800px) and (max-width: 1999.5px) {
+    #container-DataUser {
+        grid-template-columns: calc(100%/5 - 10px) calc(100%/5 - 10px) calc(100%/5 - 10px) calc(100%/5 - 10px) calc(100%/5 - 10px);
+        max-height: calc(90vh - 76px);
+    }
+}
+@media only screen and (min-width: 1700px) and (max-width: 1799.5px) {
+    #container-DataUser {
+        grid-template-columns: calc(100%/5 - 10px) calc(100%/5 - 10px) calc(100%/5 - 10px) calc(100%/5 - 10px) calc(100%/5 - 10px);
+        max-height: calc(90vh - 76px);
+    }
+}
+@media only screen and (min-width: 1520px) and (max-width: 1699.5px) {
+    #container-DataUser {
+        grid-template-columns: calc(100%/4 - 10px) calc(100%/4 - 10px) calc(100%/4 - 10px) calc(100%/4 - 10px);
+        max-height: calc(90vh - 76px);
+    }
+}
+@media only screen and (min-width: 1150px) and (max-width: 1519.5px) {
+    #container-DataUser {
+        grid-template-columns: calc(100%/3 - 10px) calc(100%/3 - 10px) calc(100%/3 - 10px);
+        max-height: calc(90vh - 76px);
+    }
+}
+
+
+@media only screen and (min-width: 2000px)  {
+    #header {
+        height: calc(224px + 20px + 76px);
+    }
+    #header1 {
+        height: 224px;
+    }
+}
+@media only screen and (min-width: 1500px) and (max-width: 1999px)  {
+    #header {
+        height: calc(208px + 20px + 76px);
+    }
+    #header1 {
+        height: 208px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 1499.5px)  {
+    #header {
+        height: calc(164px + 20px + 76px);
+    }
+    #header1 {
+        height: 164px;
+    }
+}

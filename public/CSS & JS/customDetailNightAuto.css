@@ -1,0 +1,173 @@
+#pictureIMGUtamaCUSTOM {
+    overflow-y: scroll;
+}
+.divCUSTOM {
+    padding: 22px 0 22px 24px;
+}
+.nameCUSTOM {
+    margin: 1px;
+}
+.nameCUSTOMX {
+    padding: 0 0 21px 0;
+}
+.inputCUSTOM[type=color] {
+    margin: 1px 0 8px 0;
+    border-radius: 0.32em;
+    border: none;
+    appearance: none;
+}
+
+.divCUSTOMX {
+    padding: 20px 0 0 20px;
+}
+#divCustom {
+    width: calc(100% - 2*12px);
+    padding: 12px;
+    margin-bottom: 20px;
+    background: #747a8a;
+    border-radius: 0.6em;
+}
+
+
+.inputBy {
+    margin: 8px 2px 0 0;
+    border-radius: 0.32em;
+    outline: none;
+    width: 180px;
+    height: 25px;
+    border: 0;
+}
+.inputBy[type=text]  {
+    padding: 0 0 0 12px;
+}
+
+.buttonBy {
+    margin: 8px 2px 0 2px;
+    border-radius: 0.32em;
+    width: 60px;
+    height: 25px;
+    background: #56ff40e5;
+    font-weight: 600;
+    border: 0;
+    transition: all 0.42s ease-out;
+}
+.buttonByDelete {
+    margin: 8px 0 0 2px;
+    border-radius: 0.32em;
+    width: 60px;
+    height: 25px;
+    background: red;
+    color: white;
+    font-weight: 600;
+    border: 0;
+    transition: all 0.42s ease-out;
+}
+
+#pictureText, #pictureText1, #pictureText2, #pictureText3, #pictureText4, #pictureText5, #pictureText6, #pictureEdit, #pictureEdit1, #pictureEdit2, #pictureEdit3, #pictureEdit4, #pictureEdit5, #pictureEdit6  {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    transition:  all 0.22s ease-out;
+}
+
+#pictureText, #pictureText1, #pictureText2, #pictureText3, #pictureText4, #pictureText5, #pictureText6 {
+    border-radius: 0.1em 0.56em 0 0;
+}
+
+
+/* Navbar */
+
+:root {
+    --padding1: 6px 13.5px 6px 16px;
+    --padding086: calc(6px * 0.86) calc(13.5px * 0.86) calc(6px * 0.86) calc(16px * 0.86);
+    --padding08: calc(6px * 0.8) calc(13.5px * 0.8) calc(6px * 0.8) calc(16px * 0.8);
+    --padding074: calc(6px * 0.74) calc(13.5px * 0.74) calc(6px * 0.74) calc(16px * 0.74);  
+}
+
+
+#NavCenter {
+    color: 	#e8fffd;
+}
+#NavCenter2 {
+    color: 	#e8fffd;
+}
+#NavCenter2X {
+    color: 	#e8fffd;
+}
+
+.Pencarian:focus::placeholder {
+    color: 	#e8fffd;
+}
+
+
+/* Navbar */
+
+
+
+
+/* Home */
+
+#background {
+    background: rgb(26, 26, 26);
+}
+@keyframes backgroundAwal {
+    0% {
+        background: white;
+    } 100% {
+        background: rgb(26, 26, 26);
+    }
+}
+#judulHuruf, #isiHuruf, #isiTanggal {
+    background: rgb(43, 43, 43);
+    border-radius: 0.3em;
+    color: transparent;
+}
+#pictureDivUtama {
+    background: rgb(43, 43, 43);
+    color: white;
+}
+
+/* Home */
+
+
+
+
+/* Footer */
+
+#aFooter {
+    color: white;
+}
+#aFooter:hover {
+    color: red;
+}
+
+/* Footer */
+
+
+
+
+/* Webkit */
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 10px; 
+}
+::-webkit-scrollbar-thumb {
+    background: #9980FA;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+    border-radius: 10px;
+}
+
+/* Webkit */

@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+        /* background-image: url(/FileWeb/Wallpaper.jpg); */
+        /* background: #46415d; */
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.UltraBlur {
+    animation: UltraBlur 1.6s ease forwards;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index:-1
+}
+
+@media only screen and (min-width: 700px) {
+    .WadahCreate, .WadahEdit {
+        width: 600px;
+        transition: all 1s ease;
+    }
+    .buttonParagraf {
+        transform: translate(69.8%, 32%);
+        transition: all 1s ease;
+    }
+    .buttonParagrafX {
+        transform: translate(69.8%, 142%);
+        transition: all 1s ease;
+    }
+    .buttonPictureX {
+        transform: translate(69.8%, 32%);
+        transition: all 1s ease;
+    }
+}
+@media only screen and (min-width: 560px) and (max-width: 699.5px) {
+    .WadahCreate, .WadahEdit {
+        width: 480px;
+        transition: all 1s ease;
+    }
+    .buttonParagraf {
+        transform: translate(35.6%, 32%);
+        transition: all 1s ease;
+    }
+    .buttonParagrafX {
+        transform: translate(35.6%, 142%);
+        transition: all 1s ease;
+    }
+    .buttonPictureX {
+        transform: translate(35.6%, 32%);
+        transition: all 1s ease;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 599.5px) {
+    .WadahCreate, .WadahEdit {
+        width: 424px;
+        transition: all 1s ease;
+    }
+    .buttonParagraf {
+        transform: translate(19.32%, 32%);
+        transition: all 1s ease;
+    }
+    .buttonParagrafX {
+        transform: translate(19.32%, 142%);
+        transition: all 1s ease;
+    }
+    .buttonPictureX {
+        transform: translate(19.32%, 32%);
+        transition: all 1s ease;
+    }
+}
+
+#WadahEdit {
+    position: absolute; 
+    width: 100%;
+    height: 100vh; 
+    z-index: 10; 
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+.WadahEdit {
+    position: relative;
+    margin-top: 80.6354px;
+    margin-bottom: 80.6354px;
+    margin-left: 32px;
+    margin-right: 32px;
+    background: #bed3e1e0;
+    border-radius: 0.6em;
+    padding-bottom: 33px;
+    animation: WadahCreate 1.4s ease forwards;
+}
+
+@keyframes UltraBlur {
+    0%{
+        filter: blur(0px)
+    }
+    60%{
+        filter: blur(12px)
+    }
+    100% {
+        filter: blur(6px)
+    }
+}
+
+.WadahCreateT {
+    position: absolute;
+    width: 100%;
+    height: 100vh; 
+    overflow-y: auto;
+}
+.WadahCreate {
+    position: relative;
+    margin-top: 80.6354px;
+    margin-bottom: 80.6354px;
+    margin-left: 32px;
+    margin-right: 32px;
+    background: #bed3e1e0;
+    border-radius: 0.6em;
+    padding-bottom: 33px;
+    animation: WadahCreate 1.4s ease forwards;
+}
+
+@keyframes WadahCreate {
+    0%{
+        transform: scale(0.5) translateY(-260%);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.WadahCreateNav {
+    margin-bottom: 26px;
+    width: 100%;
+    height: 42px;
+    position: relative;
+    background: linear-gradient(to right, red, #f94f3c);
+    border-radius: 0.6em 0.6em 0.2em 0.2em;
+    margin-bottom: 24px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputCreate {
+    border-radius: 12px;
+    border: 1px solid;
+}
+.inputCreate:focus::placeholder {
+    color: #f94f3c;
+    transition: all 0.36s ease;
+}
+.inputCreate[type=text] {
+    border-radius: 12px;
+    border: 1px solid;
+    width: 86%;
+    height: 39px;
+    margin: 6px 0px 20px 0px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    padding: 13px;
+}
+.inputCreate[type=date] {
+    border-radius: 12px;
+    border: 1px solid;
+    width: 86%;
+    height: 39px;
+    margin: 6px 0px 20px 0px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    padding: 13px;
+}
+
+
+.inputCreate[type=file] {
+    height: 26px;
+    width: 40%;
+    margin-top: 6.4px;
+    padding: 0 80px 0 13px;
+    border-radius: 3px;
+    font-size: 15px;
+    background: #d0d5dae5;
+    transition: all 0.3s ease;
+    border-radius: 12px;
+    border: 1px solid red;
+}
+.inputCreate[type=file]::placeholder {
+    color: #f94f3c;
+    transition: all 0.36s ease;
+}
+.inputCreate[type=file]:focus {
+    border-color: #b5170600;
+}
+.inputCreate[type=file]::-webkit-file-upload-button {
+    display: none;
+}
+.inputCreate[type=file]::before {
+    content: 'Pictureㅤ';
+    color: #46415d;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.inputCreateX[type=file] {
+    height: 28px;
+    width: 55px;
+    margin-top: 6.4px;
+    padding: 0 80px 0 13px;
+    border-radius: 3px;
+    font-size: 15px;
+    background: #d0d5da50;
+    transition: all 0.3s ease;
+    border-radius: 12px;
+    border: 1px solid red;
+}
+.inputCreateX[type=file]::placeholder {
+    color: #f94f3c;
+    transition: all 0.36s ease;
+}
+.inputCreateX[type=file]:focus {
+    border-color: #b5170600;
+}
+.inputCreateX[type=file]::-webkit-file-upload-button {
+    display: none;
+}
+.inputCreateX[type=file]::before {
+    content: 'Pictureㅤ';
+    color: #46415d;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.inputTextContent {
+    border-radius: 12px;
+    border: 1px solid;
+    height: 50px;
+}
+.inputTextContent:focus::placeholder {
+    color: #f94f3c;
+    transition: all 0.36s ease;
+}
+.inputTextContent[type=text] {
+    border-radius: 12px;
+    border: 1px solid;
+    min-width: 86%;
+    max-width: 86%;
+    min-height: 130px;
+    margin: 6px 0px 20px 0px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    padding: 13px;
+}
+
+.buttonCreate {
+    position: absolute;
+    height: 28.042px;
+    width: 90px;
+    color: black;
+    background: #56ff40;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-radius: 12px;
+    border: 0px;
+    transform: translate(-99.6%, 22.64%);
+}
+.buttonCreate:hover {
+    background: #a5fe38;
+    transition: all 0.42s ease;
+}
+.buttonCreate:active {
+    background: #c3ea33;
+    transition: all 0.16s ease;
+}
+
+
+.buttonParagraf {
+    position: absolute;
+    height: 29px;
+    width: 150px;
+    color: #00000050;
+    background: #82ccdd50;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-radius: 12px;
+    border: 0px;
+}
+.buttonParagraf:hover {
+    background: #56ff40;
+    color: #000000;
+    transition: all 0.42s ease;
+}
+.buttonParagraf:active {
+    background: #d91009;
+    transition: all 0.16s ease;
+}
+
+/* Pembatas */
+
+.buttonPictureX {
+    position: absolute;
+    height: 29px;
+    width: 150px;
+    color: #00000050;
+    background: #56ff4050;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-radius: 12px;
+    border: 0px;
+}
+.buttonPictureX:hover {
+    background: #82ccdd;
+    color: #000000;
+    transition: all 0.42s ease;
+}
+.buttonPictureX:active {
+    background: #d91009;
+    transition: all 0.16s ease;
+}
+
+.buttonParagrafX {
+    position: absolute;
+    height: 29px;
+    width: 150px;
+    color: #00000050;
+    background: #82ccdd50;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-radius: 12px;
+    border: 0px;
+}
+.buttonParagrafX:hover {
+    background: #56ff40;
+    color: #000000;
+    transition: all 0.42s ease;
+}
+.buttonParagrafX:active {
+    background: #d91009;
+    transition: all 0.16s ease;
+}
+
+.inputCreateX {
+    position: absolute;
+    border-radius: 12px;
+    border: 1px solid;
+    transform: translate(69.8%, 32%);
+}
+
+/* Pembatas */
+
+.inputCreateX {
+    position: absolute;
+    transform: translate(69.8%, 9%);
+}
+
+@keyframes RotateIcon {
+    0% {
+        transform: scale(1.2) translateY(1.8px) rotate(0deg);
+    }
+    100% {
+        transform: scale(1.2) translateY(1.8px) rotate(-180deg);
+    }
+}
+@keyframes RotateIconR {
+    0% {
+        transform: scale(1.2) translateY(1.8px) rotate(-180deg);
+    }
+    100% {
+        transform: scale(1.2) translateY(1.8px) rotate(0deg);
+    }
+}
+
+#buttonCreateBack {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    height: 72px;
+    width: 100%;
+    border: 0;
+    font-weight: 550;
+    font-size: 17px;
+    color: black;
+    text-shadow: -3px -3px 4px rgba(255, 255, 255, 0.02), 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+#buttonCreateBack:active {
+    color: white;
+    transition: all 0.2s ease;
+}
+
+#textBack {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    opacity: 0;
+}
+
+#textCreate {
+    position: relative;
+    display: block;
+    transform: scale(1.24);
+    opacity: 1;
+}
+
+@keyframes textCreate {
+    0% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+}
+@keyframes textCreateR {
+    0% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+}
+@keyframes textBack {
+    0% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+}
+@keyframes textBackR {
+    0% {
+        transform: translateY(0px) scale(1.24);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(40px) scale(0.8);
+        opacity: 0;
+    }
+}

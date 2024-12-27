@@ -1,0 +1,2681 @@
+<div id="NavCenterX2">
+    <button onclick="Wallpaper()" id="buttonNavWallpaper">
+        <span id="textW" class="teks">Wallpaper</span>
+        <span id="iconW">
+            <ion-icon name="images-outline" class="icon18"></ion-icon>
+        </span>
+    </button>
+</div>
+
+
+
+<!-- Wallpaper Slider -->
+
+<ul id="ul-top3W" class="ul-top3W" style="display: none;">
+    <div id="center">
+        <div id="container-Wallpaper">
+            <div id="grid-Wallpaper">
+                <button id="wallpaper1" form="w1" value="upload" onclick="w1()" class="w-slide"><img src="/FileWeb/w1.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper2" form="w2" value="upload" onclick="w2()" class="w-slide"><img src="/FileWeb/W2L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper3" onclick="w3()" class="w-slide"><img src="/FileWeb/W3L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper4" onclick="w4()" class="w-slide"><img src="/FileWeb/W4L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper5" onclick="w5()" class="w-slide"><img src="/FileWeb/W5L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper6" onclick="w6()" class="w-slide"><img src="/FileWeb/W6L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper7" onclick="w7()" class="w-slide"><img src="/FileWeb/W7L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper8" onclick="w8()" class="w-slide"><img src="/FileWeb/W8L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper9" onclick="w9()" class="w-slide"><img src="/FileWeb/W9L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper10" onclick="w10()" class="w-slide"><img src="/FileWeb/W10L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper11" onclick="w11()" class="w-slide"><img src="/FileWeb/W11L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper12" onclick="w12()" class="w-slide"><img src="/FileWeb/W12L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+        </div>
+    </div>
+</ul>
+
+<!-- Wallpaper Slider -->
+
+function Wallpaper() {
+    // Wallpaper
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+        wallpaper.style.animation = "ul-top3W 600ms ease forwards";
+        wallpaper.style.display = "inline"
+    }
+    else {
+        setTimeout(out, 500);
+        wallpaper.style.animation = "ul-top3WR 500ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+        blur.style.animation = "blur 600ms ease forwards";
+        blur.style.filter = "blur(5px)"
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards"
+        function out() {
+            blur.style.filter = "none"
+        }
+    }
+
+    // Pembatas
+    let chatClose = document.getElementById("ul-top3C")
+    if (chatClose.style.display == "inline") {
+        setTimeout(out, 260);
+        chatClose.style.animation = "ul-top3CR 260ms ease forwards"
+        function out() {
+            chatClose.style.display = "none"
+        }
+    }
+    let profilClose = document.getElementById("ul-top3DP")
+    if (profilClose.style.display == "inline") {
+        setTimeout(out, 260);
+        profilClose.style.animation = "ul-top3WR2 460ms ease forwards"
+        function out() {
+            profilClose.style.display = "none"
+        }
+    }
+    let userClose = document.getElementById("ul-top3DU")
+    if (userClose.style.display == "inline") {
+       setTimeout(out, 260);
+       userClose.style.animation = "ul-top3WR2 460ms ease forwards"
+        function out() {
+            userClose.style.display = "none"
+       }
+    }
+    let blur2Close = document.getElementById("blur2")
+    if (blur2Close.style.filter == "blur(8px)") {
+       setTimeout(out, 260);
+       blur2Close.style.animation = "blur2R 260ms ease forwards"
+        function out() {
+            blur2Close.style.filter = "none"
+       }
+    }
+    let blur3Close = document.getElementById("blur3")
+    if (blur3Close.style.filter == "blur(5px)") {
+       setTimeout(out, 260);
+       blur3Close.style.animation = "blurR 260ms ease forwards"
+        function out() {
+            blur3Close.style.filter = "none"
+       }
+    }
+
+    let x = document.getElementById("Nav2A");
+    if (x.style.display == "inline") {
+        setTimeout(out, 400);
+        x.style.animation = "buttonNav2R 400ms ease forwards"
+        function out() {
+            x.style.display = "none";
+        }
+    }
+}
+
+document.getElementById("buttonNavWallpaper").onmouseover = function() {menuMouseOverWallpaper()};
+document.getElementById("buttonNavWallpaper").onmouseout = function() {menuMouseOutWallpaper()};
+
+function menuMouseOverWallpaper() {
+    let icon = document.getElementById("iconW");
+        if (icon.style.animation == "iconAni 400ms ease forwards") {
+            }
+        else {
+            icon.style.animation = "iconAni 400ms ease forwards";
+        }
+    let text = document.getElementById("textW");
+        if (text.style.animation == "textAni 400ms ease forwards") {
+            }
+        else {
+            text.style.animation = "textAni 400ms ease forwards";
+        }
+}
+function menuMouseOutWallpaper() {
+    let icon = document.getElementById("iconW");
+        if (icon.style.animation == "iconAniR 320ms ease forwards") {
+            }
+        else {
+            icon.style.animation = "iconAniR 320ms ease forwards";
+        }
+    let text = document.getElementById("textW");
+        if (text.style.animation == "textAniR 320ms ease forwards") {
+            }
+        else {
+            text.style.animation = "textAniR 320ms ease forwards";
+        }
+}
+
+@media only screen and (min-width: 1120px) {
+    .ul-top3W {  
+        height: calc(100vh - 76px);
+        top: 76px;
+    }
+    #container-Wallpaper {
+        grid-template-columns: auto auto auto auto;
+        height: calc(max-content - 76px); 
+        transform: scale(100%);
+        animation: container1 0.36s ease-in-out;
+    }
+    @keyframes container1 {
+        0% {
+            transform: scale(100%);
+        } 50% {
+            transform: scale(105%);
+        } 100% {
+            transform: scale(100%);
+        }
+    }
+    .w-slide {
+        height: 150px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1070px) and (max-width: 1119.5px) {
+    .ul-top3W {
+        height: calc(100vh - 76px);
+        top: 76px;
+    }
+    #container-Wallpaper {
+        grid-template-columns: auto auto auto auto;
+        height: calc(max-content - 76px);
+        transform: scale(95%);
+        animation: container2 0.36s ease-in-out;
+    }
+    @keyframes container2 {
+        0% {
+            transform: scale(95%);
+        } 50% {
+            transform: scale(100%);
+        } 100% {
+            transform: scale(95%);
+        }
+    }
+    .w-slide {
+        height: 150px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1020px) and (max-width: 1069.5px) {
+    .ul-top3W {
+        height: calc(100vh - 76px);
+        top: 76px;
+    }
+    #container-Wallpaper {
+        grid-template-columns: auto auto auto auto;
+        height: calc(max-content - 76px);
+        transform: scale(90%);
+        animation: container3 0.36s ease-in-out;
+    }
+    @keyframes container3 {
+        0% {
+            transform: scale(90%);
+        } 50% {
+            transform: scale(95%);
+        } 100% {
+            transform: scale(90%);
+        }
+    }
+    .w-slide {
+        height: 150px;
+    }
+}
+
+
+
+@media only screen and (min-width: 985px) and (max-width: 1019.5px) {
+    .ul-top3W {
+        height: calc(100vh - 76px);
+        top: 76px;
+    }
+    #container-Wallpaper {
+        grid-template-columns: auto auto auto auto;
+        height: calc(max-content - 76px);
+        transform: scale(85%);
+        animation: container4 0.36s ease-in-out;
+    }
+    @keyframes container4 {
+        0% {
+            transform: scale(85%);
+        } 50% {
+            transform: scale(90%);
+        } 100% {
+            transform: scale(85%);
+        }
+    }
+    .w-slide {
+        height: 150px;
+    }
+}
+
+
+
+@media only screen and (min-width: 940px) and (max-width: 984.5px) {
+    .ul-top3W {
+        height: calc(100vh - 76px);
+        top: 76px;
+    }
+    #container-Wallpaper {
+        grid-template-columns: auto auto auto auto;
+        height: calc(max-content - 76px);
+        transform: scale(80%);
+        animation: container5 0.36s ease-in-out;
+    }
+    @keyframes container5 {
+        0% {
+            transform: scale(80%);
+        } 50% {
+            transform: scale(85%);
+        } 100% {
+            transform: scale(80%);
+        }
+    }
+    .w-slide {
+        height: 150px;
+    }
+}
+
+
+
+@media only screen and (min-width: 900px) and (max-width: 939.5px) {
+    .ul-top3W {
+        height: calc(100vh - 84px);
+        top: 84px;
+    }
+    #container-Wallpaper {
+        grid-template-columns: auto auto auto auto;
+        height: calc(max-content - 84px);
+        transform: scale(75%);
+        animation: container6 0.36s ease-in-out;
+    }
+    @keyframes container6 {
+        0% {
+            transform: scale(75%);
+        } 50% {
+            transform: scale(80%);
+        } 100% {
+            transform: scale(75%);
+        }
+    }
+    .w-slide {
+        height: 150px;
+    }
+}
+
+
+
+@media only screen and (min-width: 854px) and (max-width: 899.5px) {
+    .ul-top3W {
+        height: calc(100vh - 84px);
+        top: 84px;
+    }
+    #container-Wallpaper {
+        grid-template-columns: auto auto auto;
+        height: calc(100% - 84px);
+        transform: scale(95%);
+        animation: container7 0.36s ease-in-out;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    @keyframes container7 {
+        0% {
+            transform: scale(95%);
+        } 50% {
+            transform: scale(105%);
+        } 100% {
+            transform: scale(95%);
+        }
+    }
+    .w-slide {
+        height: 150px;
+    }
+}
+
+
+
+@media only screen and (min-width: 830px) and (max-width: 853.5px) {
+    .ul-top3W {
+        height: calc(100vh - 84px);
+        top: 84px;
+    }
+    #container-Wallpaper {
+        grid-template-columns: auto auto auto;
+        height: calc(100% - 84px);
+        transform: scale(90%);
+        animation: container8 0.36s ease-in-out;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    @keyframes container8 {
+        0% {
+            transform: scale(90%);
+        } 50% {
+            transform: scale(95%);
+        } 100% {
+            transform: scale(90%);
+        }
+    }
+    .w-slide {
+        height: 150px;
+    }
+}
+
+
+
+@media only screen and (min-width: 800px) and (max-width: 829.5px) {
+    .ul-top3W {
+        height: calc(100vh - 84px);
+        top: 84px;
+    }
+    #container-Wallpaper {
+        grid-template-columns: auto auto auto;
+        height: calc(100% - 84px);
+        transform: scale(85%);
+        animation: container9 0.36s ease-in-out;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    @keyframes container9 {
+        0% {
+            transform: scale(85%);
+        } 50% {
+            transform: scale(90%);
+        } 100% {
+            transform: scale(85%);
+        }
+    }
+    .w-slide {
+        height: 150px;
+    }
+}
+
+
+
+@media only screen and (min-width: 640px) and (max-width: 799.5px) {
+    .ul-top3W {
+        height: calc(100vh - 90px);
+        top: 90px;
+    }
+    #container-Wallpaper {
+        grid-template-columns: auto auto;
+        height: calc(100% - 90px);
+        transform: scale(95%);
+        animation: container11 0.36s ease-in-out;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    @keyframes container11 {
+        0% {
+            transform: scale(95%);
+        } 50% {
+            transform: scale(100%);
+        } 100% {
+            transform: scale(95%);
+        }
+    }
+    .w-slide {
+        height: 150px;
+    }
+}
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 639.5px) {
+    .ul-top3W {
+        height: calc(100vh - 90px);
+        top: 90px;
+    }
+    #container-Wallpaper {
+        grid-template-columns: auto auto;
+        height: calc(100% - 90px);
+        transform: scale(90%);
+        animation: container12 0.36s ease-in-out;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    @keyframes container12 {
+        0% {
+            transform: scale(90%);
+        } 50% {
+            transform: scale(95%);
+        } 100% {
+            transform: scale(90%);
+        }
+    }
+    .w-slide {
+        height: 150px;
+    }
+}
+
+
+
+@media only screen and (min-width: 560px) and (max-width: 599.5px) {
+    .ul-top3W {
+        height: calc(100vh - 90px);
+        top: 90px;
+    }
+    #container-Wallpaper {
+        grid-template-columns: auto auto;
+        height: calc(100% - 90px);
+        transform: scale(85%);
+        animation: container13 0.36s ease-in-out;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    @keyframes container13 {
+        0% {
+            transform: scale(85%);
+        } 50% {
+            transform: scale(90%);
+        } 100% {
+            transform: scale(85%);
+        }
+    }
+    .w-slide {
+        height: 150px;
+    }
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 559.5px) {
+    .ul-top3W {
+        height: calc(100vh - 90px);
+        top: 90px;
+    }
+    #container-Wallpaper {
+        grid-template-columns: auto;
+        height: calc(100% - 90px);
+        transform: scale(95%);
+        animation: container14 0.36s ease-in-out;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    @keyframes container14 {
+        0% {
+            transform: scale(95%);
+        } 50% {
+            transform: scale(100%);
+        } 100% {
+            transform: scale(95%);
+        }
+    }
+    .w-slide {
+        height: 220px;
+    }
+}
+
+
+
+.ul-top3W {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    width: 100%;
+    height: 100%;
+}
+#container-Wallpaper {
+    display: grid;
+    background: rgba(64, 64, 64, 0.64);
+    border-radius: 0.8em;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px 12px;
+}
+
+
+@keyframes ul-top3W {
+    0%{
+        transform: scale(0.24);
+        transform-origin: 180% 50%;
+    }
+    68%{
+        transform-origin: -2% 50%;
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes ul-top3WR {
+    0%{
+        transform: scale(1);
+    }
+    20%{
+        transform-origin: -2% 50%;
+    }
+    100%{
+        transform: scale(0.24);
+        transform-origin: 180% 50%;
+    }
+}
+@keyframes ul-top3WR2 {
+    0%{
+        transform: scale(1);
+    }
+    20%{
+        transform-origin: -2% 50%;
+    }
+    100%{
+        transform: scale(0.48);
+        transform-origin: 50% -200%;
+    }
+}
+
+.w-slide {
+    background: #202121ba;
+    border-radius: 0.8em;
+    color: rgb(230, 230, 230);
+    border: 0px;
+    aspect-ratio: 3 / 1.8;
+    transition: 0.21s ease-out;
+}
+.w-sliderx {
+    border-radius: 16px;
+    transition: 0.21s ease-out;
+}
+
+.w-slide:hover {
+    background: #ea2009fb;
+    animation: wallpaperOpsiKey 0.21s ease forwards;
+}
+@keyframes wallpaperOpsiKey {
+    0%{
+        transform: scale(1);
+    }
+    42%{
+        transform: scale(1.02);
+    }
+    100%{
+        transform: scale(0.98);
+    }
+}
+.w-slide:active {
+    background: #cc0f09fb;
+    animation: wallpaperOpsiKeyA 0.06s ease forwards
+}
+@keyframes wallpaperOpsiKeyA {
+    0%{
+        transform: scale(1.04);
+    }
+    64%{
+        transform: scale(0.972);
+    }
+    100%{
+        transform: scale(0.96);
+    }
+}
+
+function w1() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/w1.jpg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+    
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w2() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W2.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w3() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W3.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w4() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W4.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w5() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W5.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w6() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W6.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+  
+
+function w7() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W7.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w8() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W8.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w9() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W9.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w10() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W10.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w11() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W11.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w12() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W12.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+  <!-- Wallpaper Slider -->
+
+  <ul id="ul-top3W" class="ul-top3W" style="display: none;">
+    <div id="center">
+        <div id="container-Wallpaper">
+            <div id="grid-Wallpaper">
+                <button id="wallpaper1" form="w1" value="upload" onclick="w1()" class="w-slide"><img src="/FileWeb/w1.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper2" form="w2" value="upload" onclick="w2()" class="w-slide"><img src="/FileWeb/W2L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper3" onclick="w3()" class="w-slide"><img src="/FileWeb/W3L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper4" onclick="w4()" class="w-slide"><img src="/FileWeb/W4L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper5" onclick="w5()" class="w-slide"><img src="/FileWeb/W5L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper6" onclick="w6()" class="w-slide"><img src="/FileWeb/W6L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper7" onclick="w7()" class="w-slide"><img src="/FileWeb/W7L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper8" onclick="w8()" class="w-slide"><img src="/FileWeb/W8L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper9" onclick="w9()" class="w-slide"><img src="/FileWeb/W9L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper10" onclick="w10()" class="w-slide"><img src="/FileWeb/W10L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper11" onclick="w11()" class="w-slide"><img src="/FileWeb/W11L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+            <div id="grid-Wallpaper">
+                <button id="wallpaper12" onclick="w12()" class="w-slide"><img src="/FileWeb/W12L.jpg" width="240px" class="w-sliderx"></button>
+            </div>
+        </div>
+    </div>
+</ul>
+
+<!-- Wallpaper Slider -->
+
+let wallpaperClose = document.getElementById("ul-top3W")
+if (wallpaperClose.style.display == "inline") {
+    setTimeout(out, 260);
+    wallpaperClose.style.animation = "ul-top3WR2 460ms ease forwards"
+    function out() {
+        wallpaperClose.style.display = "none"
+    }
+}
+
+<?php if (session()->get('ID') == $userRegistrasi['ID']) { ?>
+
+    <div id="center">
+        <center>
+            <div class="WadahRegistrasi">
+                <nav class="WadahRegisterNav">
+                    <a href="/" style="text-decoration: none;"><button id="buttonRegistrasiLogout">
+                            <span id="textLogin">Back</span>
+                            <span id="textRegistrasi">Account Edit</span>
+                        </button></a>
+                </nav>
+                <form action="/registrasicontroller/update/<?= session()->get('ID') ?>" id="registrasi" method="post" enctype="multipart/form-data">
+                    <?= csrf_field(); ?>
+                    <div>
+                        <center><input value="<?= session()->get('Name') ?>" class="inputRegistrasi" type="text" id="inputName" name="inputName" placeholder="Name" required="" autofocus></center>
+                    </div>
+                    <div>
+                        <center><input value="<?= session()->get('Email') ?>" class="inputRegistrasi" type="email" id="inputEmail" name="inputEmail" placeholder="Email" required="" autofocus></center>
+                    </div>
+                    <div>
+                        <center><input value="<?= session()->get('UserName') ?>" class="inputRegistrasi" type="hidden" id="inputUserNameX" name="inputUserNameX" autofocus></center>
+                    </div>
+                    <center><a style="color: red;"><?= $validation->getError('inputUserName') ?></a></center>
+                    <div>
+                        <center><input value="<?= session()->get('UserName') ?>" class="inputRegistrasi" type="text" id="inputUserName" name="inputUserName" placeholder="User Name" required="" autofocus></center>
+                    </div>
+                    <div>
+                        <center><input class="inputRegistrasi" type="password" id="inputPassword" name="inputPassword" placeholder="New Password" required="" autofocus></center>
+                    </div>
+                    <center><a style="color: red;"><?= $validation->getError('inputPasswordX') ?></a></center>
+                    <div>
+                        <center><input class="inputRegistrasi" type="password" id="inputPasswordX" name="inputPasswordX" placeholder="Confirm Your New Password" required="" autofocus></center>
+                    </div>
+                    <div>
+                        <center><input value="<?= session()->get('WhatsApp') ?>" class="inputRegistrasi" type="number" id="inputWhatsApp" name="inputWhatsApp" placeholder="WhatsApp" autofocus></center>
+                    </div>
+                    <div>
+                        <?php if (session()->get('Instagram') !== "-") { ?>
+                            <center><input value="<?= session()->get('Instagram') ?>" class="inputRegistrasi" type="text" id="inputInstagram" name="inputInstagram" placeholder="Instagram" autofocus></center>
+                        <?php } else { ?>
+                            <center><input value="" class="inputRegistrasi" type="text" id="inputInstagram" name="inputInstagram" placeholder="Instagram" autofocus></center>
+                        <?php } ?>
+                    </div>
+                    <div>
+                        <?php if (session()->get('Facebook') !== "-") { ?>
+                            <center><input value="<?= session()->get('Facebook') ?>" class="inputRegistrasi" type="text" id="inputFacebook" name="inputFacebook" placeholder="Facebook" autofocus></center>
+                        <?php } else { ?>
+                            <center><input value="" class="inputRegistrasi" type="text" id="inputFacebook" name="inputFacebook" placeholder="Facebook" autofocus></center>
+                        <?php } ?>
+                    </div>
+                    <div>
+                        <center><input class="inputRegistrasi" type="password" id="inputAdminID" name="inputAdminID" placeholder="Admin ID" autofocus></center>
+                    </div>
+
+                    <center><a style="color: red;"><?= $validation->getError('inputProfil') ?></a></center>
+                    <div class="user-Profil">
+                        <center>
+                            <div class="input-Profil">
+                                <input class="inputRegistrasi" type="file" id="inputProfil" name="inputProfil" autofocus>
+                </form>
+                <button class="buttonRegistrasi" form="registrasi" name="registrasi" type="submit" value="upload">
+                    <ion-icon name="paper-plane-outline" style="transform: scaleX(-1.2) scaleY(1.2) translateY(1.2px);"></ion-icon> Edit
+                </button>
+            </div>
+        </center>
+    </div>
+    </div>
+
+<?php } else { ?>
+
+    <div id="center">
+        <center>
+            <div class="WadahRegistrasi">
+                <nav class="WadahRegisterNav">
+                    <a href="/" style="text-decoration: none;"><button id="buttonRegistrasiLogout">
+                            <span id="textLogin">Back</span>
+                            <span id="textRegistrasi">You don't have authorization!</span>
+                        </button></a>
+                </nav>
+                <form>
+                    <div>
+                        <center><input value="Error! 404 :(" class="inputRegistrasi" type="text" id="inputName" name="inputName" placeholder="Name" required="" autofocus></center>
+                    </div>
+                    <div>
+                        <center><input value="Error! 404 :(" class="inputRegistrasi" type="email" id="inputEmail" name="inputEmail" placeholder="Email" required="" autofocus></center>
+                    </div>
+                    <div>
+                        <center><input value="Error! 404 :(" class="inputRegistrasi" type="hidden" id="inputUserNameX" name="inputUserNameX" autofocus></center>
+                    </div>
+                    <div>
+                        <center><input value="Error! 404 :(" class="inputRegistrasi" type="text" id="inputUserName" name="inputUserName" placeholder="User Name" required="" autofocus></center>
+                    </div>
+                    <div>
+                        <center><input class="inputRegistrasi" type="password" id="inputPassword" name="inputPassword" placeholder="New Password" required="" autofocus></center>
+                    </div>
+                    <div>
+                        <center><input class="inputRegistrasi" type="password" id="inputPasswordX" name="inputPasswordX" placeholder="Confirm Your New Password!" required="" autofocus></center>
+                    </div>
+                    <div>
+                        <center><input value="404" class="inputRegistrasi" type="number" id="inputWhatsApp" name="inputWhatsApp" placeholder="WhatsApp" required="" autofocus></center>
+                    </div>
+                    <div>
+                        <center><input value="Error! 404 :(" class="inputRegistrasi" type="text" id="inputInstagram" name="inputInstagram" placeholder="Instagram" required="" autofocus></center>
+                    </div>
+                    <div>
+                        <center><input value="Error! 404 :(" class="inputRegistrasi" type="text" id="inputFacebook" name="inputFacebook" placeholder="Facebook" required="" autofocus></center>
+                    </div>
+                    <div>
+                        <center><input class="inputRegistrasi" type="password" id="inputAdminID" name="inputAdminID" placeholder="Admin ID" autofocus></center>
+                    </div>
+                    <div class="user-Profil">
+                        <center>
+                            <div class="input-Profil">
+                                <input class="inputRegistrasi" type="file" id="inputProfil" name="inputProfil" autofocus>
+                </form>
+                <button class="buttonRegistrasi">
+                    <ion-icon name="paper-plane-outline" style="transform: scaleX(-1.2) scaleY(1.2) translateY(1.2px); margin-right:0.6px"></ion-icon> Error!
+                </button>
+            </div>
+        </center>
+    </div>
+    </div>
+
+<?php } ?>
+
+.UltraBlurPro {
+    position: absolute;
+    /* animation: UltraBlurPro 1.2s ease forwards; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 26%;
+    z-index:-1;
+    overflow: hidden;
+}
+
+/* @keyframes UltraBlurPro {
+    0%{
+        filter: blur(6px);
+        transform: translateY(-100%) scale(0);
+    }
+    40%{
+        filter: blur(12px);
+        transform: translateY(6%) scale(1.1);
+    }
+    60%{
+        transform: translateY(0%) scale(1);
+    }
+    100% {
+        filter: blur(0px);
+    }
+} */
+
+function w1() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/w1.jpg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+    
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w2() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W2.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w3() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W3.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w4() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W4.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w5() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W5.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w6() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W6.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+  
+
+function w7() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W7.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w8() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W8.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w9() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W9.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w10() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W10.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w11() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W11.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+function w12() {
+    document.getElementById("background").style.backgroundImage = "url(/FileWeb/W12.jpeg)";
+    document.getElementById("background").style.backgroundSize = "100%"
+    document.getElementById("background").style.backgroundRepeat = "repeat"
+    document.getElementById("background").style.backgroundAttachment = "fixed"
+  
+    let wallpaper = document.getElementById("ul-top3W")
+    if (wallpaper.style.display == "none") {
+    }
+    else {
+        setTimeout(out, 340);
+        wallpaper.style.animation = "ul-top3WR2 340ms ease forwards"
+        function out() {
+            wallpaper.style.display = "none"
+        }
+    }
+
+    let blur = document.getElementById("blur")
+    if (blur.style.filter == "none") {
+    }
+    else {
+        setTimeout(out, 500);
+        blur.style.animation = "blurR 500ms ease forwards";
+        function out() {
+            blur.style.filter = "none";
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Navigasi -->
+ <ul id="NavNon">
+
+    <div id="NavCenter">
+
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        <div id="NavCenterX">
+            <a href=""><button onclick="Home()" id="buttonNavHome">
+                    <span id="textH" class="teks">Home</span>
+                    <span id="iconH">
+                        <ion-icon name="home-outline" class="icon18"></ion-icon>
+                    </span>
+                </button></a>
+        </div>
+
+        <?php if (session()->get('Pangkat') !== "User") { ?>
+
+            <div id="NavCenterX">
+                <a href="/create_article"><button onclick="Create()" id="buttonNavCreate">
+                        <span id="textCre" class="teks">Create</span>
+                        <span id="iconCre">
+                            <ion-icon name="duplicate-outline" class="icon18"></ion-icon>
+                        </span>
+                    </button></a>
+            </div>
+
+        <?php } else { ?>
+
+            <div id="NavCenterX" style="display:none;">
+                <a href="/create_article"><button onclick="Create()" id="buttonNavCreate">
+                        <span id="textCre" class="teks">Create</span>
+                        <span id="iconCre">
+                            <ion-icon name="duplicate-outline" class="icon18"></ion-icon>
+                        </span>
+                    </button></a>
+            </div>
+
+        <?php } ?>
+
+        <div id="NavCenterX">
+            <button onclick="News()" id="buttonNavNews">
+                <span id="textN" class="teks">User</span>
+                <span id="iconN">
+                    <ion-icon name="reader-outline" class="icon18"></ion-icon>
+                    </ion-icon>
+                </span>
+            </button>
+        </div>
+        <div id="NavCenterX2">
+            <button onclick="Chat()" id="buttonNavChat">
+                <span id="textC" class="teks">Chat</span>
+                <span id="iconC">
+                    <ion-icon name="chatbubble-ellipses-outline" class="icon18"></ion-icon>
+                </span>
+            </button>
+        </div>
+        <div id="NavCenterX2">
+            <button onclick="Profil()" id="buttonNavProfil">
+                <span id="textP" class="teks">Profil</span>
+                <span id="iconP"><img src="/ProfilUser/<?= session()->get('Profil') ?>" style="width: 17px; transform: scale(2.4); aspect-ratio: 1 / 1; object-fit:cover; border-radius: 10em;"></span>
+            </button>
+        </div>
+        <div id="NavCenterX">
+            <a href="/home/login"><button onclick="Logout()" id="buttonNavLogout">
+                    <span id="textL" class="teks">Logout</span>
+                    <span id="iconL">
+                        <ion-icon name="log-out-outline" class="icon22"></ion-icon>
+                    </span>
+                </button></a>
+        </div>
+
+        <div id="MenuPopUp">
+            <button onclick="Menu()" id="buttonMenu">
+                <table>
+                    <tr class="buttonMenuAB">
+                        <th id="buttonMenuA">
+                            <ion-icon name="remove-outline" class="iconM"></ion-icon>
+                        </th>
+                    </tr>
+                    <tr class="buttonMenuT">
+                        <th>
+                            <ion-icon name="remove-outline" class="iconM"></ion-icon>
+                        </th>
+                    </tr>
+                    <tr class="buttonMenuAB">
+                        <th id="buttonMenuB">
+                            <ion-icon name="remove-outline" class="iconM"></ion-icon>
+                        </th>
+                    </tr>
+                </table>
+            </button>
+        </div>
+        <div class="div3"></div>
+        <div class="div2"></div>
+        <div class="div1"></div>
+
+    </div>
+
+</ul>
+<!-- Navigasi -->
+
+<!-- Home -->
+<div id="homeDetail">
+
+    <center>
+
+        <div id="layerUtama">
+
+            <div id="layer1">
+
+                <div id="divUtama">
+                    <div id="divGambar"><img src="/ArticlePicture/<?= $createAdmin['Picture'] ?>" id="Picture"></div>
+                    <div id="divJudul" style="display: flex;  justify-content: space-between;">
+                        <div class="bungkusDivGambar">
+                            <p id="Judul"><?= $createAdmin['Kategori'] ?>, <?= $createAdmin['Tanggal'] ?></p>
+                        </div>
+                        <?php if ($createAdmin['View'] > 11) { ?>
+                            <div class="bungkusDivGambarX">
+                                <p id="Judul"><?= $createAdmin['View'] ?> Views</p>
+                            </div>
+                        <?php } ?>
+                    </div>
+                </div>
+
+                <?php if (session()->get('Pangkat') == "CEO") { ?>
+
+                    <div id="divPR">
+                        <a href="/update_article/<?= $createAdmin['Slug']; ?>" style="text-decoration: none; color: black"><button class="btn-Edit">Edit</button></a>
+                        <a href="/delete_article/<?= $createAdmin['Slug']; ?>" style="text-decoration: none; color: black"><button class="btn-Delete">Delete</button></a>
+                    </div>
+
+                <?php } else if (session()->get('Pangkat') == "Admin") { ?>
+
+                    <?php if ($createAdmin['Penulis'] !== "Wildan Athif Muttaqien") { ?>
+
+                        <div id="divPR">
+                            <a href="/update_article/<?= $createAdmin['Slug']; ?>" style="text-decoration: none; color: black"><button class="btn-Edit">Edit</button></a>
+                            <a href="/delete_article/<?= $createAdmin['Slug']; ?>" style="text-decoration: none; color: black"><button class="btn-Delete">Delete</button></a>
+                        </div>
+
+                    <?php } ?>
+
+                <?php } ?>
+
+
+                <div id="divP">
+                    <p id="PX" style="font-weight: 600;"><?= $createAdmin['Judul'] ?></p>
+
+                    <?php if ($createAdmin['PictureP1'] !== "") { ?>
+                        <div id="P-Pic"><img src="/ArticlePicture/<?= $createAdmin['PictureP1'] ?>" id="P-PicX"></div>
+                    <?php } ?>
+                    <?php if ($createAdmin['Paragraf1'] !== "") { ?>
+                        <p id="P"><?= $createAdmin['Paragraf1'] ?></p>
+                    <?php } ?>
+
+                    <?php if ($createAdmin['PictureP2'] !== "") { ?>
+                        <div id="P-Pic"><img src="/ArticlePicture/<?= $createAdmin['PictureP2'] ?>" id="P-PicX"></div>
+                    <?php } ?>
+                    <?php if ($createAdmin['Paragraf2'] !== "") { ?>
+                        <p id="P"><?= $createAdmin['Paragraf2'] ?></p>
+                    <?php } ?>
+
+                    <?php if ($createAdmin['PictureP3'] !== "") { ?>
+                        <div id="P-Pic"><img src="/ArticlePicture/<?= $createAdmin['PictureP3'] ?>" id="P-PicX"></div>
+                    <?php } ?>
+                    <?php if ($createAdmin['Paragraf3'] !== "") { ?>
+                        <p id="P"><?= $createAdmin['Paragraf3'] ?></p>
+                    <?php } ?>
+
+                    <?php if ($createAdmin['PictureP4'] !== "") { ?>
+                        <div id="P-Pic"><img src="/ArticlePicture/<?= $createAdmin['PictureP4'] ?>" id="P-PicX"></div>
+                    <?php } ?>
+                    <?php if ($createAdmin['Paragraf4'] !== "") { ?>
+                        <p id="P"><?= $createAdmin['Paragraf4'] ?></p>
+                    <?php } ?>
+
+                    <?php if ($createAdmin['PictureP5'] !== "") { ?>
+                        <div id="P-Pic"><img src="/ArticlePicture/<?= $createAdmin['PictureP5'] ?>" id="P-PicX"></div>
+                    <?php } ?>
+                    <?php if ($createAdmin['Paragraf5'] !== "") { ?>
+                        <p id="P"><?= $createAdmin['Paragraf5'] ?></p>
+                    <?php } ?>
+
+                    <?php if ($createAdmin['PictureP6'] !== "") { ?>
+                        <div id="P-Pic"><img src="/ArticlePicture/<?= $createAdmin['PictureP6'] ?>" id="P-PicX"></div>
+                    <?php } ?>
+                    <?php if ($createAdmin['Paragraf6'] !== "") { ?>
+                        <p id="P"><?= $createAdmin['Paragraf6'] ?></p>
+                    <?php } ?>
+
+                    <?php if ($createAdmin['PictureP7'] !== "") { ?>
+                        <div id="P-Pic"><img src="/ArticlePicture/<?= $createAdmin['PictureP7'] ?>" id="P-PicX"></div>
+                    <?php } ?>
+                    <?php if ($createAdmin['Paragraf7'] !== "") { ?>
+                        <p id="P"><?= $createAdmin['Paragraf7'] ?></p>
+                    <?php } ?>
+
+                    <?php if ($createAdmin['PictureP8'] !== "") { ?>
+                        <div id="P-Pic"><img src="/ArticlePicture/<?= $createAdmin['PictureP8'] ?>" id="P-PicX"></div>
+                    <?php } ?>
+                    <?php if ($createAdmin['Paragraf8'] !== "") { ?>
+                        <p id="P"><?= $createAdmin['Paragraf8'] ?></p>
+                    <?php } ?>
+
+                    <?php if ($createAdmin['PictureP9'] !== "") { ?>
+                        <div id="P-Pic"><img src="/ArticlePicture/<?= $createAdmin['PictureP9'] ?>" id="P-PicX"></div>
+                    <?php } ?>
+                    <?php if ($createAdmin['Paragraf9'] !== "") { ?>
+                        <p id="P"><?= $createAdmin['Paragraf9'] ?></p>
+                    <?php } ?>
+
+                    <?php if ($createAdmin['PictureP10'] !== "") { ?>
+                        <div id="P-Pic"><img src="/ArticlePicture/<?= $createAdmin['PictureP10'] ?>" id="P-PicX"></div>
+                    <?php } ?>
+                    <?php if ($createAdmin['Paragraf10'] !== "") { ?>
+                        <p id="P"><?= $createAdmin['Paragraf10'] ?></p>
+                    <?php } ?>
+
+                    <?php if ($createAdmin['PictureP11'] !== "") { ?>
+                        <div id="P-Pic"><img src="/ArticlePicture/<?= $createAdmin['PictureP11'] ?>" id="P-PicX"></div>
+                    <?php } ?>
+                    <?php if ($createAdmin['Paragraf11'] !== "") { ?>
+                        <p id="P"><?= $createAdmin['Paragraf11'] ?></p>
+                    <?php } ?>
+
+                    <?php if ($createAdmin['PictureP12'] !== "") { ?>
+                        <div id="P-Pic"><img src="/ArticlePicture/<?= $createAdmin['PictureP12'] ?>" id="P-PicX"></div>
+                    <?php } ?>
+                    <?php if ($createAdmin['Paragraf12'] !== "") { ?>
+                        <p id="P"><?= $createAdmin['Paragraf12'] ?></p>
+                    <?php } ?>
+
+                    <?php if ($createAdmin['View'] > 11) { ?>
+                        <p id="PX2" style="font-weight:600">Writer: <?= $createAdmin['Penulis'] ?></p>
+                        <p id="PX" class="viewUnder" style="font-weight:600"><?= $createAdmin['View'] ?> Views</p>
+                    <?php } else { ?>
+                        <p id="PX" style="font-weight:600">Writer: <?= $createAdmin['Penulis'] ?></p>
+                    <?php } ?>
+
+                </div>
+
+                <div id="divPUnder"></div>
+
+                <!-- Komentar Box Lite -->
+
+                <div class="bodyKomentarLite">
+
+                    <div class="scroll-bodyKomentarLite">
+
+                        <div class="user-typingKomentarLite">
+                            <form action="/komentarcontroller/save" method="post" enctype="mdivtipart/form-data">
+
+                                <?php if (session()->get('Pangkat') !== null) { ?>
+
+                                    <div class="input-dataKomentar">
+                                        <div class="widthInput"><input class="input-dataKomentarInput" type="text" name="inputKomentar" placeholder="Enter your comment" required="" /></input></div>
+                                        <div><button class="input-dataKomentarButton" class="sendLayer" id="on">
+                                                <ion-icon name="paper-plane-outline" style="transform: scaleX(-1.2) scaleY(1.2) translateY(1.2px); margin-right:2px"></ion-icon> Send
+                                            </button></div>
+                                    </div>
+                                    <input type="hidden" value="<?= $createAdmin['ID'] ?>" name="inputID">
+
+                                <?php } else { ?>
+
+                                    <div class="input-dataKomentar">
+                                        <div class="widthInput"><input class="input-dataKomentarInput" type="text" placeholder="Please login first" required="" /></input></div>
+                                        <div><a href="/login"><button class="input-dataKomentarButton" class="sendLayer" id="on" form="">
+                                                    <ion-icon name="log-in-outline" style="transform: scaleX(1.4) scaleY(1.4) translateY(1.2px); margin-right:2.72px;"></ion-icon> Login
+                                                </button></a></div>
+                                    </div>
+                                    <input type="hidden" value="<?= $createAdmin['ID'] ?>" name="inputID">
+
+                                <?php } ?>
+
+                            </form>
+                        </div>
+
+                        <?php $komentar = $kolomKomentar->where('IDArtikel', $createAdmin['ID'])->findAll() ?>
+
+                        <?php $komentarIklan = $user->where('ID', 1)->first() ?>
+
+                        <?php if ($createAdmin['View'] > 99) { ?>
+                            <table id="komentar-kolom">
+                                <tr>
+                                    <td rowspan="2" id="komentar-profil">
+
+                                        <div class="divPangkat">
+                                            <div class="komentar-profil"><img src="/ProfilUser/<?= $komentarIklan['Profil'] ?>" class="komentar-profil-Picture"></div>
+                                            <div class="pangkatCEO">CEO</div>
+                                        </div>
+                                    </td>
+                                    <td id="komentar-name">
+                                        <div style="display: flex;">
+                                            <p class="komentar-name"><?= $komentarIklan['Name'] ?></p>
+                                            <p class="komentar-name">
+                                                <ion-icon name="checkmark-circle" style="color: #1B9CFC; transform: scale(1.4) translate(2px, 1.4px)"></ion-icon>
+                                            </p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2" id="komentar-isi">
+                                        <p class="komentar-isi">Artikel ini telah mencapai 100 kali dilihat! Ayo, dukung artikel ini supaya lebih berkembang.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        <?php } else if ($createAdmin['View'] > 49) { ?>
+                            <table id="komentar-kolom">
+                                <tr>
+                                    <td rowspan="2" id="komentar-profil">
+
+                                        <div class="divPangkat">
+                                            <div class="komentar-profil"><img src="/ProfilUser/<?= $komentarIklan['Profil'] ?>" class="komentar-profil-Picture"></div>
+                                            <div class="pangkatCEO">CEO</div>
+                                        </div>
+                                    </td>
+                                    <td id="komentar-name">
+                                        <div style="display: flex;">
+                                            <p class="komentar-name"><?= $komentarIklan['Name'] ?></p>
+                                            <p class="komentar-name">
+                                                <ion-icon name="checkmark-circle" style="color: #1B9CFC; transform: scale(1.4) translate(2px, 1.4px)"></ion-icon>
+                                            </p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2" id="komentar-isi">
+                                        <p class="komentar-isi">Artikel ini telah mencapai 50 kali dilihat! Ayo, dukung artikel ini supaya lebih berkembang.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        <?php } ?>
+
+                        <?php rsort($komentar) ?>
+                        <?php foreach ($komentar as $komentarOutput) { ?>
+                            <?php $komentarX = $user->where('ID', $komentarOutput['IDUserName'])->first() ?>
+
+                            <?php if ($komentarX !== null) { ?>
+
+                                <table id="komentar-kolom">
+                                    <tr>
+                                        <td rowspan="2" id="komentar-profil">
+
+                                            <div class="divPangkat">
+                                                <div class="komentar-profil"><img src="/ProfilUser/<?= $komentarX['Profil'] ?>" class="komentar-profil-Picture"></div>
+
+                                                <?php if ($komentarX['Pangkat'] == "CEO") { ?>
+                                                    <div class="pangkatCEO"><?= $komentarX['Pangkat'] ?></div>
+                                                <?php } else if ($komentarX['Pangkat'] == "Admin") { ?>
+                                                    <div class="pangkatAdmin"><?= $komentarX['Pangkat'] ?><div>
+                                                        <?php } else { ?>
+                                                            <div></div>
+                                                        <?php } ?>
+
+                                                        </div>
+
+                                        </td>
+                                        <td id="komentar-name">
+                                            <?php if ($komentarX['Pangkat'] == "CEO") { ?>
+                                                <div style="display: flex;">
+                                                    <p class="komentar-name"><?= $komentarX['Name'] ?></p>
+                                                    <p class="komentar-name">
+                                                        <ion-icon name="checkmark-circle" style="color: #1B9CFC; transform: scale(1.4) translate(2px, 1.4px)"></ion-icon>
+                                                    </p>
+                                                </div>
+                                            <?php } else { ?>
+                                                <p class="komentar-name"><?= $komentarX['Name'] ?></p>
+                                            <?php } ?>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="2" id="komentar-isi">
+                                            <table>
+                                                <?php if ($komentarOutput['Komentar'] !== "") { ?>
+                                                    <?php if ($komentarOutput['Picture'] == "") { ?>
+                                                        <tr>
+                                                            <p class="komentar-isi"><?= $komentarOutput['Komentar'] ?></p>
+                                                        </tr>
+                                                    <?php } else { ?>
+                                                        <tr>
+                                                            <p class="komentar-isiX"><?= $komentarOutput['Komentar'] ?></p>
+                                                        </tr>
+                                                    <?php } ?>
+                                                <?php } ?>
+                                                <?php if ($komentarOutput['Picture'] !== "") { ?>
+                                                    <?php if ($komentarOutput['Komentar'] !== "") { ?>
+                                                        <tr>
+                                                            <td><img src="/CommentPicture/<?= $komentarOutput['Picture'] ?>" class="komentar-picture"></td>
+                                                        </tr>
+                                                    <?php } else { ?>
+                                                        <tr>
+                                                            <td><img src="/CommentPicture/<?= $komentarOutput['Picture'] ?>" class="komentar-pictureX"></td>
+                                                        </tr>
+                                                    <?php } ?>
+                                                <?php } ?>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr></tr>
+                                    <tr>
+                                        <td></td>
+                                        <?php if (session()->get('Pangkat') == "CEO") { ?>
+
+                                            <?php if (session()->get('ID') == $komentarOutput['IDUserName']) { ?>
+                                                <td class="komentar-delete">
+                                                    <a href="/edit_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: #f6b93b;">Edit</a>
+                                                    <a href="/delete_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: red; margin-left: 16px;">Delete</a>
+                                                </td>
+                                            <?php } else if ($komentarX['Pangkat'] !== "CEO") { ?>
+                                                <td class="komentar-delete">
+                                                    <a href="/delete_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: red;">Delete</a>
+                                                </td>
+                                            <?php } else if (session()->get('Pangkat') == "CEO") {
+                                            } ?>
+
+                                        <?php } else if (session()->get('Pangkat') == "Admin") { ?>
+
+                                            <?php if (session()->get('ID') == $komentarOutput['IDUserName']) { ?>
+                                                <td class="komentar-delete">
+                                                    <a href="/edit_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: #f6b93b;">Edit</a>
+                                                    <a href="/delete_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: red; margin-left: 16px;">Delete</a>
+                                                </td>
+                                            <?php } else if ($komentarX['Pangkat'] == "CEO") { ?>
+                                                <td></td>
+                                            <?php } else if ($komentarX['Pangkat'] !== "CEO") { ?>
+                                                <td class="komentar-delete">
+                                                    <a href="/delete_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: red;">Delete</a>
+                                                </td>
+                                            <?php } ?>
+
+                                        <?php } else { ?>
+
+                                            <?php if (session()->get('ID') == $komentarOutput['IDUserName']) { ?>
+                                                <td class="komentar-delete">
+                                                    <a href="/edit_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: #f6b93b;">Edit</a>
+                                                    <a href="/delete_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: red; margin-left: 16px;">Delete</a>
+                                                </td>
+                                            <?php } ?>
+
+                                        <?php } ?>
+                                    </tr>
+                                </table>
+
+                            <?php } else { ?>
+
+                                <table id="komentar-kolom">
+                                    <tr>
+                                        <td rowspan="2" id="komentar-profil">
+
+                                            <div class="divPangkat">
+                                                <div class="komentar-profil"><img src="/ProfilUser/Error.jpg" class="komentar-profil-Picture"></div>
+                                                <div></div>
+                                            </div>
+
+                                        </td>
+                                        <td id="komentar-name">
+                                            <p class="komentar-name" style="color: red;">Account has been deleted</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="2" id="komentar-isi">
+                                            <table>
+                                                <?php if ($komentarOutput['Komentar'] !== "") { ?>
+                                                    <?php if ($komentarOutput['Picture'] == "") { ?>
+                                                        <tr>
+                                                            <p class="komentar-isi"><?= $komentarOutput['Komentar'] ?></p>
+                                                        </tr>
+                                                    <?php } else { ?>
+                                                        <tr>
+                                                            <p class="komentar-isiX"><?= $komentarOutput['Komentar'] ?></p>
+                                                        </tr>
+                                                    <?php } ?>
+                                                <?php } ?>
+                                                <?php if ($komentarOutput['Picture'] !== "") { ?>
+                                                    <?php if ($komentarOutput['Komentar'] !== "") { ?>
+                                                        <tr>
+                                                            <td><img src="/CommentPicture/<?= $komentarOutput['Picture'] ?>" class="komentar-picture"></td>
+                                                        </tr>
+                                                    <?php } else { ?>
+                                                        <tr>
+                                                            <td><img src="/CommentPicture/<?= $komentarOutput['Picture'] ?>" class="komentar-pictureX"></td>
+                                                        </tr>
+                                                    <?php } ?>
+                                                <?php } ?>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr></tr>
+                                    <tr>
+                                        <td></td>
+                                        <?php if (session()->get('Pangkat') == "CEO") { ?>
+                                            <td class="komentar-delete">
+                                                <a href="/delete_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: red;">Delete</a>
+                                            </td>
+                                        <?php } else if (session()->get('Pangkat') == "Admin") { ?>
+                                            <td class="komentar-delete">
+                                                <a href="/delete_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: red;">Delete</a>
+                                            </td>
+                                        <?php } else if (session()->get('Pangkat') == "User") {
+                                        } else if (session()->get('Pangkat') == null) {
+                                        } ?>
+                                    </tr>
+                                </table>
+
+                            <?php } ?>
+
+                        <?php } ?>
+
+                        <!-- Padding -->
+                        <div style="height:40px"></div> <!-- Padding -->
+                    </div>
+
+                </div>
+
+                <!-- Komentar Box Lite -->
+
+            </div>
+            <div id="layer2">
+
+                <!-- Komentar Box -->
+
+                <div class="bodyKomentar">
+
+                    <div class="scroll-bodyKomentar">
+                        <div class="scroll-bodyKomentarX">
+                            <div class="scroll-bodyKomentarT">
+
+                                <?php $komentar = $kolomKomentar->where('IDArtikel', $createAdmin['ID'])->findAll() ?>
+
+                                <input type="hidden" value="<?php $komentar ?>" name="komentarValue">
+
+                                <?php $komentarIklan = $user->where('ID', 1)->first() ?>
+
+                                <?php if ($createAdmin['View'] > 99) { ?>
+                                    <table id="komentar-kolom">
+                                        <tr>
+                                            <td rowspan="2" id="komentar-profil">
+
+                                                <div class="divPangkat">
+                                                    <div class="komentar-profil"><img src="/ProfilUser/<?= $komentarIklan['Profil'] ?>" class="komentar-profil-Picture"></div>
+                                                    <div class="pangkatCEO">CEO</div>
+                                                </div>
+                                            </td>
+                                            <td id="komentar-name">
+                                                <div style="display: flex;">
+                                                    <p class="komentar-name"><?= $komentarIklan['Name'] ?></p>
+                                                    <p class="komentar-name">
+                                                        <ion-icon name="checkmark-circle" style="color: #1B9CFC; transform: scale(1.4) translate(2px, 1.4px)"></ion-icon>
+                                                    </p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="2" id="komentar-isi">
+                                                <p class="komentar-isi">Artikel ini telah mencapai 100 kali dilihat! Ayo, dukung artikel ini supaya lebih berkembang.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                <?php } else if ($createAdmin['View'] > 49) { ?>
+                                    <table id="komentar-kolom">
+                                        <tr>
+                                            <td rowspan="2" id="komentar-profil">
+
+                                                <div class="divPangkat">
+                                                    <div class="komentar-profil"><img src="/ProfilUser/<?= $komentarIklan['Profil'] ?>" class="komentar-profil-Picture"></div>
+                                                    <div class="pangkatCEO">CEO</div>
+                                                </div>
+                                            </td>
+                                            <td id="komentar-name">
+                                                <div style="display: flex;">
+                                                    <p class="komentar-name"><?= $komentarIklan['Name'] ?></p>
+                                                    <p class="komentar-name">
+                                                        <ion-icon name="checkmark-circle" style="color: #1B9CFC; transform: scale(1.4) translate(2px, 1.4px)"></ion-icon>
+                                                    </p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="2" id="komentar-isi">
+                                                <p class="komentar-isi">Artikel ini telah mencapai 50 kali dilihat! Ayo, dukung artikel ini supaya lebih berkembang.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                <?php } ?>
+
+                                <?php rsort($komentar) ?>
+                                <?php foreach ($komentar as $komentarOutput) { ?>
+                                    <?php $komentarX = $user->where('ID', $komentarOutput['IDUserName'])->first() ?>
+
+                                    <?php if ($komentarX !== null) { ?>
+
+                                        <table id="komentar-kolom">
+                                            <tr>
+                                                <td rowspan="2" id="komentar-profil">
+
+                                                    <div class="divPangkat">
+                                                        <div class="komentar-profil"><img src="/ProfilUser/<?= $komentarX['Profil'] ?>" class="komentar-profil-Picture"></div>
+
+                                                        <?php if ($komentarX['Pangkat'] == "CEO") { ?>
+                                                            <div class="pangkatCEO"><?= $komentarX['Pangkat'] ?></div>
+                                                        <?php } else if ($komentarX['Pangkat'] == "Admin") { ?>
+                                                            <div class="pangkatAdmin"><?= $komentarX['Pangkat'] ?><div>
+                                                                <?php } else { ?>
+                                                                    <div></div>
+                                                                <?php } ?>
+                                                                </div>
+
+                                                </td>
+                                                <td id="komentar-name">
+                                                    <?php if ($komentarX['Pangkat'] == "CEO") { ?>
+                                                        <div style="display: flex;">
+                                                            <p class="komentar-name"><?= $komentarX['Name'] ?></p>
+                                                            <p class="komentar-name">
+                                                                <ion-icon name="checkmark-circle" style="color: #1B9CFC; transform: scale(1.4) translate(2px, 1.4px)"></ion-icon>
+                                                            </p>
+                                                        </div>
+                                                    <?php } else { ?>
+                                                        <p class="komentar-name"><?= $komentarX['Name'] ?></p>
+                                                    <?php } ?>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td rowspan="2" id="komentar-isi">
+                                                    <table>
+                                                        <?php if ($komentarOutput['Komentar'] !== "") { ?>
+                                                            <?php if ($komentarOutput['Picture'] == "") { ?>
+                                                                <tr>
+                                                                    <p class="komentar-isi"><?= $komentarOutput['Komentar'] ?></p>
+                                                                </tr>
+                                                            <?php } else { ?>
+                                                                <tr>
+                                                                    <p class="komentar-isiX"><?= $komentarOutput['Komentar'] ?></p>
+                                                                </tr>
+                                                            <?php } ?>
+                                                        <?php } ?>
+                                                        <?php if ($komentarOutput['Picture'] !== "") { ?>
+                                                            <?php if ($komentarOutput['Komentar'] !== "") { ?>
+                                                                <tr>
+                                                                    <td><img src="/CommentPicture/<?= $komentarOutput['Picture'] ?>" class="komentar-picture"></td>
+                                                                </tr>
+                                                            <?php } else { ?>
+                                                                <tr>
+                                                                    <td><img src="/CommentPicture/<?= $komentarOutput['Picture'] ?>" class="komentar-pictureX"></td>
+                                                                </tr>
+                                                            <?php } ?>
+                                                        <?php } ?>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+
+                                                <?php if (session()->get('Pangkat') == "CEO") { ?>
+
+                                                    <?php if (session()->get('ID') == $komentarOutput['IDUserName']) { ?>
+                                                        <td class="komentar-delete">
+                                                            <a href="/edit_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: #f6b93b;">Edit</a>
+                                                            <a href="/delete_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: red; margin-left: 16px;">Delete</a>
+                                                        </td>
+                                                    <?php } else if ($komentarX['Pangkat'] !== "CEO") { ?>
+                                                        <td class="komentar-delete">
+                                                            <a href="/delete_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: red;">Delete</a>
+                                                        </td>
+                                                    <?php } else if (session()->get('Pangkat') == "CEO") {
+                                                    } ?>
+
+                                                <?php } else if (session()->get('Pangkat') == "Admin") { ?>
+
+                                                    <?php if (session()->get('ID') == $komentarOutput['IDUserName']) { ?>
+                                                        <td class="komentar-delete">
+                                                            <a href="/edit_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: #f6b93b;">Edit</a>
+                                                            <a href="/delete_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: red; margin-left: 16px;">Delete</a>
+                                                        </td>
+                                                    <?php } else if ($komentarX['Pangkat'] == "CEO") { ?>
+                                                        <td></td>
+                                                    <?php } else if ($komentarX['Pangkat'] !== "CEO") { ?>
+                                                        <td class="komentar-delete">
+                                                            <a href="/delete_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: red;">Delete</a>
+                                                        </td>
+                                                    <?php } ?>
+
+                                                <?php } else { ?>
+
+                                                    <?php if (session()->get('ID') == $komentarOutput['IDUserName']) { ?>
+                                                        <td class="komentar-delete">
+                                                            <a href="/edit_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: #f6b93b;">Edit</a>
+                                                            <a href="/delete_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: red; margin-left: 16px;">Delete</a>
+                                                        </td>
+                                                    <?php } ?>
+
+                                                <?php } ?>
+
+                                            </tr>
+                                        </table>
+
+                                    <?php } else { ?>
+
+                                        <table id="komentar-kolom">
+                                            <tr>
+                                                <td rowspan="2" id="komentar-profil">
+                                                    <div class="komentar-profil"><img src="/ProfilUser/Error.jpg" class="komentar-profil-Picture"></div>
+                                                    <div></div>
+                                                </td>
+                                                <td id="komentar-name">
+                                                    <p class="komentar-name" style="color: red;">Account has been deleted</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td rowspan="2" id="komentar-isi">
+                                                    <table>
+                                                        <?php if ($komentarOutput['Komentar'] !== "") { ?>
+                                                            <?php if ($komentarOutput['Picture'] == "") { ?>
+                                                                <tr>
+                                                                    <p class="komentar-isi"><?= $komentarOutput['Komentar'] ?></p>
+                                                                </tr>
+                                                            <?php } else { ?>
+                                                                <tr>
+                                                                    <p class="komentar-isiX"><?= $komentarOutput['Komentar'] ?></p>
+                                                                </tr>
+                                                            <?php } ?>
+                                                        <?php } ?>
+                                                        <?php if ($komentarOutput['Picture'] !== "") { ?>
+                                                            <?php if ($komentarOutput['Komentar'] !== "") { ?>
+                                                                <tr>
+                                                                    <td><img src="/CommentPicture/<?= $komentarOutput['Picture'] ?>" class="komentar-picture"></td>
+                                                                </tr>
+                                                            <?php } else { ?>
+                                                                <tr>
+                                                                    <td><img src="/CommentPicture/<?= $komentarOutput['Picture'] ?>" class="komentar-pictureX"></td>
+                                                                </tr>
+                                                            <?php } ?>
+                                                        <?php } ?>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <?php if (session()->get('Pangkat') == "CEO") { ?>
+                                                    <td class="komentar-delete">
+                                                        <a href="/delete_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: red;">Delete</a>
+                                                    </td>
+                                                <?php } else if (session()->get('Pangkat') == "Admin") { ?>
+                                                    <td class="komentar-delete">
+                                                        <a href="/delete_comment/<?= $komentarOutput['ID']; ?>" style="text-decoration: none; color: red;">Delete</a>
+                                                    </td>
+                                                <?php } else if (session()->get('Pangkat') == "User") {
+                                                } else if (session()->get('Pangkat') == null) {
+                                                } ?>
+                                            </tr>
+                                        </table>
+
+                                    <?php } ?>
+
+                                <?php } ?>
+
+                                <!-- Padding -->
+                                <div style="height:21px"></div> <!-- Padding -->
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="user-typingKomentar">
+                        <form action="/komentarcontroller/save" method="post" enctype="mdivtipart/form-data">
+                            <div class="input-dataKomentar">
+
+                                <?php if (session()->get('Pangkat') !== null) { ?>
+
+                                    <div><input class="input-dataKomentarInput" type="text" name="inputKomentar" placeholder="Enter your comment" required="" /></input></div>
+                                    <div><button class="input-dataKomentarButton" class="sendLayer" id="on">
+                                            <ion-icon name="paper-plane-outline" style="transform: scaleX(-1.2) scaleY(1.2) translateY(1.2px); margin-right:2px"></ion-icon> Send
+                                        </button></div>
+
+                                <?php } else { ?>
+
+                                    <div><input class="input-dataKomentarInput" type="text" placeholder="Please login first" required="" /></input></div>
+                                    <div><a href="/login"><button class="input-dataKomentarButton" class="sendLayer" id="on" form="">
+                                                <ion-icon name="log-in-outline" style="transform: scaleX(1.4) scaleY(1.4) translateY(1.2px); margin-right:2.72px"></ion-icon> Login
+                                            </button></a></div>
+
+                                <?php } ?>
+
+                            </div>
+                            <input type="hidden" value="<?= $createAdmin['ID'] ?>" name="inputID">
+                        </form>
+                    </div>
+
+                </div>
+
+                <!-- Komentar Box -->
+
+            </div>
+
+        </div>
+
+    </center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/CSS & JS/login.css?v=<?php echo time(); ?>">
+        <link rel="stylesheet" href="/CSS & JS/admin.css?v=<?php echo time(); ?>">
+    
+        <title>Login</title>
+    </head>
+    
+    <body id="background" onload="startTime()">
+    
+        <div id="center">
+            <div class="WadahLogin">
+                <nav class="WadahLoginNav">
+                    <a href="registrasi" style="text-decoration: none;"><button id="buttonLogoutRegistrasi">
+                            <span id="textRegistrasi">Registrasi</span>
+                            <span id="textLogin">Login Form</span>
+                        </button></a>
+                </nav>
+                <form action="/registrasicontroller/login" id="login" method="post" enctype="multipart/form-data">
+                    <center><a style="color: red;"><?= session()->get('UserNameSS') ?></a></center>
+                    <div>
+                        <center><input class="inputLogin" type="text" id="inputUserName" name="inputUserName" placeholder="Email or username" required="" autofocus></center>
+                    </div>
+                    <center><a style="color: red;"><?= session()->get('PasswordSS') ?></a></center>
+                    <div>
+                        <center><input class="inputLogin" type="password" id="inputPassword" name="inputPassword" name="inputPasswordSession" placeholder="Password" required="" autofocus></center>
+                    </div>
+                    <div>
+                        <center><input class="inputLogin" type="hidden" id="inputPasswordSession" name="inputPasswordSession" placeholder="Password" required="" autofocus></center>
+                    </div>
+                    <div>
+                        <script language="JavaScript">
+                            let password = document.getElementById("inputPassword");
+                            let passwordSession = document.getElementById("inputPasswordSession");
+                            password.onkeyup = password.onkeypress = function() {
+                                passwordSession.value = this.value;
+                            }
+                        </script>
+    
+                        <textarea style="display: none;" name="inputDateSession" id="tanggalSession"></textarea>
+    
+                        <script type="text/javascript">
+                            function startTime() {
+                                const date = new Date();
+                                document.getElementById("tanggalSession").innerHTML = date.toDateString();
+                                setTimeout(function() {
+                                    startTime()
+                                }, 1000);
+                            }
+                        </script>
+                    </div>
+                    <div class="user-Profil">
+                </form>
+                <center>
+                    <a href="registrasi" style="text-decoration: none;  margin-right: 6px;">New account</a>
+                    <button class="buttonLogin" form="login" name="login" type="submit" value="upload">
+                        <ion-icon name="log-in-outline" style="transform: scale(1.4); margin-right:1.6px"></ion-icon> Login
+                    </button>
+    
+                </center>
+            </div>
+        </div>
+    
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js?v=<?php echo time(); ?>"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js?v=<?php echo time(); ?>"></script>
+        <script src="/CSS & JS/login.js?v=<?php echo time(); ?>" defer></script>
+    
+    </body>
+    
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Navigasi -->
+      <ul id="NavNon">
+
+        <div id="NavCenter">
+
+            <div class="div1"></div>
+            <div class="div2"></div>
+            <div class="div3"></div>
+            <div id="NavCenterX">
+                <a><button id="buttonNavHome">
+                        <span id="iconH">
+                            <ion-icon name="home-outline" class="icon18"></ion-icon>
+                        </span>
+                    </button></a>
+            </div>
+
+            <?php if (session()->get('Pangkat') !== "User") { ?>
+
+                <div id="NavCenterX">
+                    <a><button id="buttonNavCreate">
+                            <span id="iconCre">
+                                <ion-icon name="duplicate-outline" class="icon18"></ion-icon>
+                            </span>
+                        </button></a>
+                </div>
+
+            <?php } else { ?>
+
+                <div id="NavCenterX" style="display:none;">
+                    <a><button id="buttonNavCreate">
+                            <span id="iconCre">
+                                <ion-icon name="duplicate-outline" class="icon18"></ion-icon>
+                            </span>
+                        </button></a>
+                </div>
+
+            <?php } ?>
+
+            <div id="NavCenterX">
+                <button id="buttonNavNews">
+                    <span id="iconN">
+                        <ion-icon name="reader-outline" class="icon18"></ion-icon>
+                        </ion-icon>
+                    </span>
+                </button>
+            </div>
+            <div id="NavCenterX2">
+                <button id="buttonNavChat">
+                    <span id="iconC">
+                        <ion-icon name="chatbubble-ellipses-outline" class="icon20"></ion-icon>
+                    </span>
+                </button>
+            </div>
+            <div id="NavCenterX2">
+                <button id="buttonNavProfil">
+                    <span id="iconP"><img src="/ProfilUser/<?= session()->get('Profil') ?>" style="width: 17px; transform: scale(2.4); aspect-ratio: 1 / 1; object-fit:cover; border-radius: 10em;"></span>
+                </button>
+            </div>
+            <div id="NavCenterX">
+                <a><button id="buttonNavLogout">
+                        <span id="iconL">
+                            <ion-icon name="log-out-outline" class="icon22"></ion-icon>
+                        </span>
+                    </button></a>
+            </div>
+
+            <div id="MenuPopUp">
+                <button id="buttonMenu">
+                    <table style="transform: scale(0.78);">
+                        <tr class="buttonMenuAB">
+                            <th id="buttonMenuA">
+                                <ion-icon name="remove-outline" class="iconM"></ion-icon>
+                            </th>
+                        </tr>
+                        <tr class="buttonMenuT">
+                            <th>
+                                <ion-icon name="remove-outline" class="iconM"></ion-icon>
+                            </th>
+                        </tr>
+                        <tr class="buttonMenuAB">
+                            <th id="buttonMenuB">
+                                <ion-icon name="remove-outline" class="iconM"></ion-icon>
+                            </th>
+                        </tr>
+                    </table>
+                </button>
+            </div>
+            <div class="div3"></div>
+            <div class="div2"></div>
+            <div class="div1"></div>
+
+        </div>
+
+    </ul>
+    <!-- Navigasi -->

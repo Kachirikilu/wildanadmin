@@ -1,0 +1,89 @@
+.tugasDiv {
+    margin: 12px 0 16px 0;
+    padding: 14px 10px 10px 10px;
+    border-radius: 0.26em;
+}
+.tugasDivInput {
+    margin: 0 0 10px 0;
+}
+.tugasDivInput > input {
+    border-radius: 0.6em;
+    width: calc(92% - 2*6px);
+    margin: 6px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.384);
+    padding: 6px 13px;
+    outline: none;
+}
+.tugasDivInput > select {
+  border-radius: 0.6em;
+  border: 1px solid;
+  width: 350px;
+  max-width: calc(92% - 2*6px);;
+  margin: 6px;
+  padding: 6px 13px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.384);
+  color: #46415d;
+  outline: none;
+}
+
+.buttonTugas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(92% - 2*6px);
+    margin: 6px;
+}
+.buttonTugas > input {
+    position: relative;
+    height: 24px;
+    width: calc(100% - 2*20px);
+    max-width: 120px;
+    padding: 0 20px 0 20px;
+    margin-bottom: 6px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    border-radius: 0.52em;
+    border: 1px solid rgba(0, 0, 0, 0.384);
+    color: black;
+    outline: none;
+}
+.buttonTugas > input::placeholder {
+    color: #f94f3c;
+    transition: all 0.36s ease;
+  }
+.buttonTugas > input:focus {
+    border-color: #ff1900;
+    transition: all 0.56s ease;
+}
+.buttonTugas > input::-webkit-file-upload-button {
+    display: none;
+}
+.buttonTugas > input::before {
+    content: "Upload Fileㅤ";
+    color: #46415d;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+.buttonTugas > button {
+    height: 25px;
+    width: 64px;
+    color: black;
+    background: #56ff40;
+    margin: 0 0 6px 4px;
+    font-size: 15px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-radius: 0.42em;
+    border: 0;
+    transition: all 0.42s ease-out;
+}
+.buttonTugas > button:hover {
+    background: #a5fe38;
+}
+.buttonTugas > button:active {
+    background: #c3ea33;
+    transition: all 0.16s ease;
+}

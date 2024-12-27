@@ -1,0 +1,208 @@
+#home {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    overflow: auto;
+}
+
+#blur {
+    overflow-y: auto;
+}
+
+@keyframes blur {
+    0%{
+        filter: none
+    }
+    40%{
+        filter: blur(10px)
+    }
+    100%{
+        filter: blur(5px)
+    }
+}
+@keyframes blurR { 
+    0%{
+        filter: blur(5px)
+    }
+    20%{
+        filter: blur(10px)
+    }
+    100%{
+        filter: none
+    }
+}
+@keyframes blur2 {
+    0%{
+        filter: none
+    }
+    40%{
+        filter: blur(13px)
+    }
+    100%{
+        filter: blur(8px)
+    }
+}
+@keyframes blur2R { 
+    0%{
+        filter: blur(8px)
+    }
+    20%{
+        filter: blur(13px)
+    }
+    100%{
+        filter: none
+    }
+}
+
+
+
+#grid-container {
+    position: relative;
+    display: grid;
+    justify-content: center;
+}
+
+#grid-item {
+    width: 100%;
+}
+#pictureDiv {
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 0.6em;
+}
+
+#grid-itemUtama {
+    width: 100%;
+}
+#pictureDivUtama {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.6em;
+}
+
+
+#judulHuruf {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+#isiHuruf {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+#buttonDetail {
+    background: transparent;
+    border: none;
+    width: 100%;
+}
+
+#pictureDiv2 {
+    position: relative;
+    z-index: 2;
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
+
+#pictureIMG {
+    object-fit:cover;
+    width:100%;
+    height:100%;  
+    transition: 0.22s ease-out;
+}
+#pictureIMG:hover {
+    transform: scale(120%);
+    word-wrap: break-word;
+}
+
+#picturePop {
+    position: relative;
+    transform: translateY(-100%);
+    z-index: 2;
+    width: 30%;
+    height: 20%;
+    transition: all 0.22s ease-out;
+}
+#picturePop:hover {
+    transform: translateY(-300%);
+}
+
+
+#picturePopUser {
+    position: relative;
+    transform: translateY(-100%);
+    z-index: 2;
+    width: 30%;
+    height: 20%;
+    transition: all 0.22s ease-out;
+}
+
+#pictureText, #pictureEdit, #pictureDelete, #pictureDeleteX, #pictureEditX, #pictureTextCEO, #pictureTextAdmin, #pictureTextUser, #pictureTextCEOX, #pictureTextAdminX, #pictureTextUserX {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    transition:  all 0.22s ease-out;
+}
+
+#pictureText {
+    border-radius: 0.1em 0.8em 0 0;
+    background: #1e90ff;
+}
+#pictureTextCEO, #pictureTextCEOX {
+    border-radius: 0.1em 0.8em 0 0;
+    background: #fff30d;
+    transition: 0.2s ease-out;
+}
+#pictureTextAdmin, #pictureTextAdminX {
+    border-radius: 0.1em 0.8em 0 0;
+    background: #3be2ff;
+    transition: 0.2s ease-out;
+}
+#pictureTextUser, #pictureTextUserX {
+    border-radius: 0.1em 0.8em 0 0;
+    background: #26de81;
+    transition: 0.2s ease-out;
+}
+
+#pictureTextCEOX:hover, #pictureTextAdminX:hover, #pictureTextUserX:hover {
+    width: 132%;
+}
+
+
+#pictureEdit {
+    border-radius: 0;
+    background: #1e90ff;
+    transition:  all 0.2s ease-out
+}
+#pictureEdit:hover {
+    border-radius: 0;
+    background: #f6b93b;
+}
+#pictureDelete {
+    border-radius: 0;
+    background: #1e90ff;
+    transition:  all 0.2s ease-out
+}
+#pictureDelete:hover {
+    border-radius: 0;
+    background: red;
+}

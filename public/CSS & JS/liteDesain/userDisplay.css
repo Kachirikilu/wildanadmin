@@ -1,0 +1,697 @@
+@media only screen and (min-width: 0px) and (max-width: 497.5px) {
+    #NavLeft1{
+        display: inline;
+    }
+    #MyUNSRI {
+        display: inline;
+        padding-left: 1px;
+        padding-right: 10px
+    }
+
+    .Pencarian {
+        width: 100%;
+        height: 32px;
+    }
+
+    #NavPopUp {
+        background-color: #82ccddcd;
+        padding: 12px 10px;
+        border-radius: 0 0 24px 0
+    }
+
+    #NavCenter {
+        display: flex;
+    }
+    #NavCenter1 {
+        display: none;
+    }
+    #NavCenter2 {
+        display: none;
+    }
+    #NavCenter3 {
+        display: none;
+    }
+    #NavCenter4 {
+        display: none;
+    }
+    #NavRight5 {
+        display: none;
+    }
+
+    #Nav2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 498px) and (max-width: 543.5px) {
+    #NavLeft1{
+        display: inline;
+    }
+    #MyUNSRI {
+        display: inline;
+        padding-left: 1px;
+        padding-right: 10px
+    }
+
+    .Pencarian {
+        width: 100%;
+        height: 32px;
+    }
+
+    #NavPopUp {
+        background-color: #82ccddcd;
+        padding: 10px 20px;
+        border-radius: 0 0 24px 0
+    }
+
+    #NavCenter {
+        display: flex;
+    }
+    #NavCenter1 {
+        display: none;
+    }
+    #NavCenter2 {
+        display: none;
+    }
+    #NavCenter3 {
+        display: none;
+    }
+    #NavCenter4 {
+        display: none;
+    }
+    #NavRight5P {
+        display: none;
+    }
+
+    #Nav2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 544px) and (max-width: 642.5px) {
+    #NavLeft1 {
+        display: inline;
+    }
+    #MyUNSRI {
+        display: inline;
+        padding-left: 2px;
+    }
+ 
+    .Pencarian {
+        width: 210px;
+        height: 32px;
+    }
+
+    #NavPopUp {
+        background-color: #82ccddcd;
+        padding: 8px 30px;
+        border-radius: 0 0 24px 0
+    }
+
+    #NavCenter {
+        display: flex;
+    }
+    #NavCenter1 {
+        display: none;
+    }
+    #NavCenter2 {
+        display: none;
+    }
+    #NavCenter3 {
+        display: none;
+    }
+    #NavCenter4 {
+        display: none;
+    }
+    #NavRight5P {
+        display: none;
+    }
+
+    #Nav2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 643px) and (max-width: 735.5px) {
+    #NavLeft1 {
+        display: inline;
+    }
+    #MyUNSRI {
+        display: inline;
+        padding-left: 2px;
+    }
+
+    .Pencarian {
+        width: 210px;
+        height: 32px;
+    }
+
+    #NavPopUp {
+        background-color: #82ccddcd;
+        padding: 6px 40px;
+        border-radius: 0 0 24px 0
+    }
+
+    #NavCenter {
+        display: flex;
+    }
+    #NavCenter1P {
+        display: none;
+    }
+    #NavCenter2 {
+        display: none;
+    }
+    #NavCenter3 {
+        display: none;
+    }
+    #NavCenter4 {
+        display: none;
+    }
+    #NavRight5P {
+        display: none;
+    }
+
+    #Nav2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 736px) and (max-width: 904.5px) {
+    #NavLeft1 {
+        display: inline;
+    }
+    #MyUNSRI {
+        display: inline;
+        padding-left: 2px;
+    }
+
+    .Pencarian {
+        width: 210px;
+        height: 32px;
+    }
+
+    #NavPopUp {
+        background-color: #82ccddcd;
+        padding: 4px 50px;
+        border-radius: 0 0 24px 0
+    }
+
+    #NavCenter {
+        display: flex;
+    }
+    #NavCenter1P {
+        display: none;
+    }
+    #NavCenter2P {
+        display: none;
+    }
+    #NavCenter3 {
+        display: none;
+    }
+    #NavCenter4 {
+        display: none;
+    }
+    #NavRight5P {
+        display: none;
+    }
+
+    #Nav2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 905px) and (max-width: 1072.5px) {
+    #NavLeft1 {
+        display: inline;
+    }
+    #MyUNSRI {
+        display: inline;
+        padding-left: 2px;
+    }
+    
+    .Pencarian {
+        width: 210px;
+        height: 32px;
+    }
+
+    #NavPopUp {
+        background-color: #82ccddcd;
+        padding: 2px 60px;
+        border-radius: 0 0 24px 0
+    }
+
+    #NavCenter {
+        display: flex;
+    }
+    #NavCenter1P {
+        display: none;
+    }
+    #NavCenter2P {
+        display: none;
+    }
+    #NavCenter3P {
+        display: none;
+    }
+    #NavCenter4 {
+        display: none;
+    }
+    #NavRight5P {
+        display: none;
+    }
+
+    #Nav2 {
+        display: none
+    }
+}
+
+@media only screen and (min-width: 1073px) {
+    #NavPopUp {
+        background-color: transparent;
+    }
+    #MyUNSRI {
+        display: inline;
+        padding-left: 15px;
+    }
+
+    .Pencarian {
+        width: 260px;
+        height: 32px;
+    }
+
+    #NavCenter {
+        display: flex;
+    }
+    #NavCenter1P {
+        display: none;
+    }
+    #NavCenter2P{
+        display: none;
+    }
+    #NavCenter3P {
+        display: none;
+    }
+    #NavCenter4P{
+        display: none;
+    }
+    #NavLeft1 {
+        display: none;
+    }
+    #NavRight5P {
+        display: none;
+    }
+
+    #Nav2 {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+/* @media only screen and (min-width: 0px) and (max-width: 497.5px) {
+    #NavLeft1{
+        display: inline;
+    }
+    #MyUNSRI {
+        display: inline;
+        padding-left: 1px;
+        padding-right: 10px
+    }
+
+    .Pencarian {
+        width: 100%;
+        height: 32px;
+    }
+
+    #NavPopUp {
+        background-color: #78e08fcd;
+        padding: 12px 10px;
+        border-radius: 0 0 24px 0
+    }
+
+    #NavCenter {
+        display: flex;
+    }
+    #NavCenter1 {
+        display: none;
+    }
+    #NavCenter2 {
+        display: none;
+    }
+    #NavCenter3 {
+        display: none;
+    }
+    #NavCenter4 {
+        display: none;
+    }
+    #NavRight5 {
+        display: none;
+    }
+    #buttonNavP5 {
+        border-radius: 0 0 36px 4px;
+    }
+
+    @keyframes buttonNav {
+        0%{
+          top: -240px
+        }
+        100%{
+          top: 72px;
+        }
+      }
+      @keyframes buttonNavR {
+        0%{
+          top: 72px;
+        }
+        100%{
+          top: -240px
+        }
+      }
+
+    #Nav2 {
+        display: none;
+    }
+
+    #Nav2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 498px) and (max-width: 543.5px) {
+    #NavLeft1{
+        display: inline;
+    }
+    #MyUNSRI {
+        display: inline;
+        padding-left: 1px;
+        padding-right: 10px
+    }
+
+    .Pencarian {
+        width: 100%;
+        height: 32px;
+    }
+
+    #NavPopUp {
+        background-color: #78e08fcd;
+        border-radius: 0 0 24px 0
+    }
+
+    #NavCenter {
+        display: flex;
+    }
+    #NavCenter1 {
+        display: none;
+    }
+    #NavCenter2 {
+        display: none;
+    }
+    #NavCenter3 {
+        display: none;
+    }
+    #NavCenter4 {
+        display: none;
+    }
+    #buttonNavP5 {
+        display: none;
+    }
+    #buttonNavP4 {
+        border-radius: 0 0 34px 4px;
+    }
+
+    @keyframes buttonNav {
+        0%{
+          top: -210px
+        }
+        100%{
+          top: 72px;
+        }
+      }
+      @keyframes buttonNavR {
+        0%{
+          top: 72px;
+        }
+        100%{
+          top: -210px
+        }
+      }
+
+    #Nav2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 544px) and (max-width: 629.5px) {
+    #NavLeft1 {
+        display: inline;
+    }
+    #MyUNSRI {
+        display: inline;
+        padding-left: 2px;
+    }
+ 
+    .Pencarian {
+        width: 210px;
+        height: 32px;
+    }
+
+    #NavPopUp {
+        background-color: #78e08fcd;
+        border-radius: 0 0 24px 0
+    }
+
+    #NavCenter {
+        display: flex;
+    }
+    #NavCenter1 {
+        display: none;
+    }
+    #NavCenter2 {
+        display: none;
+    }
+    #NavCenter3 {
+        display: none;
+    }
+    #NavCenter4 {
+        display: none;
+    }
+    #buttonNavP5 {
+        display: none;
+    }
+    #buttonNavP4 {
+        border-radius: 0 0 32px 4px;
+    }
+
+    @keyframes buttonNav {
+        0%{
+          top: -180px
+        }
+        100%{
+          top: 72px;
+        }
+      }
+      @keyframes buttonNavR {
+        0%{
+          top: 16px;
+        }
+        100%{
+          top: -180px
+        }
+      }
+
+    #Nav2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 630px) and (max-width: 784.5px) {
+    #NavLeft1 {
+        display: inline;
+    }
+    #MyUNSRI {
+        display: inline;
+        padding-left: 2px;
+    }
+
+    .Pencarian {
+        width: 210px;
+        height: 32px;
+    }
+
+    #NavPopUp {
+        background-color: #78e08fcd;
+        border-radius: 0 0 24px 0
+    }
+
+    #NavCenter {
+        display: flex;
+    }
+    #buttonNavP1 {
+        display: none;
+    }
+    #NavCenter2 {
+        display: none;
+    }
+    #NavCenter3 {
+        display: none;
+    }
+    #NavCenter4 {
+        display: none;
+    }
+    #buttonNavP5 {
+        display: none;
+    }
+    #buttonNavP4 {
+        border-radius: 0 0 30px 4px;
+    }
+
+    @keyframes buttonNav {
+        0%{
+          top: -150px
+        }
+        100%{
+          top: 53px;
+        }
+      }
+      @keyframes buttonNavR {
+        0%{
+          top: 16px;
+        }
+        100%{
+          top: -150px
+        }
+      }
+
+    #Nav2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 785px) and (max-width: 901.5px) {
+    #NavLeft1 {
+        display: inline;
+    }
+    #MyUNSRI {
+        display: inline;
+        padding-left: 2px;
+    }
+
+    .Pencarian {
+        width: 210px;
+        height: 32px;
+    }
+
+    #NavPopUp {
+        background-color: #78e08fcd;
+        border-radius: 0 0 24px 0
+    }
+
+    #NavCenter {
+        display: flex;
+    }
+    #buttonNavP1 {
+        display: none;
+    }
+    #buttonNavP2 {
+        display: none;
+    }
+    #NavCenter3 {
+        display: none;
+    }
+    #NavCenter4 {
+        display: none;
+    }
+    #buttonNavP5 {
+        display: none;
+    }
+    #buttonNavP4 {
+        border-radius: 0 0 28px 4px;
+    }
+
+    @keyframes buttonNav {
+        0%{
+          top: -120px
+        }
+        100%{
+          top: 34px;
+        }
+      }
+      @keyframes buttonNavR {
+        0%{
+          top: 34px;
+        }
+        100%{
+          top: -120px
+        }
+      }
+
+    #Nav2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 902px) and (max-width: 1069.5px) {
+    #NavLeft1 {
+        display: inline;
+    }
+    #MyUNSRI {
+        display: inline;
+        padding-left: 2px;
+    }
+    
+    .Pencarian {
+        width: 210px;
+        height: 32px;
+    }
+
+    #NavPopUp {
+        background-color: #78e08fcd;
+        border-radius: 0 0 24px 0
+    }
+
+    #NavCenter {
+        display: flex;
+    }
+    #buttonNavP1 {
+        display: none;
+    }
+    #buttonNavP2 {
+        display: none;
+    }
+    #buttonNavP3 {
+        display: none;
+    }
+    #NavCenter4 {
+        display: none;
+    }
+    #buttonNavP5 {
+        display: none;
+    }
+    #buttonNavP4 {
+        border-radius: 0 0 26px 4px;
+    }
+    
+    @keyframes buttonNav {
+        0%{
+          top: -90px
+        }
+        100%{
+          top: 16px;
+        }
+      }
+      @keyframes buttonNavR {
+        0%{
+          top: 16px;
+        }
+        100%{
+          top: -90px
+        }
+      }
+
+    #Nav2 {
+        display: none
+    }
+} */

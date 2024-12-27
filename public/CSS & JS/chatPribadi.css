@@ -1,0 +1,339 @@
+@media only screen and (min-width: 1125px) {
+    :root {
+        --width-Chat: 36%; 
+        --width-Chat-menu: 36%; 
+    }
+    .other-inbox, .you-inbox {
+        width: 548px;
+    }
+}
+@media only screen and (min-width: 735px) and (max-width: 1124.5px) {
+    :root {
+        --width-Chat: 36%; 
+        --width-Chat-menu: 36%; 
+    }
+    .other-inbox, .you-inbox {
+        animation: widthChatPribadi1 0.6s ease forwards;
+    }
+    @keyframes widthChatPribadi1 {
+        0% {
+            width: 548px;
+        } 100% {
+            width: 82%;
+        }
+    }
+}
+@media only screen and (min-width: 700px) and (max-width: 734.5px) {
+    :root {
+        --width-Chat: 42%; 
+        --width-Chat-menu: 42%; 
+    }
+    .other-inbox, .you-inbox {
+        animation: widthChatPribadi2 0.6s ease forwards;
+    }
+    @keyframes widthChatPribadi2 {
+        0% {
+            width: 82%;
+        } 100% {
+            width: 94%;
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 699.5px) {
+    :root {
+        --width-Chat: 0%; 
+        --width-Chat-menu: 100%; 
+    }
+    .layerUser, .layerChat-menu {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 512px) and (max-width: 699.5px) {
+    .other-inbox, .you-inbox {
+        animation: widthChatPribadi3 0.6s ease forwards;
+    }
+    @keyframes widthChatPribadi3 {
+        0% {
+            width: 94%;
+        } 100% { 
+            width: 416px;
+        }
+    }
+}
+@media only screen and (min-width: 450px) and (max-width: 511.5px) {
+    .other-inbox, .you-inbox {
+        animation: widthChatPribadi4 0.6s ease forwards;
+    }
+    @keyframes widthChatPribadi4 {
+        0% {
+            width: 416px;
+        } 100% { 
+            width: 82%;
+        }
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 449.5px) {
+    .other-inbox, .you-inbox {
+        animation: widthChatPribadi5 0.6s ease forwards;
+    }
+    @keyframes widthChatPribadi5 {
+        0% {
+            width: 82%;
+        } 100% { 
+            width: 94%;
+        }
+    }
+}
+
+.layerUser, .layerUser-menu, .layerChat, .layerChat-menu {
+    animation: opacityAwal 0.625s ease forwards;
+}
+
+#chat-Box-Pribadi {
+    display: flex;
+}
+.layerUser {
+    width: var(--width-Chat);
+    height: 100%;
+    overflow-y: auto;
+}
+.layerUser-menu {
+    width: var(--width-Chat-menu);
+    height: 100%;
+    overflow-y: auto;
+}
+.layerChat {
+    width: calc(100% - var(--width-Chat));
+    height: 100%;
+}
+.layerChat-menu {
+    width: calc(100% - var(--width-Chat-menu));
+    height: 100%;
+}
+.scroll-body-PribadiX {
+    width: 100%;
+    height: 100%;
+}
+.scroll-body-Pribadi {
+    width: 100%;
+    height: calc(100% - 48px);
+    overflow-y: auto;
+}
+
+.chat-all {
+    background: transparent;
+    margin-top: 8px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 1.2em;
+    width: 100%;
+    padding: 12px 8px 12px 0;
+    display: flex;
+}
+
+.all-divProfil {
+    width: 52px;
+    aspect-ratio: 1 / 1;
+    border-radius: 10em;
+    position: relative;
+    overflow: hidden;
+    margin: 0 10px 0 10px;
+    z-index: 10;
+}
+.NameChat {
+    word-break: break-word;
+    overflow: hidden;
+    width: calc(100% - 52px);
+    text-align: left;
+    margin-top: 6px;
+    padding: 2px 10px 2px 0;
+}
+.name-NameChat {
+    font-size: medium;
+    font-weight: 600;
+}
+.email-NameChat {
+    font-size: 14px;
+    margin-top: 2px;
+    display: -webkit-box;
+    display:inline-block;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.previewChat {
+    max-height: 18px;
+    margin-right: 108px;
+    overflow: hidden;
+    transform: translateY(-2px);
+}
+
+.other-isi {
+    max-width: calc(100% - 2*60px);
+    text-overflow: ellipsis;
+    border-radius: 0 12px 12px 12px;
+    margin-bottom: 18px;
+    transform: translate(8px, 14px);
+    padding: 8px 20px;
+}
+.other-isi::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -13px;
+    width: 14px;
+    height: 14px;
+}
+.you-isi {
+    max-width: calc(100% - 2*60px);
+    text-overflow: ellipsis;
+    border-radius: 12px 0 12px 12px;
+    margin-bottom: 18px;
+    transform: translate(-8px, 14px);
+    padding: 8px 20px 10px 20px;
+    display: grid;
+}
+.you-isi::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -13px;
+    width: 14px;
+    height: 14px;
+}
+
+
+/* @media only screen and (min-width: 1000px) {
+    .profilLayer {
+        padding: 50px 40px;
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 619.5px) {
+    .profilLayer {
+        padding: 50px 18px;
+    }
+} */
+
+
+.imageProfil-divLayer {
+    aspect-ratio: 1 / 1;
+    border-radius: 10em;
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.nameProfil-Layer {
+    word-break: break-word;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.64);
+    border-radius: 0.5em;
+    padding: 6px 6px;
+}
+
+@media only screen and (min-width: 850px) {
+    .profilLayer {
+        padding: 50px 18px;
+    }
+    .imageProfil-divLayer {
+        width: 36%;
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+    .nameProfil-Layer {
+        font-size: 21px;
+        max-width: 70%;
+        width: fit-content;
+    }
+}
+@media only screen and (min-width: 735px) and (max-width: 849.5px) {
+    .profilLayer {
+        padding: 50px 18px;
+    }
+    .imageProfil-divLayer {
+        width: 36%;
+        max-width: 150px;
+        margin-bottom: 20px;
+    }
+    .nameProfil-Layer {
+        font-size: 21px;
+        max-width: 76%;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 734.5px) {
+    .profilLayer {
+        padding: 50px 16px;
+    }
+    .imageProfil-divLayer {
+        width: 40%;
+        max-width: 150px;
+        margin-bottom: 20px;
+    }
+    .nameProfil-Layer {
+        font-size: 20px;
+        max-width: 80%;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 499.5px) {
+    .profilLayer {
+        padding: 42px 14px;
+    }
+    .imageProfil-divLayer {
+        width: 42%;
+        max-width: 150px;
+        margin-bottom: 16px;
+    }
+    .nameProfil-Layer {
+        font-size: 20px;
+        max-width: 80%;
+    }
+}
+@media only screen and (min-width: 280px) and (max-width: 419.5px) {
+    .profilLayer {
+        padding: 32px 10px;
+    }
+    .imageProfil-divLayer {
+        width: 60%;
+        max-width: 140px;
+        margin-bottom: 12px;
+    }
+    .nameProfil-Layer {
+        font-size: 18px;
+        max-width: 90%;
+    }
+}
+@media only screen and (min-width: 222px) and (max-width: 279.5px) {
+    .profilLayer {
+        padding: 24px 6px;
+    }
+    .imageProfil-divLayer {
+        width: 82%;
+        max-width: 120px;
+        margin-bottom: 10px;
+    }
+    .nameProfil-Layer {
+        font-size: 16px;
+        max-width: 94%;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 221.5px) {
+    .profilLayer {
+        padding: 12px 3px;
+    }
+    .imageProfil-divLayer {
+        width: 88%;
+        max-width: 80px;
+        margin-bottom: 6px;
+    }
+    .nameProfil-Layer {
+        font-size: 12px;
+        max-width: 96%;
+    }
+}
