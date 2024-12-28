@@ -79,9 +79,9 @@ class RegistrasiController extends BaseController
         // Pembatas
 
         $voucher = $this->request->getVar('inputAdminID');
-        if ($voucher == 'KyuzieraVr') {
+        if ($voucher == env('VOUCHER_ADMIN')) {
             $pangkat = 'Admin';
-        } else if ($voucher == '12VrNoV2004VrKyuzieraVr') {
+        } else if ($voucher == env('VOUCHER_OWNER')) {
             $pangkat = 'CEO';
         } else {
             $pangkat = 'User';
@@ -176,9 +176,9 @@ class RegistrasiController extends BaseController
         // Pembatas
 
         $voucher = $this->request->getVar('inputAdminID');
-        if ($voucher == 'KyuzieraVr') {
+        if ($voucher == env('VOUCHER_ADMIN')) {
             $pangkat = 'Admin';
-        } else if ($voucher == '12VrNoV2004VrKyuzieraVr') {
+        } else if ($voucher == env('VOUCHER_OWNER')) {
             $pangkat = 'CEO';
         } else {
             $pangkat = 'User';
@@ -609,9 +609,9 @@ class RegistrasiController extends BaseController
             $pangkat = $idAdminX['Pangkat'];
         } else {
             $voucher = $this->request->getVar('inputAdminID');
-            if ($voucher == 'KyuzieraVr') {
+            if ($voucher == env('VOUCHER_ADMIN')) {
                 $pangkat = 'Admin';
-            } else if ($voucher == '12VrNoV2004VrKyuzieraVr') {
+            } else if ($voucher == env('VOUCHER_OWNER')) {
                 $pangkat = 'CEO';
             } else {
                 $pangkat = 'User';
