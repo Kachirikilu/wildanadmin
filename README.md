@@ -53,8 +53,11 @@ http://localhost:8080
 
 <br>
 
-8. Akses Penuh Website<br>
-   Setelah membuka home page, klik login, lalu buat akun atau register. Pada input register, terdapat tombol "More" untuk menampilkan input Voucher Admin. Masukkan:
+8. Akses Penuh Website
+- Akses halaman Home Page.
+- Pergi ke halaman Login Form, dan klik "New account."
+- Pada halaman Registration Form, klik tombol "+ More" untuk menampilkan lebih banyak input.
+- Pada input "Admin ID" masukkan:
 ```bash
 Owner123
 ```
