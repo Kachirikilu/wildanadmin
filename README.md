@@ -6,7 +6,7 @@ Prerequisites
 -------------
 1. *XAMPP*: Unduh dari https://www.apachefriends.org/index.html
 2. *Composer*: Unduh dari https://getcomposer.org/download/
-3. *Git Bash*: unduh dari
+3. *Git Bash*: Unduh dari
 https://git-scm.com/downloads
 
 Setup Steps
