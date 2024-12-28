@@ -6,6 +6,8 @@ Prerequisites
 -------------
 1. *XAMPP*: Unduh dari https://www.apachefriends.org/index.html
 2. *Composer*: Unduh dari https://getcomposer.org/download/
+3. *Git Bash*: unduh dari
+https://git-scm.com/downloads
 
 Setup Steps
 ------------
@@ -16,7 +18,7 @@ C:\xampp\htdocs
 ```
 <br>
 
-2. Klon Repositori
+2. Klon Repositori dengan Git Bash
 ```bash
 git clone https://github.com/Kachirikilu/wildanadmin.git
 ```
