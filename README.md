@@ -10,50 +10,56 @@ Prerequisites
 Setup Steps
 ------------
 
-1. Klon Repositori
+1. Masuk ke Directory XAMPP
+```bash
+C:\xampp\htdocs
+```
+<br>
+
+2. Klon Repositori
 ```bash
 git clone https://github.com/Kachirikilu/wildanadmin.git
 ```
 <br>
 
-2. Masuk ke Direktori Proyek
+3. Masuk ke Direktori Proyek
 ```bash
 cd wildanadmin
 ```
 <br>
 
-3. Instal Dependensi
+4. Instal Dependensi
 ```bash
 composer install
 ```
 <br>
 
-4. Konfigurasi Database
+5. Konfigurasi Database
 - Buat database "wildan_ci4" di MySQL.
 - Atur konfigurasi database di file .env.
 
 <br>
 
-5. Jalankan Migrasi
+6. Jalankan Migrasi
 ```bash
 php spark migrate
 ```
 <br>
 
-6. Jalankan Server Pengembangan
+7. Jalankan Server Pengembangan
 ```bash
 php spark serve
 ```
 <br>
 
-7. Akses Aplikasi di Browser
+8. Akses Aplikasi di Browser
 ```bash
 http://localhost:8080
 ```
 
 <br>
 
-8. Akses Penuh Website
+9. Akses Penuh Website
 - Akses halaman Home Page.
 - Pergi ke halaman Login Form, dan klik "New account."
 - Pada halaman Registration Form, klik tombol "+ More" untuk menampilkan lebih banyak input.
