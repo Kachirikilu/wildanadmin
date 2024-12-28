@@ -30,42 +30,57 @@ cd wildanadmin
 ```
 <br>
 
-4. Instal Dependensi
+4. Aktifkan Extension di XAMPP
+   - Buka file "php.ini" di config Apache, atau melalui directory "C:\xampp\php\php.ini".
+   - Lalu cari extension berikut:
+```bash
+;extension=intl
+;extension=zip
+```
+   - Lalu hapus tanpa titik-koma (;) untuk mengaktifkan extension, menjadi:
+```bash
+extension=intl
+extension=zip
+```
+
+<br>
+
+5. Instal Dependensi
 ```bash
 composer install
 ```
 <br>
 
-5. Konfigurasi Database
-- Buat database "wildan_ci4" di MySQL.
-- Atur konfigurasi database di file .env.
+6. Konfigurasi Database
+   - Buat database "wildan_ci4" di MySQL.
+   - Atur konfigurasi database di file .env.
 
 <br>
 
-6. Jalankan Migrasi
+7. Jalankan Migrasi
 ```bash
 php spark migrate
 ```
 <br>
 
-7. Jalankan Server Pengembangan
+8. Jalankan Server Pengembangan
 ```bash
 php spark serve
 ```
 <br>
 
-8. Akses Aplikasi di Browser
+9. Akses Aplikasi di Browser
 ```bash
 http://localhost:8080
 ```
 
 <br>
 
-9. Akses Penuh Website
-- Akses halaman Home Page.
-- Pergi ke halaman Login Form, dan klik "New account."
-- Pada halaman Registration Form, klik tombol "+ More" untuk menampilkan lebih banyak input.
-- Pada input "Admin ID" masukkan:
+10. Akses Penuh Website
+    - Akses halaman Home Page.
+    - Pergi ke halaman Login Form, dan klik "New account."
+    - Pada halaman Registration Form, klik tombol "+ More" untuk menampilkan lebih banyak input.
+    - Pada input "Admin ID" masukkan:
 ```bash
 Owner123
 ```
