@@ -50,6 +50,18 @@ php spark serve
 ```bash
 http://localhost:8080
 ```
+
+<br>
+
+8. Akses Penuh Website
+   Setelah membuka home page, klik login, lalu buat akun atau register. Pada input register, terdapat tombol "More" untuk menampilkan input Voucher Admin. Masukkan:
+```bash
+Owner123
+```
+Atau
+```bash
+Admin123
+```
 <br><br>
 
 # CodeIgniter 4 Framework
