@@ -63,20 +63,27 @@ php spark migrate
 ```
 <br>
 
-8. Jalankan Server Pengembangan
+8. Jalankan Seeder
+```bash
+php spark db:seed DatabaseSeeder
+```
+<br>
+
+
+9. Jalankan Server Pengembangan
 ```bash
 php spark serve
 ```
 <br>
 
-9. Akses Aplikasi di Browser
+10. Akses Aplikasi di Browser
 ```bash
 http://localhost:8080
 ```
 
 <br>
 
-10. Akses Penuh Website
+11. Akses Penuh Website
     - Akses halaman Home Page.
     - Pergi ke halaman Login Form, dan klik "New account."
     - Pada halaman Registration Form, klik tombol "+ More" untuk menampilkan lebih banyak input.
