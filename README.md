@@ -65,7 +65,7 @@ php spark migrate
 
 8. Jalankan Seeder
 ```bash
-php spark db:seed DatabaseSeede
+php spark db:seed DatabaseSeeder
 ```
 <br>
 
