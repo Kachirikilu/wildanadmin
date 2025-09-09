@@ -31,7 +31,21 @@
 
     <link rel="stylesheet" href="/CSS & JS/tugas.css?v=<?php echo time(); ?>" />
 
-    <?php if ($createAdmin['Kategori'] == "Tugas") { ?>
+    <!-- Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas -->
+    <!-- Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas -->
+    <!-- Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas -->
+    <!-- Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas -->
+    <!-- Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas -->
+    <!-- Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas -->
+
+    <?php if ($createAdmin['PictureP1'] !== "") { ?>
+        <div id="P-Pic"><img src="/ArticlePicture/<?= $createAdmin['PictureP1'] ?>" id="P-PicX"></div>
+    <?php } ?>
+    <?php if ($createAdmin['Paragraf1'] !== "") { ?>
+        <p id="P"><?= $createAdmin['Paragraf1'] ?></p>
+    <?php } ?>
+
+        <?php if ($createAdmin['Kategori'] == "Tugas") { ?>
 
     <form action="/tugascontroller/save" id="formTugas" method="post" enctype="multipart/form-data">
         <div class="tugasDiv">
@@ -128,20 +142,6 @@
         }
     </script>
 
-    <?php } ?>
-
-    <!-- Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas -->
-    <!-- Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas -->
-    <!-- Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas -->
-    <!-- Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas -->
-    <!-- Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas -->
-    <!-- Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas Pembatas -->
-
-    <?php if ($createAdmin['PictureP1'] !== "") { ?>
-        <div id="P-Pic"><img src="/ArticlePicture/<?= $createAdmin['PictureP1'] ?>" id="P-PicX"></div>
-    <?php } ?>
-    <?php if ($createAdmin['Paragraf1'] !== "") { ?>
-        <p id="P"><?= $createAdmin['Paragraf1'] ?></p>
     <?php } ?>
 
     <style>

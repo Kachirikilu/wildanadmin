@@ -9,6 +9,7 @@ class RegistrasiSeeder extends Seeder
     public function run()
     {
         $data = [
+            'ID' => 1,
             'Name' => 'Wildan Athif Muttaqien',
             'Email' => 'muttaqien.wildan12@gmail.com',
             'UserName' => 'wildan12',
