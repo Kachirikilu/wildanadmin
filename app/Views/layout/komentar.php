@@ -1126,7 +1126,7 @@
                                                     </div>
                                                     <div>
                                                         <?php if (session()->get('DateSessionL') == $komentarOutput['Date']) { ?>
-                                                            <p><?= $komentarOutput['Time'] ?>></p>
+                                                            <p><?= $komentarOutput['Time'] ?></p>
                                                         <?php } else { ?>
                                                             <p><?= $komentarOutput['Time'] ?>, <?= $komentarOutput['Date'] ?></p>
                                                         <?php } ?>
